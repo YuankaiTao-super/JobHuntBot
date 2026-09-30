@@ -78,6 +78,14 @@ Try:
 
 If the same field repeatedly fails, record a blocker instead of burning time.
 
+Education field-of-study dropdowns:
+
+1. Read the verified major from `ats_profile.json` and search for that exact option first.
+2. If the field accepts free text, enter the verified major and do not use a fallback.
+3. If a required dropdown does not contain the verified major, check `field_of_study_form_fallbacks` in `ats_profile.json` and select only the mapped value. The confirmed mappings are `Operations Research` -> `Statistics` and `Quantitative Finance` -> `Finance`.
+4. Do not edit the canonical education record to match the dropdown. Record the substituted display value for the pre-submit summary.
+5. If no exact or configured fallback option is available, stop and ask the user rather than improvising another major.
+
 ### 3. Address and Option Matching
 
 Address fields may require full names, abbreviations, city, state, country, or localized text.
