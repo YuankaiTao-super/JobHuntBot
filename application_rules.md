@@ -29,6 +29,7 @@
 
 ## Skip
 
+- Any role from a company listed in a workbook or CSV under `submitted-lists/`. The user has already applied to those companies through other channels, so this is a company-level exclusion even when the newly found title, location, requisition, or source is different.
 - Senior, staff, principal, manager, or roles requiring clearly unsupported years of full-time experience.
 - Deep Learning-focused roles, including postings whose title or core function is Deep Learning.
 - Any role that lists C++ as a required or minimum qualification. A merely optional/preferred mention must be reviewed rather than automatically treated as required.
@@ -39,6 +40,15 @@
 - Roles explicitly stating that candidates needing future sponsorship are ineligible.
 - Any posting that conflicts with confirmed work authorization, sponsorship, nationwide-US location, or internship-only rules.
 - Mandatory video, extensive writing sample, or new account creation in the first Volume trial.
+
+## Submitted-Company Exclusion
+
+- Before searching, screening, ranking, or researching a posting in depth, load every `.xlsx` and `.csv` file under `submitted-lists/` and collect all nonblank values from columns named `Company` (case-insensitive).
+- Treat those company names as an authoritative exclusion list even when the submission does not appear in `dashboard/application_log.csv` or came from LinkedIn, Handshake, a referral, a company portal, or another source.
+- Match at company level, not requisition level. Normalize case, surrounding whitespace, repeated whitespace, punctuation, `&` versus `and`, and common legal suffixes such as `Inc`, `LLC`, `Ltd`, `Corp`, and `Corporation` before comparison.
+- Do not remove meaningful brand words such as `Trading`, `Capital`, `Group`, or `Research`, and do not use loose substring or fuzzy matching. Add an explicit alias only when two names are clearly the same company, such as `JP Morgan Chase` and `JPMorgan Chase`.
+- Run this exclusion check before freshness, fit, sponsorship, or resume-routing analysis. If a company matches, do not shortlist or add a new `Pending` row. If a matching row already exists in `job_pool`, set it to `Skipped`, record `Company appears in submitted-lists` as the reason, and take no further action.
+- Re-read the submitted-list files at the start of every lead-finding run so newly added submissions take effect without editing this rule.
 
 ## Hand Off to User
 

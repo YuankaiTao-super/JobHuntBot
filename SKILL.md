@@ -57,6 +57,8 @@ When the user names a specific company (or you're evaluating one you found), wor
 
 Prioritize jobs by freshness, fit, feasibility, and conversion likelihood. Default to fresh jobs from the last 24 hours, then 48 hours if needed.
 
+Before evaluating freshness or fit, check for user-maintained submission-history files under `submitted-lists/`. If present, read every `.xlsx` and `.csv`, collect the `Company` column, normalize company names conservatively, and exclude the entire company from new lead screening. This company-level exclusion applies even when the role, location, requisition, or discovery source differs. Do not rely only on `application_log`, because the user may have applied through other channels. Existing `job_pool` rows for a matched company should be marked `Skipped` with `Company appears in submitted-lists`; do not create new rows for later matches.
+
 Skip or defer roles that violate the user's rules, are clearly overleveled, are closed or duplicate, require unsupported work authorization, need missing materials, or involve long account-heavy flows with weak fit.
 
 ### 4. Shortlist Specific Positions and Let the User Choose
