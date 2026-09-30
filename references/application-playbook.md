@@ -56,6 +56,18 @@ Playwright is an implementation detail, not the user-facing concept. Describe it
 6. Before leaving an experience page, verify each visible record has the expected company, title, location, dates, current-role flag, and description.
 7. If an ATS forces PDF parsing, overwrite its output from the structured sources and delete parser artifacts before saving.
 
+### ATS Skills and Tag Fields
+
+Use the structured `skills` object in `ats_profile.json`; do not extract a new skill inventory from the PDF or copy every keyword from the JD.
+
+1. Identify the routed role family and its priority list.
+2. Build the candidate list from verified inventory only: JD required matches first, JD preferred matches second, then remaining role-family priorities.
+3. Respect the ATS limit. If no limit is shown, add no more than 15 skills and stop when relevant verified skills are exhausted.
+4. For typeahead or controlled dropdowns, type one skill at a time, wait for suggestions, and click the exact canonical skill or a configured alias. If neither appears, skip it.
+5. For genuine free-text tag inputs, enter the canonical skill and use the field's supported action such as Enter or comma to commit it.
+6. Do not add duplicates, proficiency levels, years of experience, C++, Java, credentials, or other claims unless the structured profile explicitly supports them.
+7. Before continuing, verify that the field displays committed tags rather than raw text. Add the final selected-skill list to the pre-submit summary.
+
 ## The 10 Common Cardpoints
 
 ### 1. Permissions
