@@ -69,7 +69,8 @@
 - Upload the routed PDF only as an attachment. Populate employment, education, projects, skills, and websites from `ats_profile.json`, not from text extracted from the PDF.
 - If parsing is unavoidable, reconcile every parsed field against `ats_profile.json` before saving: correct missing company/title/location/date fields, remove departments from titles, remove contact details and URLs from descriptions, and keep projects separate from work experience.
 - Treat source conflicts as `Needs user`; never resolve conflicting dates or titles by guessing.
-- Voluntary self-ID defaults to blank, decline, or “Prefer not to say” when available.
+- Fill voluntary self-identification automatically from the user-confirmed private values in `candidate_profile.json` and the option mappings in `answer_bank.md`: Man/Male; Straight/Heterosexual; Asian/East Asian; never served/not a veteran; no disability; and No for LGBTQ+ community membership.
+- Choose the closest semantically equivalent dropdown value, not merely the first option. Ask the user only when the form combines categories unusually, materially expands the question beyond the confirmed values, or provides no clear equivalent.
 - Draft the first occurrence of a custom answer and obtain confirmation before reuse.
 - Count an application as Submitted only after explicit confirmation evidence.
 
