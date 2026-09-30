@@ -1,0 +1,21 @@
+{
+  "generated_on": "2026-09-12",
+  "purpose": "Detect unintended changes to immutable references and reusable base resumes before and after job-specific tailoring.",
+  "policy": {
+    "original_CV": "immutable; never modify, overwrite, rename, or delete",
+    "base_resumes": "read-only inputs for job-specific copies; never tailor in place",
+    "tailored_output_root": "my-materials/tailored"
+  },
+  "sha256": {
+    "my-materials/original_CV/CV_Yuankai_Tao.tex": "09D55DD1E46FB7D7200B48C37D5182C4A4766106CE363EA585EFFF410119C3EC",
+    "my-materials/original_CV/CV_Yuankai_Tao.pdf": "5C720848FAE59B40AFC9591AF9871D662056EA494A511F87B89A73C4217C6FCA",
+    "my-materials/Quant/CV_Yuankai_Tao_Quant.tex": "07DF90A3A2151A2705933CDB279BC523F8D93A46DA70A782D17D9281DB22CBD3",
+    "my-materials/Quant/CV_Yuankai_Tao_Quant.pdf": "4499F830B2E69100C30BAB8661D0B45E5F609F5DB4068EE1B0920993E2DB5501",
+    "my-materials/Risk/CV_Yuankai_Tao_Risk.tex": "3A338EC7C2B692EE4E75B56BC13846E2685BADCE129A76E2E5987C5FEC9156C8",
+    "my-materials/Risk/CV_Yuankai_Tao_Risk.pdf": "4408834772CC17FFB2D356F1162F6AC25FA1B2113954CBC6484F2244E1A7DB62",
+    "my-materials/Data/CV_Yuankai_Tao_Data.tex": "E643BC7196DE5B20A13C89E157E497DC8819E4895FBFBC70E163629770CE70ED",
+    "my-materials/Data/CV_Yuankai_Tao_Data.pdf": "CD93D9C1804E278EE383B842ECF40C2040B0E7BCAB01CCB29B82DCDC9D5A1A21",
+    "my-materials/BA/CV_Yuankai_Tao_BA.tex": "3EA6E49DC2FEBB5BE31B4AD99643B89005F3B366CC88352F49AF9029C0FFE41D",
+    "my-materials/BA/CV_Yuankai_Tao_BA.pdf": "0F87E18956B4313F6FCE166EDF1FF8EA0FCB32DF4F945E6BF331AF596548F053"
+  }
+}

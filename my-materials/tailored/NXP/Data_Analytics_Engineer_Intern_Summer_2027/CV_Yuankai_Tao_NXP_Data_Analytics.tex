@@ -1,0 +1,126 @@
+\documentclass{../../../original_CV/resume}
+\usepackage{enumitem}
+\usepackage[utf8]{inputenc}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{hyperref}
+\usepackage{fontawesome}
+\usepackage{array,tabularx}
+\usepackage{fancyhdr}
+\usepackage[left=0.50in,top=0.55in,right=0.50in,bottom=0.45in]{geometry}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[R]{YUANKAI TAO - Page \thepage}
+\renewcommand{\headrulewidth}{0pt}
+\setlength{\headheight}{14pt}
+
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\setlist[itemize]{leftmargin=*}
+\name{Yuankai Tao}
+
+\address{Email: \href{mailto:yuankaitao0909@gmail.com}{yuankaitao0909@gmail.com} \quad \textbar \quad
+Tel: \href{tel:+14706583699}{+1 470 658 3699} \quad \textbar \quad
+\href{https://github.com/YuankaiTao-super}{GitHub} \quad \textbar \quad
+\href{https://yuankaitao-super.github.io/}{Homepage}}
+
+\definecolor{UC San Diego Blue}{RGB}{0, 50, 95}
+\renewcommand{\sectionskip}{\vspace{0.10cm}}
+\renewcommand{\sectionlineskip}{\vspace{0.10cm}}
+
+\renewenvironment{rSection}[1]{
+\sectionskip
+\textcolor{UC San Diego Blue}{\textbf{\large\bfseries\MakeUppercase{#1}}}
+\sectionlineskip
+\hrule
+\begin{list}{}{
+\setlength{\leftmargin}{0em}
+}
+\item[]
+}{
+\end{list}
+}
+
+\begin{document}
+\thispagestyle{empty}
+
+\begin{rSection}{EDUCATION}
+{\bf Georgia Institute of Technology} \hfill {\em Aug 2026} | {\em Dec 2027}
+\\ \textit{M.S. in Operations Research, Stewart School of Industrial and Systems Engineering} \\
+\textbf{Selected Coursework:} Optimization, Stochastic Processes, Simulation \\
+{\bf University of California, San Diego} \hfill {\em Sep 2024} | {\em Dec 2025}
+\\ \textit{M.S. in Quantitative Finance, Rady School of Management} \hfill \textit{GPA:} 3.84/4.0 \\
+\textbf{Selected Coursework:} Data Science for Finance, Deep Learning, Computational Finance Methods \\
+{\bf Zhongnan University of Economics and Law} \hfill {\em Sep 2020} | {\em Jun 2024}
+\\ \textit{B.S. in Management, School of Accounting and Finance} \hfill \textit{GPA:} 3.63/4.0 \\
+\textbf{Selected Coursework:} Probability \& Statistics, Linear Algebra, Calculus, Python Programming
+\end{rSection}
+
+\begin{rSection}{TECHNICAL SKILLS} \itemsep -2pt
+\begin{tabularx}{\textwidth}{@{} >{\bfseries}l >{\raggedleft\arraybackslash}X @{}}
+Programming \& Querying & \textbf{Python, SQL}, MATLAB, STATA, VBA, \LaTeX \\
+Data \& Cloud & \textbf{PostgreSQL, PostGIS, BigQuery, DuckDB, GCP}, Linux, Git \\
+Analytics \& Reporting & Data Analysis, Statistical Modeling, Time Series, Feature Engineering, Validation, Dashboards \\
+Libraries \& Tools & \textbf{Pandas, Polars, NumPy, scikit-learn}, PyTorch, Matplotlib, LightGBM, XGBoost \\
+\end{tabularx}
+\end{rSection}
+
+\begin{rSection}{RESEARCH EXPERIENCE}
+\noindent
+\textbf{\href{https://github.com/YuankaiTao-super/Construction-of-Comparable-Housing-Variables}{Research Assistant for Professor Franklin Qian, UNC-Chapel Hill}} \hfill {\em Mar 2025} | {\em Present}\\
+\textit{\href{https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4406954}{The Numbers Game: Signaling Effects of Pricing Formats in Housing Bargaining}}\\[4pt]
+$\bullet$ Engineered an end-to-end Python and SQL data-analysis pipeline for a \textbf{76-million-observation spatial dataset} with 40+ variables on Google Cloud Platform, integrating project data from multiple sources.\\[1.5pt]
+$\bullet$ Developed parallelized PostGIS workflows with property-specific filters across multiple distance ranges, achieving approximately \textbf{50$\times$ computational speedup} while preserving reproducible analytical logic.\\[1.5pt]
+$\bullet$ Built and managed a \textbf{964.5M-record, 100GB+ database} using PostgreSQL, BigQuery, and DuckDB on GCP and UNC Longleaf HPC; executed complex geospatial and time-window queries for downstream research.
+\end{rSection}
+
+\begin{rSection}{PROFESSIONAL EXPERIENCE}
+\noindent
+\textbf{VariFlight Technology} \hfill {\em Jul 2025} | {\em Sep 2025} \\
+Data Analyst, Intern \hfill \textit{Data Development Department} $|$ \textit{Anhui, China} \\[4pt]
+$\bullet$ Built automated Python workflows to collect public reports, webpages, and images from the Civil Aviation Administration of China for recurring data analysis and reporting.\\[1.5pt]
+$\bullet$ Applied OCR and table-extraction tools to transform \textbf{600+ unstructured PDF reports and 500+ webpages} into standardized, analysis-ready datasets for local LLM training; added repeatable cleaning and quality-control steps.\\[1.5pt]
+$\bullet$ Created dashboards for transportation and passenger-turnover metrics, translating operational trends into clear indicators for faster cross-functional decision-making.
+
+\textbf{Guangdong Hedge Fund Investment Management Co., Ltd.} \hfill {\em May 2026} | {\em Jul 2026} \\
+Quantitative Research, Intern \hfill \textit{Quantitative Strategy Department} $|$ \textit{Guangdong, China} \\[4pt]
+$\bullet$ Developed an end-to-end ML pipeline with 16 trend, momentum, volatility, liquidity, volume, and open-interest features; trained LightGBM, XGBoost, CatBoost, and neural-network models across 1- to 20-day horizons.\\[1.5pt]
+$\bullet$ Designed rolling, time-aware validation and retraining workflows; evaluated models with statistical, risk, and transaction-cost metrics to reduce leakage and support reproducible comparison.\\[1.5pt]
+$\bullet$ Implemented a monthly rebalanced model in Backtrader that achieved a \textbf{1.89 Sharpe ratio}, \textbf{16.79\% annualized return}, and \textbf{25.51\% excess return} after transaction costs.
+
+\textbf{Ernst \& Young} \hfill {\em Dec 2022} | {\em Feb 2023} \\
+Audit, Intern \hfill \textit{Financial Service Office (FSO)} $|$ \textit{Beijing, China} \\[4pt]
+$\bullet$ Automated the cleaning and consolidation of financial tables from \textbf{220+ CSV files}, generating standardized audit outputs and improving the consistency of recurring data-review workflows.\\[1.5pt]
+$\bullet$ Performed variance analysis on intercompany and investment transactions, investigated anomalies, and validated findings against supporting records.
+\end{rSection}
+
+\begin{rSection}{SELECTED PROJECTS}
+\noindent
+\href{https://github.com/YuankaiTao-super/Kaggle2024-Jane-Street-Real-Time-Market-Data-Forecasting}{\textbf{Kaggle Jane Street Market Prediction Competition}} \hfill \textit{Silver Medal}\\
+$\bullet$ Processed \textbf{47M minute-level observations} spanning 1,669 trading days; engineered cross-sectional, lagged, rolling, and regime features from 79 anonymized variables and 9 targets.\\[1.5pt]
+$\bullet$ Trained and ensembled LightGBM, CatBoost, XGBoost, MLP, and TabNet models with time-aware validation; placed \textbf{94th (Top 2.5\%)} of 3,757 teams on the private leaderboard.
+
+\noindent
+\textbf{Text Analysis and BERT Fine-tuning on SEC 10-K Reports} \hfill \textit{MGTF 423, UCSD}\\
+\textit{Team Lead} $|$ \textit{Analysis and Human-in-the-Loop Learning on 20.5M Text Rows}\\[4pt]
+$\bullet$ Performed named-entity recognition, frequency analysis, and visualization on SEC filings to identify patterns in corporate disclosures.\\[1.5pt]
+$\bullet$ Built a human-in-the-loop labeling and fine-tuning workflow with three annotation rounds, achieving \textbf{79\% accuracy} in classifying uncertainty tone under limited labeled data.
+
+\noindent
+\href{https://github.com/YuankaiTao-super/Capstone_FMS_2025}{\textbf{UCSD / FMSbonds, Inc. 2025 Capstone Project}} \hfill {\em Aug 2025} | {\em Dec 2025}\\
+\textit{Team Lead} $|$ \textit{High-Performance Bond Pricing Engine Optimization}\\[4pt]
+$\bullet$ Designed caching for high-frequency cash-flow queries, eliminating redundant object generation and reducing per-bond runtime from 1.17 ms to 0.13 ms (\textbf{9$\times$ speedup}).\\[1.5pt]
+$\bullet$ Reimplemented the yield-to-worst solver with Numba JIT, reducing runtime from 1.57 ms to 7.5 $\mu$s per bond (\textbf{210$\times$ speedup}) for scalable batch analytics.
+\end{rSection}
+
+\begin{rSection}{CERTIFICATIONS \& HONORS}
+\begin{tabularx}{\textwidth}{@{} >{\raggedright\arraybackslash}X >{\raggedleft\arraybackslash\hyphenpenalty=10000\exhyphenpenalty=10000}p{4.8cm} @{}}
+Deep Learning Specialization (5-Course Certificate) & Coursera, DeepLearning.AI \\
+Algorithms and Data Structures Certificate (6-Course Certificate) & Coursera, UC San Diego \\
+Beta Gamma Sigma (Top 20\% of graduating class) & UCSD, {\em 2024 --- 2025} \\
+WorldQuant Alphathon 2024, Gold Level (Rank 16, Top 3.1\%) & {\em 2024} \\
+Special Scholarship in Innovation and Entrepreneurship & ZUEL, {\em 2022 --- 2023}
+\end{tabularx}
+\end{rSection}
+
+\end{document}

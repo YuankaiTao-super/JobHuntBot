@@ -1,0 +1,125 @@
+\documentclass{../original_CV/resume}
+\usepackage{enumitem}
+\usepackage[utf8]{inputenc}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{hyperref}
+\usepackage{fontawesome}
+\usepackage{array,tabularx}
+\usepackage{fancyhdr}
+\usepackage[left=0.50in,top=0.55in,right=0.50in,bottom=0.45in]{geometry}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[R]{YUANKAI TAO - Page \thepage}
+\renewcommand{\headrulewidth}{0pt}
+\setlength{\headheight}{14pt}
+
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\setlist[itemize]{leftmargin=*}
+\name{Yuankai Tao}
+
+\address{Email: \href{mailto:yuankaitao0909@gmail.com}{yuankaitao0909@gmail.com} \quad \textbar \quad
+Tel: \href{tel:+14706583699}{+1 470 658 3699} \quad \textbar \quad
+\href{https://github.com/YuankaiTao-super}{GitHub} \quad \textbar \quad
+\href{https://yuankaitao-super.github.io/}{Homepage}}
+
+\definecolor{UC San Diego Blue}{RGB}{0, 50, 95}
+\renewcommand{\sectionskip}{\vspace{0.10cm}}
+\renewcommand{\sectionlineskip}{\vspace{0.10cm}}
+
+\renewenvironment{rSection}[1]{
+\sectionskip
+\textcolor{UC San Diego Blue}{\textbf{\large\bfseries\MakeUppercase{#1}}}
+\sectionlineskip
+\hrule
+\begin{list}{}{
+\setlength{\leftmargin}{0em}
+}
+\item[]
+}{
+\end{list}
+}
+
+\begin{document}
+\thispagestyle{empty}
+
+\begin{rSection}{EDUCATION}
+{\bf Georgia Institute of Technology} \hfill {\em Aug 2026} | {\em Dec 2027}
+\\ \textit{M.S. in Operations Research, Stewart School of Industrial and Systems Engineering} \\
+\textbf{Selected Coursework:} Optimization, Stochastic Processes, Simulation \\
+{\bf University of California, San Diego} \hfill {\em Sep 2024} | {\em Dec 2025}
+\\ \textit{M.S. in Quantitative Finance, Rady School of Management} \hfill \textit{GPA:} 3.84/4.0 \\
+\textbf{Selected Coursework:} Data Science for Finance, Computational Finance Methods, Deep Learning \\
+{\bf Zhongnan University of Economics and Law} \hfill {\em Sep 2020} | {\em Jun 2024}
+\\ \textit{B.S. in Management, School of Accounting and Finance} \hfill \textit{GPA:} 3.63/4.0 \\
+\textbf{Selected Coursework:} Probability \& Statistics, Accounting, Linear Algebra, Python Programming
+\end{rSection}
+
+\begin{rSection}{TECHNICAL SKILLS} \itemsep -2pt
+\begin{tabularx}{\textwidth}{@{} >{\bfseries}l >{\raggedleft\arraybackslash}X @{}}
+Analytics \& Reporting & \textbf{SQL, Excel, VBA}, Data Visualization, Dashboarding, KPI Reporting \\
+Business Analysis & Requirements Analysis, Root-Cause Analysis, Data Reconciliation, Process Improvement \\
+Programming \& Tools & Python, MS Office, Bloomberg, Git, Linux, GCP \\
+Libraries \& Methods & Pandas, Polars, NumPy, Matplotlib, Statistical Analysis, Forecasting, Web Scraping \\
+\end{tabularx}
+\end{rSection}
+
+\begin{rSection}{PROFESSIONAL EXPERIENCE}
+\noindent
+\textbf{VariFlight Technology} \hfill {\em Jul 2025} | {\em Sep 2025} \\
+Data Analyst, Intern \hfill \textit{Data Development Department} $|$ \textit{Anhui, China} \\[4pt]
+$\bullet$ Built Python data-collection workflows to aggregate public reports, webpages, and images from the Civil Aviation Administration of China, creating structured inputs for recurring analysis and reporting.\\[1.5pt]
+$\bullet$ Reconciled unstructured information across \textbf{600+ PDF reports and 500+ webpages}; used OCR and table-extraction tools to standardize raw data into analysis-ready files, improving data consistency and repeatability.\\[1.5pt]
+$\bullet$ Created dashboards for key aviation metrics, including transportation and passenger turnover, translating operational data into clear trends and actionable insights for internal users.
+
+\textbf{Haitong Securities} \hfill {\em Jan 2024} | {\em May 2024} \\
+Investment Analyst, Intern \hfill \textit{Investment Banking Department} $|$ \textit{Shanghai, China} \\[4pt]
+$\bullet$ Conducted IPO due diligence using Wind financial terminal; validated client creditworthiness and investigated material fluctuations in sales and procurement data to identify exceptions and potential business risks.\\[1.5pt]
+$\bullet$ Benchmarked R\&D and other key expenditures across peer companies, summarized variance drivers, and developed preliminary recommendations to support IPO filing priorities and management review.
+
+\textbf{Ernst \& Young} \hfill {\em Dec 2022} | {\em Feb 2023} \\
+Audit, Intern \hfill \textit{Financial Service Office (FSO)} $|$ \textit{Beijing, China} \\[4pt]
+$\bullet$ Analyzed intercompany and investment transactions for Hyundai Motor Finance Company; performed variance analysis, investigated significant deviations, reviewed supporting records, and documented findings and recommendations.\\[1.5pt]
+$\bullet$ Automated the cleaning and consolidation of financial tables from \textbf{220+ CSV files}, producing standardized audit outputs and improving the efficiency and consistency of recurring reporting.
+
+\textbf{Guangdong Hedge Fund Investment Management Co., Ltd.} \hfill {\em May 2026} | {\em Jul 2026} \\
+Quantitative Research, Intern \hfill \textit{Quantitative Strategy Department} $|$ \textit{Guangdong, China} \\[4pt]
+$\bullet$ Integrated market data and 16 indicators covering trend, volatility, liquidity, volume, and open interest into a repeatable Python workflow for performance, risk, and transaction-cost reporting.
+\end{rSection}
+
+\newpage
+\begin{rSection}{RESEARCH EXPERIENCE}
+\noindent
+\textbf{\href{https://github.com/YuankaiTao-super/Construction-of-Comparable-Housing-Variables}{Research Assistant for Professor Franklin Qian, UNC-Chapel Hill}} \hfill {\em Mar 2025} | {\em Present}\\
+\textit{\href{https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4406954}{The Numbers Game: Signaling Effects of Pricing Formats in Housing Bargaining}}\\[4pt]
+$\bullet$ Built a Python and SQL data pipeline combining a \textbf{76-million-observation spatial dataset} with property and population data across multiple sources on Google Cloud Platform.\\[1.5pt]
+$\bullet$ Defined property-level filtering rules and validation checks for comparable-housing analysis; parallelized recurring calculations to achieve approximately \textbf{50$\times$ computational speedup}.\\[1.5pt]
+$\bullet$ Managed and queried a \textbf{964.5M-record, 100GB+ database} using PostgreSQL, PostGIS, BigQuery, and DuckDB, delivering reproducible datasets for research analysis.
+\end{rSection}
+
+\begin{rSection}{SELECTED PROJECTS}
+\noindent
+\textbf{Text Analysis and BERT Fine-tuning on SEC 10-K Reports} \hfill \textit{MGTF 423, UCSD}\\
+\textit{Team Lead} $|$ \textit{Analysis of 20.5M Text Rows}\\[4pt]
+$\bullet$ Analyzed SEC filings using named-entity recognition, frequency profiling, and word clouds to surface patterns in company disclosures and communicate findings visually.\\[1.5pt]
+$\bullet$ Led an iterative human-in-the-loop workflow with three annotation rounds; improved scarce-label data and delivered a model with \textbf{79\% accuracy} for measuring uncertainty tone.
+
+\noindent
+\href{https://github.com/YuankaiTao-super/Capstone_FMS_2025}{\textbf{UCSD / FMSbonds, Inc. 2025 Capstone Project}} \hfill {\em Aug 2025} | {\em Dec 2025}\\
+\textit{Team Lead} $|$ \textit{Bond Pricing Process Optimization}\\[4pt]
+$\bullet$ Mapped high-frequency cash-flow queries and identified redundant object generation as a process bottleneck; implemented caching that reduced per-bond runtime from 1.17 ms to 0.13 ms (\textbf{9$\times$ faster}).\\[1.5pt]
+$\bullet$ Redesigned the yield-to-worst calculation workflow using Numba JIT, reducing runtime from 1.57 ms to 7.5 $\mu$s per bond (\textbf{210$\times$ faster}) and enabling scalable portfolio reporting.
+\end{rSection}
+
+\begin{rSection}{CERTIFICATIONS \& HONORS}
+\begin{tabularx}{\textwidth}{@{} >{\raggedright\arraybackslash}X >{\raggedleft\arraybackslash\hyphenpenalty=10000\exhyphenpenalty=10000}p{4.8cm} @{}}
+Algorithms and Data Structures Certificate (6-Course Certificate) & Coursera, UC San Diego \\
+Deep Learning Specialization (5-Course Certificate) & Coursera, DeepLearning.AI \\
+Beta Gamma Sigma (Top 20\% of graduating class) & UCSD, {\em 2024 --- 2025} \\
+WorldQuant Alphathon 2024, Gold Level (Rank 16, Top 3.1\%) & {\em 2024} \\
+Special Scholarship in Innovation and Entrepreneurship & ZUEL, {\em 2022 --- 2023}
+\end{tabularx}
+\end{rSection}
+
+\end{document}
