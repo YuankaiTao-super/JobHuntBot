@@ -74,7 +74,7 @@
 
 - Employment type: internship only.
 - Target geography: United States nationwide; no remote/hybrid/onsite preference.
-- Future sponsorship: required. 
+- Future sponsorship: required.
 - Current work authorization: F-1 student; eligible to apply for CPT for a qualifying internship, with employer- and date-specific approval required before work begins.
 - CPT internship sponsorship: no employer-filed visa petition required.
 - I-20 program end date: 2027-12-17.

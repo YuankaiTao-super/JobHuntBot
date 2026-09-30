@@ -4,3 +4,5 @@ ats_profile.json
 answer_bank.md
 .DS_Store
 Thumbs.db
+.playwright-mcp/
+*.png
