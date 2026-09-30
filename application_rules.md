@@ -8,7 +8,7 @@
 ## First Trial Boundary
 
 - Selected boundary: **Lead finding only**.
-- Find, screen, classify, and update the dashboard. Do not open an application flow, click Apply, or submit.
+- Find, screen, classify, and update the dashboard. 
 
 ## Prioritize
 
