@@ -118,3 +118,11 @@ Use these accounts only:
 - Job boards:
 
 If a different account appears, stop and ask.
+
+Optional ATS account-creation policy:
+
+- If the configured email has no account, the agent may open the registration flow and fill verified non-secret fields.
+- The user enters password and confirmation password directly in the browser; passwords must never be stored in repository files, logs, screenshots, or chat.
+- Always confirm immediately before the final account-creation action.
+- Account creation and final job-application submission require separate confirmations.
+- Hand off email verification, 2FA, CAPTCHA, Cloudflare, and other identity or anti-bot checks unless a safe, explicitly authorized verification integration is available.

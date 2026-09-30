@@ -11,10 +11,12 @@ Use this reference for browser-based job applications, LinkedIn Easy Apply, Simp
 - Record every outcome in the dashboard.
 - Stop rather than bypass verification or guess high-impact answers.
 - Do not create separate "test" and "normal" behavior modes. Use one default behavior: automate clear low-risk fields, ask focused questions for missing high-impact facts, and always stop before final submit.
+- Prefer `Apply Manually` over `Autofill with Resume`. The resume is an attachment, not a form-data source.
 
 ## Form Answer Defaults
 
 - Basic fields with clear profile values can be filled automatically: name, email, phone, LinkedIn, location, resume upload, and start date.
+- Populate structured employment, education, project, skill, and website fields from `ats_profile.json`. Do not derive them live from PDF reading order.
 - Work authorization, sponsorship, and compensation can be filled only when wording matches the profile or answer bank closely.
 - Voluntary self-ID defaults to blank, "Prefer not to say", or decline/skip when available unless the user configured exact answers.
 - Custom questions should use answer-bank patterns when available. If no pattern exists, draft the specific answer and ask the user to confirm it.
@@ -43,6 +45,16 @@ Use the fastest reliable method first, then escalate only when needed:
 4. User handoff: use for CAPTCHA, Cloudflare, login, 2FA, sensitive legal questions, missing materials, or permission prompts.
 
 Playwright is an implementation detail, not the user-facing concept. Describe it to users as fast browser automation unless they ask for the technical details.
+
+## Manual ATS Entry Contract
+
+1. Choose `Apply Manually` whenever the ATS offers it.
+2. Fill identity/contact fields from `candidate_profile.json` and structured resume fields from `ats_profile.json`.
+3. Upload the routed PDF only in the attachment section and verify the displayed filename.
+4. Keep `work_experiences`, `research_experiences`, `projects`, `education`, `skills`, and `websites` in their matching ATS sections. Never convert a project into employment merely because an ATS lacks a project section.
+5. Departments belong in a department field or role description, never in company or job title. URLs belong only in website/social fields.
+6. Before leaving an experience page, verify each visible record has the expected company, title, location, dates, current-role flag, and description.
+7. If an ATS forces PDF parsing, overwrite its output from the structured sources and delete parser artifacts before saving.
 
 ## The 10 Common Cardpoints
 
@@ -127,6 +139,15 @@ If a login page appears, stop and record `Login required` or `Session expired`.
 
 Do not attempt automatic login unless the user explicitly instructs it and the flow is safe. If multiple LinkedIn or email accounts exist, use the account specified in the candidate profile or rules.
 
+When the user has enabled ATS account creation for a focused application:
+
+1. Try the configured email first and determine whether an account already exists.
+2. If it does not, open the registration form and fill only verified, non-secret profile fields.
+3. Pause while the user enters the password and confirmation password directly in the browser. Never store, log, screenshot, generate, or ask the user to send the password through chat.
+4. Obtain action-time confirmation immediately before clicking the final `Create Account` or equivalent registration control.
+5. Treat email verification, 2FA, CAPTCHA, Cloudflare, and other identity or anti-bot checks as handoff points unless an explicitly authorized safe verification integration is available.
+6. After account creation succeeds, continue the application, but still stop separately before the final job-application submission.
+
 ### 9. Resume Upload Verification
 
 After uploading a resume, verify the file is attached before submitting.
@@ -140,6 +161,8 @@ Watch for:
 - Browser permission failure.
 
 If upload cannot be verified, mark `Needs user` or `Blocked`; do not submit without a resume unless the user explicitly allows it.
+
+Resume upload and resume parsing are separate decisions. Upload the correct routed PDF, but decline parsing/autofill when a manual-entry path exists.
 
 ### 10. Goal Mode Expectations
 

@@ -36,6 +36,7 @@ Read `references/setup-workflow.md` when:
 Use the templates in `templates/` to create user-owned files:
 
 - `candidate_profile.template.json`
+- `ats_profile.template.json`
 - `application_rules.template.md`
 - `resume_routing.template.md`
 - `answer_bank.template.md`
@@ -90,7 +91,7 @@ Never fabricate experience, credentials, degrees, employers, dates, work authori
 
 Read `references/application-playbook.md` before operating browser-based applications, LinkedIn Easy Apply, Simplify, Greenhouse, Lever, Ashby, Workday, or other ATS flows.
 
-Prefer uploading the resume first and letting the ATS auto-parse it — it's less error-prone than hand-typing education/experience. Fill whatever you confidently can from `candidate_profile.json`, `resume_routing.md`, `experience_bank.md` (for relevant-experience/self-evaluation fields, using the combo picked in step 5), and `answer_bank.md`. Stop and ask the user (don't guess) for anything on the `never_guess` list, anything requiring a subjective call, or anything the form surfaces that isn't backed by the résumé or profile (auto-filled bio text from a saved account, for instance) — verify it's true before letting it ride into a real submission.
+Default to `Apply Manually` or the equivalent non-parsing path. Use the selected PDF only as the recruiter-facing attachment and populate ATS fields from `ats_profile.json`, `candidate_profile.json`, `resume_routing.md`, `experience_bank.md` (for relevant-experience/self-evaluation fields, using the combo picked in step 5), and `answer_bank.md`. Never treat PDF parsing as authoritative. If an ATS forces parsing, reconcile every parsed field against the structured sources before continuing: overwrite incorrect values, remove contact details or URLs from descriptions, keep projects out of work experience, and stop on conflicting source facts. Stop and ask the user (don't guess) for anything on the `never_guess` list or anything requiring a subjective call.
 
 Stop or hand off for CAPTCHA, Cloudflare, anti-bot checks, login or 2FA, unclear legal/identity questions, missing files, payment prompts, permission prompts, or anything that would require bypassing a site control.
 
