@@ -61,6 +61,8 @@
 ## Default Form Behavior
 
 - Reuse only verified basic fields from `candidate_profile.json`.
+- For `Have you previously worked for / been employed by this company?`, default to `No` without asking again, using the confirmed pattern in `answer_bank.md`. First compare the company and any explicitly named affiliate with the verified work history in `ats_profile.json`; if they match or the wording broadens the definition in a potentially conflicting way, ask the user instead of entering a false answer.
+- For `How did you hear about this opportunity?` and equivalent discovery-source questions, default to `Indeed` without asking again. Select `Indeed` when available; otherwise use the closest truthful job-board category and enter `Indeed` in any detail field.
 - Prefer `Apply Manually`; do not choose resume parsing or `Autofill with Resume` when a manual path exists.
 - Upload the routed PDF only as an attachment. Populate employment, education, projects, skills, and websites from `ats_profile.json`, not from text extracted from the PDF.
 - If parsing is unavoidable, reconcile every parsed field against `ats_profile.json` before saving: correct missing company/title/location/date fields, remove departments from titles, remove contact details and URLs from descriptions, and keep projects separate from work experience.
