@@ -111,8 +111,9 @@
 - If a different account appears, stop and ask.
 - When an ATS requires an account, first try the configured email and determine whether an account already exists without guessing credentials.
 - If no account exists, open the ATS account-creation flow and fill verified non-secret fields automatically.
-- Never store, generate, copy into project files, log, screenshot, or request the user's password. Pause for the user to enter the password and confirmation-password fields directly in the browser.
-- After the user finishes both password fields, resume automation only after the user confirms that password entry is complete.
+- Never read, expose, copy into project files, log, screenshot, or request the user's password.
+- When account creation requires a password, use password manager's native strong-password generator and save function. The automation agent must not inspect or extract the generated password or operate password-manager approval prompts.
+- If generation, filling, or saving is unavailable or fails, pause for the user to resolve it; do not generate or retain a fallback password in the project.
 - Stop immediately before the final `Create Account` / registration action and obtain action-time confirmation. Account creation is not consent to submit the job application; final application submission requires a separate confirmation.
 - Hand off email verification codes, 2FA, CAPTCHA, Cloudflare, and other identity or anti-bot checks unless an explicitly authorized safe verification integration is available.
 
