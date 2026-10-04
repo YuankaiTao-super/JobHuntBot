@@ -60,6 +60,10 @@
 
 ## Default Form Behavior
 
+- For work-location preference fields, select New York and Chicago when available; if only one selection is permitted, choose New York first, then Chicago.
+- Answer `Yes` to age-18-or-older questions. Answer `No` to standard questions about relatives employed by the company and criminal or unlawful-conduct history.
+- For `Why this company?`, use the company's official homepage and other official pages to write and directly fill 3-4 concise sentences connecting verified company facts with the candidate's verified strengths and selected experiences. Include the answer in the pre-submit preview; do not pause for separate approval.
+- For the undergraduate institution, search for `Zhongnan University of Economics and Law`; if it is absent from a required school selector, choose `Other` and enter the true school name in any follow-up text field.
 - Reuse only verified basic fields from `candidate_profile.json`.
 - For `Have you previously worked for / been employed by this company?`, default to `No` without asking again, using the confirmed pattern in `answer_bank.md`. First compare the company and any explicitly named affiliate with the verified work history in `ats_profile.json`; if they match or the wording broadens the definition in a potentially conflicting way, ask the user instead of entering a false answer.
 - For `How did you hear about this opportunity?` and equivalent discovery-source questions, default to `Indeed` without asking again. Select `Indeed` when available; otherwise use the closest truthful job-board category and enter `Indeed` in any detail field.

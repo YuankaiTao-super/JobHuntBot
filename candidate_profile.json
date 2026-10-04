@@ -1,0 +1,190 @@
+{
+  "candidate": {
+    "legal_name": "Yuankai Tao",
+    "preferred_name": "Yuankai Tao",
+    "email": "yuankaitao0909@gmail.com",
+    "phone": "+1 470 658 3699",
+    "current_location": "1025 Spring St NW, Atlanta, GA 30309, United States",
+    "linkedin_url": "https://www.linkedin.com/in/yuankai-tao-211788328/",
+    "portfolio_url": "https://yuankaitao-super.github.io/",
+    "github_url": "https://github.com/YuankaiTao-super"
+  },
+  "current_status": {
+    "current_role_or_framing": "M.S. student in Operations Research at Georgia Tech; prior M.S. in Quantitative Finance at UC San Diego",
+    "employment_status_answer": "TBD - do not infer from student status",
+    "available_start_date": "2027-05-17",
+    "notice_period": "TBD"
+  },
+  "application_facts": {
+    "is_at_least_18": true,
+    "relatives_employed_by_applicant_company_or_named_affiliates": false,
+    "criminal_conviction_offense_or_unlawful_conduct_history": false,
+    "confirmed_by_user_on": "2026-10-03",
+    "notes": "Use these confirmed facts for equivalent yes/no questions. If wording materially expands the scope or requests details, follow answer_bank.md and ask rather than inventing information."
+  },
+  "education": [
+    {
+      "institution": "Georgia Institute of Technology",
+      "degree": "M.S. in Operations Research",
+      "start_date": "2026-08",
+      "end_date": "2027-12",
+      "gpa": ""
+    },
+    {
+      "institution": "University of California, San Diego",
+      "degree": "M.S. in Quantitative Finance",
+      "start_date": "2024-09",
+      "end_date": "2025-12",
+      "gpa": "3.84/4.0"
+    },
+    {
+      "institution": "Zhongnan University of Economics and Law",
+      "degree": "B.S. in Management, Accounting",
+      "start_date": "2020-09",
+      "end_date": "2024-06",
+      "gpa": "3.63/4.0"
+    }
+  ],
+  "work_authorization": {
+    "country": "United States",
+    "status": "F-1 student",
+    "current_authorization": "Eligible to apply for CPT for a qualifying internship; employment may begin only after employer- and date-specific CPT approval is shown on the updated I-20",
+    "cpt_eligibility": "Confirmed by user; final authorization remains employer- and date-specific",
+    "cpt_current_employer_authorization": "Not applicable until a specific internship offer is selected and CPT is approved for that employer and period",
+    "i20_program_end_date": "2027-12-17",
+    "requires_employer_sponsorship_for_cpt_internship": false,
+    "requires_sponsorship_now": false,
+    "requires_sponsorship_in_future": true,
+    "answer_exactly_as": {
+      "sponsorship_for_this_cpt_internship": "No",
+      "sponsorship_now": "No",
+      "sponsorship_now_or_in_future": "Yes",
+      "sponsorship_in_future": "Yes",
+      "unrestricted_work_authorization": "No",
+      "legally_authorized_to_work_in_the_united_states": "Yes"
+    },
+    "notes_for_unclear_forms": "CPT does not require an employer-filed visa petition, but authorization is employer- and date-specific. Ask the user whenever a form combines current authorization, unrestricted authorization, and future sponsorship in unclear wording."
+  },
+  "targets": {
+    "primary_role_families": [
+      "Quantitative Research / Trading Internship",
+      "Risk Analytics / Quantitative Risk Internship"
+    ],
+    "secondary_role_families": [
+      "Data Science / Data Analytics / Data Engineering Internship"
+    ],
+    "roles_to_avoid": [
+      "Deep Learning-focused roles",
+      "Roles that explicitly require C++",
+      "Roles that explicitly require Java",
+      "Roles that explicitly require phd student status"
+    ],
+    "target_industries": [],
+    "industries_to_avoid": [],
+    "target_company_stage": [],
+    "target_locations": [
+      "United States - nationwide",
+      "Hong Kong",
+      "Singapore"
+    ],
+    "form_location_preferences": ["New York, NY", "Chicago, IL"],
+    "form_location_selection_policy": "Select both when multiple choices are allowed; if only one choice is allowed, prefer New York, then Chicago.",
+    "remote_hybrid_onsite_preference": "No preference; remote, hybrid, and onsite are all acceptable",
+    "willing_to_relocate_within_the_united_states": true,
+    "relocation_policy": "Open to locations across the United States; confirm relocation wording if a form asks for a binding commitment"
+  },
+  "compensation": {
+    "base_salary_range": "TBD",
+    "total_compensation_range": "TBD",
+    "form_default_range": {
+      "minimum": 20000,
+      "maximum": 40000,
+      "currency": "dollar",
+      "pay_period": "annually"
+    },
+    "answer_strategy": "Use the confirmed form default range when the field context is compatible; defer when allowed; ask if currency, pay period, or compensation type is ambiguous.",
+    "notes": "Do not infer currency, pay period, or whether the range means base or total compensation from the role, location, or prior experience."
+  },
+  "resume_files": [
+    {
+      "role_family": "General technical / quantitative (temporary route pending variants)",
+      "file_path": "my-materials/original_CV/CV_Yuankai_Tao.pdf",
+      "editable_source": "my-materials/original_CV/CV_Yuankai_Tao.tex",
+      "version": "original_CV",
+      "availability": "available",
+      "source_policy": "read_only_do_not_modify_rename_overwrite_or_delete",
+      "use_when": "Read-only reference or copied basis for a new tailored version; never edit files inside my-materials/original_CV"
+    },
+    {
+      "role_family": "Data Science / Data Analytics / Data Engineering Internship",
+      "file_path": "my-materials/Data/CV_Yuankai_Tao_Data.pdf",
+      "editable_source": "my-materials/Data/CV_Yuankai_Tao_Data.tex",
+      "version": "data_base",
+      "availability": "available",
+      "source_policy": "read_only_base_copy_before_tailoring",
+      "use_when": "Secondary route for data science, data analytics, analytics engineering, and Python/SQL-oriented data engineering internships"
+    },
+    {
+      "role_family": "Quantitative Research / Trading Internship",
+      "file_path": "my-materials/Quant/CV_Yuankai_Tao_Quant.pdf",
+      "editable_source": "my-materials/Quant/CV_Yuankai_Tao_Quant.tex",
+      "version": "quant_base",
+      "availability": "available",
+      "source_policy": "read_only_base_copy_before_tailoring",
+      "use_when": "Primary route for quantitative research, quantitative trading, systematic strategy, derivatives, and financial modeling internships"
+    },
+    {
+      "role_family": "Risk Analytics / Quantitative Risk Internship",
+      "file_path": "my-materials/Risk/CV_Yuankai_Tao_Risk.pdf",
+      "editable_source": "my-materials/Risk/CV_Yuankai_Tao_Risk.tex",
+      "version": "risk_base",
+      "availability": "available",
+      "source_policy": "read_only_base_copy_before_tailoring",
+      "use_when": "Primary route for market risk, model risk, credit risk, portfolio risk, risk analytics, and validation internships"
+    },
+    {
+      "role_family": "Business Analytics Internship",
+      "file_path": "my-materials/BA/CV_Yuankai_Tao_BA.pdf",
+      "editable_source": "my-materials/BA/CV_Yuankai_Tao_BA.tex",
+      "version": "ba_base",
+      "availability": "available",
+      "source_policy": "read_only_base_copy_before_tailoring",
+      "use_when": "Specialized secondary route for business analytics, reporting, KPI, dashboard, and Excel/SQL-heavy internships"
+    }
+  ],
+  "voluntary_self_identification": {
+    "strategy": "answer_with_user_confirmed_values",
+    "fill_automatically": true,
+    "gender": "Man / Male",
+    "gender_identity": "Man",
+    "sexual_orientation": "Straight / Heterosexual",
+    "race_ethnicity": "Asian - East Asian",
+    "military_status": "Never served in the military",
+    "veteran_status": "Not a veteran / Not a protected veteran",
+    "disability_status": "No disability",
+    "lgbtq_community": "No",
+    "confirmed_by_user_on": "2026-09-30",
+    "notes": "Use the equivalent dropdown values defined in answer_bank.md. These values are private and only for voluntary self-identification fields; do not add them to resumes or public materials. Ask if a question materially expands beyond these confirmed meanings."
+  },
+  "source_notes": [
+    "Profile initialized from my-materials/original_CV/CV_Yuankai_Tao.tex on 2026-08-30.",
+    "The user confirmed yuankaitao0909@gmail.com as the application email and Yuankai Tao as the legal name on 2026-08-30.",
+    "The user confirmed CPT eligibility and an I-20 program end date of 2027-12-17 on 2026-09-12.",
+    "The user confirmed Georgia Tech expected graduation as 2027-12 on 2026-09-13; this aligns with the I-20 program end date of 2027-12-17.",
+    "The user explicitly configured automatic voluntary self-identification answers on 2026-09-30: man/male, straight/heterosexual, Asian/East Asian, never served/not a veteran, no disability, and not part of the LGBTQ+ community.",
+    "The user requested synchronization from answer_bank.md on 2026-10-03: available start date 2027-05-17, age 18 or older, no relatives employed by the applicant company or named affiliates, no criminal or unlawful-conduct history, and a form default compensation range of 20000 to 40000 with currency and pay period unspecified.",
+    "No transcript or separate project-notes file was present in original_CV at initialization."
+  ],
+  "never_guess": [
+    "work authorization",
+    "sponsorship",
+    "employment status",
+    "available start date beyond the confirmed 2027-05-17 default",
+    "salary expectations beyond the confirmed 20000 to 40000 form default, including unspecified currency or pay period",
+    "relocation commitments beyond the confirmed willingness to relocate within the United States",
+    "degree dates not supported by source materials",
+    "employment dates not supported by source materials",
+    "voluntary self-identification beyond the exact values explicitly configured in voluntary_self_identification",
+    "background check or non-compete questions"
+  ]
+}

@@ -8,6 +8,7 @@ Status: initialized draft. High-impact answers are intentionally blocked pending
 - CPT: eligible to apply for CPT for a qualifying internship; the user reports no anticipated CPT eligibility issue.
 - I-20 program end date: **December 17, 2027**.
 - Employer-specific boundary: work may begin only after CPT is approved for that employer and dates and appears on the updated I-20.
+- `Are you at least 18 years old?`: **Yes**.
 - `Are you legally authorized to work in the United States?`: **Yes** .
 - `Do you have legal authorization to work in the country in which you are applying`:**Yes**
 - `Are you authorized to work for any employer without restriction?`: **No**.
@@ -30,6 +31,7 @@ Reusable explanation when a text field is provided:
 
 - Current address: `1025 Spring St NW, Atlanta, GA 30309, United States`.
 - Search geography: United States nationwide.
+- Work-location preference question: select **New York, NY** and **Chicago, IL** when available. If only one selection is allowed, choose **New York, NY** first, then **Chicago, IL**. If these two cities not available, choose the first selection.
 - Relocation: open to locations across the United States; ask if a binding relocation commitment is required.
 - `Are you willing to relocate?`: **Yes**.
 - Remote/hybrid/onsite: no preference; all are acceptable.
@@ -79,9 +81,15 @@ Reusable explanation when a text field is provided:
 
 ## Why This Company
 
-Reusable draft pattern: “I am interested in [Company] because [specific product, research, or operating problem]. My experience in [selected experience] aligns with the role's need for [JD requirement], and I would be excited to contribute through [specific contribution].”
+- Search the company's official homepage and relevant official About, product, research, or values pages.
+- Write and directly fill **3-4 concise sentences** connecting specific company facts with the candidate's verified quantitative, finance, data, optimization, or risk experience and the selected experiences for that role.
+- Do not invent company facts or personal claims. No separate approval is required before filling; include the text in the final pre-submit preview.
 
-Customize from official company and job information. Ask for confirmation the first time it is used.
+## Background Defaults
+
+- Relatives employed by the applicant company or its named affiliates: **No**.
+- Criminal, conviction, offense, or unlawful-conduct history questions: **No**.
+- Confirmed by the user on 2026-10-03; reuse automatically. If a question requests details beyond the yes/no fact, stop and ask rather than inventing details.
 
 ## Why This Role
 
@@ -91,7 +99,7 @@ Reusable draft pattern: “This role combines [verified strength 1] and [verifie
 
 - Homepage: `https://yuankaitao-super.github.io/`
 - GitHub: `https://github.com/YuankaiTao-super`
-- LinkedIn: TBD.
+- LinkedIn: `https://www.linkedin.com/in/yuankai-tao-211788328/`
 - Ask before selecting a repository or presenting any work as a formal sample.
 
 ## Voluntary Self-ID
