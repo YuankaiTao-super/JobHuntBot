@@ -1,6 +1,6 @@
 # Answer Bank
 
-Status: initialized draft. High-impact answers are intentionally blocked pending user confirmation.
+Status: active. Reuse answers explicitly marked or recorded as user-confirmed; for any unlisted or materially different high-impact question, ask the user rather than guessing.
 
 ## Work Authorization
 
@@ -38,7 +38,7 @@ Reusable explanation when a text field is provided:
 
 ## Compensation
 
-- Default range: **20000 to 40000**.
+- Default range: **USD 20,000 to 40,000 annually**.
 - Deferral wording: “I am open to discussing compensation based on the role's scope, location, and total package.”
 - Use that wording only when deferral is accepted; otherwise ask the user.
 

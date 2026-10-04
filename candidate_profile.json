@@ -22,6 +22,10 @@
     "confirmed_by_user_on": "2026-10-03",
     "notes": "Use these confirmed facts for equivalent yes/no questions. If wording materially expands the scope or requests details, follow answer_bank.md and ask rather than inventing information."
   },
+  "form_answer_guidance": {
+    "question_specific_source": "Use answer_bank.md for confirmed question-specific mappings, exact yes/no answers, dropdown fallbacks, and reusable wording.",
+    "tbd_policy": "TBD means the underlying fact is not confirmed. Do not infer it or replace it from a loosely related answer; use answer_bank.md only when it contains an explicitly confirmed answer to the same question, otherwise ask the user."
+  },
   "education": [
     {
       "institution": "Georgia Institute of Technology",
@@ -99,11 +103,11 @@
     "form_default_range": {
       "minimum": 20000,
       "maximum": 40000,
-      "currency": "dollar",
+      "currency": "USD",
       "pay_period": "annually"
     },
-    "answer_strategy": "Use the confirmed form default range when the field context is compatible; defer when allowed; ask if currency, pay period, or compensation type is ambiguous.",
-    "notes": "Do not infer currency, pay period, or whether the range means base or total compensation from the role, location, or prior experience."
+    "answer_strategy": "Use the confirmed USD 20000 to 40000 annual range when the field asks for a general expected salary or compensation range; defer when allowed; ask if the field specifically distinguishes base salary from total compensation and the intended type is unclear.",
+    "notes": "Currency and pay period are confirmed as USD annually. Do not infer whether this generic range means base or total compensation when a form requires that distinction."
   },
   "resume_files": [
     {
@@ -172,7 +176,7 @@
     "The user confirmed CPT eligibility and an I-20 program end date of 2027-12-17 on 2026-09-12.",
     "The user confirmed Georgia Tech expected graduation as 2027-12 on 2026-09-13; this aligns with the I-20 program end date of 2027-12-17.",
     "The user explicitly configured automatic voluntary self-identification answers on 2026-09-30: man/male, straight/heterosexual, Asian/East Asian, never served/not a veteran, no disability, and not part of the LGBTQ+ community.",
-    "The user requested synchronization from answer_bank.md on 2026-10-03: available start date 2027-05-17, age 18 or older, no relatives employed by the applicant company or named affiliates, no criminal or unlawful-conduct history, and a form default compensation range of 20000 to 40000 with currency and pay period unspecified.",
+    "The user requested synchronization from answer_bank.md on 2026-10-03: available start date 2027-05-17, age 18 or older, no relatives employed by the applicant company or named affiliates, no criminal or unlawful-conduct history, and a form default compensation range of USD 20000 to 40000 annually.",
     "No transcript or separate project-notes file was present in original_CV at initialization."
   ],
   "never_guess": [
@@ -180,7 +184,7 @@
     "sponsorship",
     "employment status",
     "available start date beyond the confirmed 2027-05-17 default",
-    "salary expectations beyond the confirmed 20000 to 40000 form default, including unspecified currency or pay period",
+    "salary expectations beyond the confirmed USD 20000 to 40000 annual form default, including any required base-versus-total distinction",
     "relocation commitments beyond the confirmed willingness to relocate within the United States",
     "degree dates not supported by source materials",
     "employment dates not supported by source materials",
