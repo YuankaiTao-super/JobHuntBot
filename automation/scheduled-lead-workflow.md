@@ -32,6 +32,13 @@ If fewer than 8 valid roles can be verified, report the actual number and the li
 5. If today's state is already `confirmed_committed` or `auto_committed`, do not add duplicate rows. If there is no valid current-day state, report the blocker and do not invent jobs.
 6. Never modify `dashboard/application_log.csv` and never open or submit an application.
 
+## Git Sync After Local Updates
+
+- After any successful local file update from the 09:00 search, user-confirmation flow, replacement flow, or 09:25 cutoff, stage only the files changed by that run.
+- Verify that `dashboard/application_log.csv` was not modified unless a separate, explicitly authorized application workflow changed it.
+- Commit the scoped changes on the current branch with a concise message that includes the run date, then push that branch to the `origin` GitHub remote.
+- Never include unrelated working-tree changes in the commit. If commit or push fails, preserve the local changes or local commit and report the exact blocker; do not claim that GitHub is up to date.
+
 ## Scheduled Task Definitions
 
 Create both tasks for this local project in the current chat:
