@@ -60,8 +60,15 @@
 
 ## Default Form Behavior
 
+- Prefer `Apply Manually`; do not choose resume parsing or `Autofill with Resume` when a manual path exists.
+- Upload the tailored PDF only as an attachment. Populate employment, education, projects, skills, and websites from `ats_profile.json`, not from text extracted from the PDF.
+- If parsing is unavoidable, reconcile every parsed field against `ats_profile.json` before saving: correct missing company/title/location/date fields, remove departments from titles, remove contact details and URLs from descriptions, and keep projects separate from work experience.
+- Treat source conflicts as `Needs user`; never resolve conflicting dates or titles by guessing.
+- Fill voluntary self-identification automatically from the user-confirmed private values in `candidate_profile.json` and the option mappings in `answer_bank.md`: Man/Male; Straight/Heterosexual; Asian/East Asian; never served/not a veteran; no disability; and No for LGBTQ+ community membership.
+- Choose the closest semantically equivalent dropdown value, not merely the first option. Ask the user only when the form combines categories unusually, materially expands the question beyond the confirmed values, or provides no clear equivalent.
+- Draft the first occurrence of a custom answer and obtain confirmation before reuse.
+- Count an application as Submitted only after explicit confirmation evidence.
 - For work-location preference fields, select New York and Chicago when available; if only one selection is permitted, choose New York first, then Chicago.
-- Answer `Yes` to age-18-or-older questions. Answer `No` to standard questions about relatives employed by the company and criminal or unlawful-conduct history.
 - For `Why this company?`, use the company's official homepage and other official pages to write and directly fill 3-4 concise sentences connecting verified company facts with the candidate's verified strengths and selected experiences. Include the answer in the pre-submit preview; do not pause for separate approval.
 - For the undergraduate institution, search for `Zhongnan University of Economics and Law`; if it is absent from a required school selector, choose `Other` and enter the true school name in any follow-up text field.
 - Reuse only verified basic fields from `candidate_profile.json`.
@@ -72,14 +79,6 @@
 - Fill ATS `Skills`, `Add Skills`, `Type to Add Skills`, and equivalent tag fields automatically from `ats_profile.json.skills`. Rank verified skills that match required JD terms first, then preferred JD terms, then the routed role-family priority list; never add a JD keyword that is absent from the verified inventory and aliases.
 - Use the ATS field's stated limit; when no limit is visible, add at most 15 skills. Avoid duplicates. For a controlled suggestion list, select the real offered option and try configured aliases when needed; skip the skill if no verified equivalent is offered. For a true free-text tag field, enter the canonical verified name.
 - Verify that every skill appears as a committed tag rather than unsubmitted text, and include the selected skill list in the pre-submit summary.
-- Prefer `Apply Manually`; do not choose resume parsing or `Autofill with Resume` when a manual path exists.
-- Upload the routed PDF only as an attachment. Populate employment, education, projects, skills, and websites from `ats_profile.json`, not from text extracted from the PDF.
-- If parsing is unavoidable, reconcile every parsed field against `ats_profile.json` before saving: correct missing company/title/location/date fields, remove departments from titles, remove contact details and URLs from descriptions, and keep projects separate from work experience.
-- Treat source conflicts as `Needs user`; never resolve conflicting dates or titles by guessing.
-- Fill voluntary self-identification automatically from the user-confirmed private values in `candidate_profile.json` and the option mappings in `answer_bank.md`: Man/Male; Straight/Heterosexual; Asian/East Asian; never served/not a veteran; no disability; and No for LGBTQ+ community membership.
-- Choose the closest semantically equivalent dropdown value, not merely the first option. Ask the user only when the form combines categories unusually, materially expands the question beyond the confirmed values, or provides no clear equivalent.
-- Draft the first occurrence of a custom answer and obtain confirmation before reuse.
-- Count an application as Submitted only after explicit confirmation evidence.
 
 ## Resume Tailoring Policy
 
