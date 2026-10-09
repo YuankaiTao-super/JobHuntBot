@@ -1,156 +1,176 @@
 {
-  "date": "2026-10-08",
+  "date": "2026-10-09",
   "timezone": "America/New_York",
-  "status": "confirmed_committed",
+  "status": "pending_user",
   "candidates": [
     {
       "number": 1,
-      "company": "OCC",
-      "title": "Summer Intern - Quantitative Risk Management (REQ-4864)",
-      "provisional_role_family": "Risk Analytics / Quantitative Risk Internship",
-      "level": "Master's or PhD internship",
-      "location": "Chicago, IL",
-      "remote_policy": "Hybrid; three days per week in office",
-      "official_url": "https://theocc.wd5.myworkdayjobs.com/careers/job/Chicago---125-S-Franklin/Summer-Intern---Quantitative-Risk-Management_REQ-4864",
+      "company": "Intel",
+      "title": "Operations Research, Engineering Analytics Graduate Intern",
+      "provisional_role_family": "Operations Research / Optimization Internship",
+      "level": "Master's internship",
+      "location": "Phoenix, AZ",
+      "remote_policy": "Hybrid",
+      "official_url": "https://intel.wd1.myworkdayjobs.com/external/job/US-Arizona-Phoenix/Operations-Research--Engineering-Analytics-Graduate-Intern_JR0286502",
       "posted_date": "2026-10-07",
       "priority": "High",
-      "resume_route": "Risk",
-      "fit_summary": "Strong quantitative-risk match covering P&L decomposition, backtesting, model monitoring, derivatives, econometrics and Python; the graduate completion window includes December 2027.",
-      "eligibility_sponsorship_notes": "The reviewed posting does not state a future-sponsorship exclusion; confirm CPT and future sponsorship before applying.",
-      "recommended_next_action": "Review first as today's strongest Chicago quantitative-risk match."
+      "resume_route": "Quant",
+      "fit_summary": "Direct match for an Operations Research master's student: mathematical modeling, discrete-event simulation, optimization, statistics, Python, SQL and manufacturing analytics; December 2027 is explicitly preferred.",
+      "eligibility_sponsorship_notes": "The official posting does not state a current or future sponsorship exclusion. Confirm CPT and future sponsorship before applying.",
+      "recommended_next_action": "Review first as today's strongest degree, timing and technical match."
     },
     {
       "number": 2,
-      "company": "Viking Global Investors",
-      "title": "Data Science Intern",
-      "provisional_role_family": "Quantitative Research / Data Science Internship",
+      "company": "Otis",
+      "title": "Data Science & Analytics Intern",
+      "provisional_role_family": "Data Science / Operations Research Internship",
       "level": "Master's or PhD internship",
-      "location": "New York, NY",
-      "remote_policy": "On-site",
-      "official_url": "https://job-boards.greenhouse.io/vikingglobalinvestors/jobs/6202755004",
-      "posted_date": "2026-09-30",
+      "location": "Farmington, CT",
+      "remote_policy": "Remote listing; confirm team arrangement",
+      "official_url": "https://otis.wd504.myworkdayjobs.com/rec_ext_gateway/job/OTCTH-Connecticut-Home-Offices-Remote-Location-Remote-City-CT-06032-USA/Data-Science---Analytics-Intern_20168987-1",
+      "posted_date": "2026-10-05",
       "priority": "High",
-      "resume_route": "Quant",
-      "fit_summary": "Alternative-data research, predictive analytics, investment insights, Python, SQL and statistical modeling align closely with the candidate's operations-research and quantitative-finance background.",
-      "eligibility_sponsorship_notes": "Open to master's students in Operations Research and related quantitative fields. No explicit future-sponsorship exclusion was found; confirm before applying.",
-      "recommended_next_action": "Prioritize as the strongest New York investment-data research role."
+      "resume_route": "Data",
+      "fit_summary": "Targets master's or PhD students in Data Science, Operations Research, Industrial Engineering, Statistics, Computer Science or Mathematics and combines Python, SQL, modeling and operational analytics.",
+      "eligibility_sponsorship_notes": "No explicit future-sponsorship exclusion was found in the reviewed posting; confirm CPT and future sponsorship before applying.",
+      "recommended_next_action": "Prioritize because Operations Research is named directly and the work is applied analytics."
     },
     {
       "number": 3,
-      "company": "Pinterest",
-      "title": "Master's Data Science Internship 2027 (USA)",
-      "provisional_role_family": "Data Science / Data Analytics Internship",
-      "level": "Master's internship",
-      "location": "San Francisco, CA / Palo Alto, CA / Seattle, WA / New York, NY",
-      "remote_policy": "Remote or hybrid depending on team",
-      "official_url": "https://www.pinterestcareers.com/jobs/8138097/masters-data-science-internship-2027-usa/",
-      "posted_date": "2026-10-01",
+      "company": "Pacific Life",
+      "title": "Summer 2027 Data Engineering Internship",
+      "provisional_role_family": "Data Science / Data Engineering Internship",
+      "level": "Bachelor's or master's internship",
+      "location": "Newport Beach, CA",
+      "remote_policy": "On-site",
+      "official_url": "https://pacificlife.wd1.myworkdayjobs.com/PacificLifeCareers/job/Newport-Beach-CA-700/Summer-2027-Data-Engineering-Internship_R17828",
+      "posted_date": "2026-09-29",
       "priority": "High",
       "resume_route": "Data",
-      "fit_summary": "Excellent graduate data-science fit using SQL, Python or R, experimentation, forecasting, econometrics and statistical modeling, with New York among the listed locations.",
-      "eligibility_sponsorship_notes": "Requires current master's enrollment. The reviewed posting does not state a future-sponsorship exclusion; confirm CPT and sponsorship before applying.",
-      "recommended_next_action": "Review early because the role combines preferred location, degree level and experimentation work."
+      "fit_summary": "Accepts master's students and blends Python or R, data modeling, predictive analytics, data pipelines and financial-services business problems.",
+      "eligibility_sponsorship_notes": "The official posting does not state a current or future sponsorship exclusion; verify CPT and future sponsorship before applying.",
+      "recommended_next_action": "Review early as a strong data-engineering role with quantitative financial context."
     },
     {
       "number": 4,
-      "company": "Hadrian",
-      "title": "Data Science / Data Engineer Intern",
-      "provisional_role_family": "Data Science / Data Engineering Internship",
+      "company": "Astera Labs",
+      "title": "Data Analyst Intern",
+      "provisional_role_family": "Business / Data Analytics Internship",
       "level": "Bachelor's or master's internship",
-      "location": "Los Angeles, CA",
+      "location": "San Jose, CA",
       "remote_policy": "On-site",
-      "official_url": "https://jobs.ashbyhq.com/hadrian-automation/f718bcfe-3f5b-4682-a294-697499caf813",
-      "posted_date": "Not stated - verified live 2026-10-08",
-      "priority": "Medium",
-      "resume_route": "Data",
-      "fit_summary": "Python, SQL, statistics, time-series analysis, forecasting, anomaly detection and operational optimization map well to the candidate's data and operations-research profile.",
-      "eligibility_sponsorship_notes": "Accepts bachelor's or master's students graduating between December 2027 and June 2028. No explicit future-sponsorship exclusion was found; confirm before applying.",
-      "recommended_next_action": "Keep as a strong industrial analytics and optimization option."
+      "official_url": "https://job-boards.greenhouse.io/asteraearlycareer2027/jobs/4731996005",
+      "posted_date": "Not stated - verified live 2026-10-09",
+      "priority": "High",
+      "resume_route": "BA",
+      "fit_summary": "Operations Research is explicitly accepted; Excel, Power BI, SQL, Python or R, KPI reporting, data quality and workflow automation align well with the candidate's analytics background.",
+      "eligibility_sponsorship_notes": "The application asks whether future sponsorship is required but the posting does not state that such candidates are ineligible; keep pending until policy is confirmed.",
+      "recommended_next_action": "Review as the strongest dashboard, KPI and business-analytics option."
     },
     {
       "number": 5,
-      "company": "Cyvl",
-      "title": "Data Operations Intern (Summer 2027)",
-      "provisional_role_family": "Data Science / Data Engineering Internship",
+      "company": "Cytiva",
+      "title": "Data Analytics Intern Summer 2027",
+      "provisional_role_family": "Business / Data Analytics Internship",
       "level": "Student internship",
-      "location": "Somerville, MA",
-      "remote_policy": "On-site",
-      "official_url": "https://jobs.ashbyhq.com/cyvl/f44bb1cf-7100-46f7-b3c2-6d2a566d4b0d",
-      "posted_date": "Not stated - verified live 2026-10-08",
+      "location": "Logan, UT",
+      "remote_policy": "On-site; posting also mentions possible remote eligibility",
+      "official_url": "https://danaher.wd1.myworkdayjobs.com/en-US/DanaherJobs/job/Data-Analytics-Intern-Summer-2027_R1317525",
+      "posted_date": "2026-09-10",
       "priority": "Medium",
       "resume_route": "Data",
-      "fit_summary": "Python scripting, data validation, SQL, automation and geospatial or infrastructure data provide a practical data-operations match with the candidate's analytics toolkit.",
-      "eligibility_sponsorship_notes": "Requires current enrollment and full-time availability for 10-12 weeks in summer 2027. No explicit future-sponsorship exclusion was found; confirm before applying.",
-      "recommended_next_action": "Review as a secondary data-engineering and civic-infrastructure role."
+      "fit_summary": "Data pipelines, Power BI, SQL, Python, automation and pricing or operational analysis provide a broad applied-data fit; the degree requirement includes Data Science, Statistics, Finance and Engineering.",
+      "eligibility_sponsorship_notes": "The official posting contains no explicit future-sponsorship exclusion. Confirm the work arrangement, CPT and future sponsorship before applying.",
+      "recommended_next_action": "Keep as a balanced data engineering and business intelligence option."
     },
     {
       "number": 6,
-      "company": "Cresta",
-      "title": "Data Science Intern (Customer Success)",
+      "company": "American Electric Power",
+      "title": "Data Scientist Intern - Columbus, OH",
       "provisional_role_family": "Data Science / Data Analytics Internship",
-      "level": "Bachelor's or master's internship",
-      "location": "United States",
-      "remote_policy": "Remote",
-      "official_url": "https://job-boards.greenhouse.io/cresta/jobs/5213417008",
-      "posted_date": "Not stated - verified live 2026-10-08",
+      "level": "Student internship",
+      "location": "Columbus, OH",
+      "remote_policy": "On-site",
+      "official_url": "https://aep.wd1.myworkdayjobs.com/AEPCareerSite/job/Columbus-OH/Data-Scientist-Intern---Columbus--OH_R19884",
+      "posted_date": "2026-10-09",
       "priority": "Medium",
       "resume_route": "Data",
-      "fit_summary": "Hands-on Python, SQL, statistics, model evaluation, dashboards and customer-facing problem solving align with the candidate's data-science experience.",
-      "eligibility_sponsorship_notes": "Accepts bachelor's or master's students. Internship timing and future sponsorship are not stated and must be confirmed before applying.",
-      "recommended_next_action": "Keep only if the team confirms a summer 2027 schedule and CPT compatibility."
+      "fit_summary": "Covers statistical modeling, machine learning, Python or R, SQL, Tableau or Power BI and stakeholder-facing analysis with no required C++ or Java.",
+      "eligibility_sponsorship_notes": "The reviewed official posting does not state a future-sponsorship exclusion or degree-level restriction; confirm CPT and sponsorship before applying.",
+      "recommended_next_action": "Review as a fresh general data-science lead."
     },
     {
       "number": 7,
-      "company": "Epic Games",
-      "title": "Data Science Intern",
-      "provisional_role_family": "Data Science / Data Analytics Internship",
-      "level": "Student internship",
-      "location": "Cary, NC",
-      "remote_policy": "On-site or team-defined",
-      "official_url": "https://www.epicgames.com/site/en-US/careers/jobs/6202675004?gh_jid=6202675004",
-      "posted_date": "2026-09-28",
-      "priority": "Medium",
-      "resume_route": "Data",
-      "fit_summary": "SQL, statistical modeling, anomaly detection, graph analysis and time-series work fit the candidate's quantitative analytics profile without requiring C++ or Java.",
-      "eligibility_sponsorship_notes": "The posting requires legal work authorization during the internship but does not explicitly exclude future sponsorship; confirm CPT handling before applying.",
-      "recommended_next_action": "Review as an applied trust-and-safety data-science option."
-    },
-    {
-      "number": 8,
-      "company": "AutoZone",
-      "title": "AutoZone 2027 Summer Internship - Data Science",
-      "provisional_role_family": "Data Science / Data Analytics Internship",
-      "level": "Rising junior, senior or graduate internship",
-      "location": "Memphis, TN",
+      "company": "Cook Medical",
+      "title": "Intern, Statistics & Data Science",
+      "provisional_role_family": "Data Science / Statistical Analytics Internship",
+      "level": "Upper-level undergraduate or incoming graduate internship",
+      "location": "Bloomington, IN",
       "remote_policy": "On-site",
-      "official_url": "https://careers.autozone.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs?keyword=AutoZone%202027%20Summer%20Internship%20Data%20Science",
+      "official_url": "https://americas-cookmedical.icims.com/jobs/19412/job?mobile=true&needsRedirect=false",
       "posted_date": "2026-10-05",
       "priority": "Medium",
       "resume_route": "Data",
-      "fit_summary": "Large-dataset analysis, predictive modeling, Python, R, SQL, Tableau and operational decision support align with the candidate's graduate analytics training.",
-      "eligibility_sponsorship_notes": "Graduate students enrolled through summer 2027 are eligible. No explicit future-sponsorship exclusion was found in the reviewed posting; confirm before applying.",
-      "recommended_next_action": "Review as a broad applied data-science backup with relocation assistance."
+      "fit_summary": "Statistics, advanced inference, manufacturing process improvement and data visualization fit the candidate's quantitative training; students entering graduate school are explicitly eligible.",
+      "eligibility_sponsorship_notes": "The official posting does not state a future-sponsorship exclusion; confirm current graduate enrollment interpretation, CPT and sponsorship before applying.",
+      "recommended_next_action": "Review if medical manufacturing and statistical inference are appealing."
+    },
+    {
+      "number": 8,
+      "company": "The Home Depot",
+      "title": "2027 Summer Internship - Data Science & Analytics",
+      "provisional_role_family": "Data Science / Data Analytics Internship",
+      "level": "College student internship",
+      "location": "Atlanta, GA",
+      "remote_policy": "On-site, five days per week",
+      "official_url": "https://careers.homedepot.com/job/23778685/2027-summer-internship-data-science-analytics-atlanta-ga/",
+      "posted_date": "Not stated - verified live 2026-10-09",
+      "priority": "Medium",
+      "resume_route": "Data",
+      "fit_summary": "Uses SQL, BigQuery, Python, Tableau, predictive modeling and business-facing analytics across operations, finance, merchandising and e-commerce.",
+      "eligibility_sponsorship_notes": "The official posting does not state a future-sponsorship exclusion or an undergraduate-only rule; confirm master's eligibility, CPT and future sponsorship before applying.",
+      "recommended_next_action": "Keep as a broad applied analytics backup with housing assistance."
     }
   ],
   "rejected_candidates": [
     {
-      "company": "Freddie Mac",
-      "reason": "Official student-careers policy excludes F-1 students and candidates requiring future sponsorship."
+      "company": "Munich Re",
+      "reason": "Explicitly excludes candidates needing current or future sponsorship, including CPT or OPT."
     },
     {
-      "company": "SeatGeek",
-      "reason": "Requires spring or summer 2028 graduation, which does not match December 2027."
+      "company": "GE HealthCare",
+      "reason": "Official posting states no employment-visa sponsorship now or in the future."
     },
     {
-      "company": "The Cigna Group",
-      "reason": "Posting explicitly requires no current or future sponsorship."
+      "company": "ICF",
+      "reason": "Current data internship postings require U.S. citizenship or permanent work authorization."
     },
     {
-      "company": "The Hartford",
-      "reason": "Posting explicitly requires no current or future sponsorship."
+      "company": "Liberty Mutual",
+      "reason": "Current master's data-science internship requires permanent U.S. work authorization."
+    },
+    {
+      "company": "Red Ventures",
+      "reason": "Posting explicitly excludes visa sponsorship, OPT and STEM OPT."
+    },
+    {
+      "company": "Dow Jones",
+      "reason": "Posting requires candidates not to need employment-visa sponsorship now or in the future."
+    },
+    {
+      "company": "IDeaS",
+      "reason": "Posting requires candidates not to need sponsorship now or in the future."
+    },
+    {
+      "company": "Mastercard",
+      "reason": "Posting explicitly excludes F-1 candidates using CPT or OPT and future sponsorship."
+    },
+    {
+      "company": "Boston Scientific",
+      "reason": "Role is deep-learning focused and explicitly offers no visa sponsorship."
     }
   ],
   "requested_replacement_count": 0,
-  "last_updated_at": "2026-10-08T23:16:00-04:00",
-  "committed_at": "2026-10-08T23:16:00-04:00"
+  "last_updated_at": "2026-10-09T16:10:53-04:00",
+  "committed_at": null
 }
