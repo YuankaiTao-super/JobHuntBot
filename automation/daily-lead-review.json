@@ -1,7 +1,7 @@
 {
   "date": "2026-10-10",
   "timezone": "America/New_York",
-  "status": "pending_user",
+  "status": "confirmed_committed",
   "candidates": [
     {
       "number": 1,
@@ -37,19 +37,19 @@
     },
     {
       "number": 3,
-      "company": "Lennox International",
-      "title": "AI & Analytics 2027 Intern",
-      "provisional_role_family": "Business / Data Analytics Internship",
-      "level": "Bachelor's or master's internship",
-      "location": "Richardson, TX",
+      "company": "Jain Global",
+      "title": "Quant Research Intern, Systematic Trading",
+      "provisional_role_family": "Quantitative Research / Trading Internship",
+      "level": "Master's or PhD internship",
+      "location": "New York, NY",
       "remote_policy": "On-site",
-      "official_url": "https://uscareers-lennox.icims.com/jobs/54804/ai-%26-analytics-2027-intern/job",
-      "posted_date": "2026-10-10",
+      "official_url": "https://jainglobal.wd5.myworkdayjobs.com/ExternalSite/job/New-York-New-York/Quant-Research-Intern--Systematic-Trading_JR100603-1",
+      "posted_date": "2026-10-05",
       "priority": "High",
-      "resume_route": "BA",
-      "fit_summary": "Combines Python, SQL, Power BI or Tableau, KPI measurement, business analysis and AI product work; Industrial Engineering and Analytics are accepted fields.",
-      "eligibility_sponsorship_notes": "The official posting contains no explicit current or future sponsorship exclusion. Confirm CPT and future sponsorship before applying.",
-      "recommended_next_action": "Review early as a fresh analytics role with both technical and stakeholder-facing work."
+      "resume_route": "Quant",
+      "fit_summary": "Strong match for a master's student in Operations Research and quantitative finance: Python, statistical modeling, financial datasets, forecasting, backtesting and systematic trading research.",
+      "eligibility_sponsorship_notes": "The reviewed official posting does not state a current or future sponsorship exclusion. Confirm CPT and future sponsorship before applying.",
+      "recommended_next_action": "Prioritize as the strongest quantitative-research role in the revised shortlist."
     },
     {
       "number": 4,
@@ -164,9 +164,13 @@
     {
       "company": "LexisNexis Risk Solutions",
       "reason": "Fresh Data Science Intern posting is undergraduate-only and requires May 2028 graduation."
+    },
+    {
+      "company": "Lennox International",
+      "reason": "Removed from the shortlist at the user's request and replaced by Jain Global."
     }
   ],
   "requested_replacement_count": 0,
-  "last_updated_at": "2026-10-10T09:47:31-04:00",
-  "committed_at": null
+  "last_updated_at": "2026-10-10T09:56:53-04:00",
+  "committed_at": "2026-10-10T09:56:53-04:00"
 }
