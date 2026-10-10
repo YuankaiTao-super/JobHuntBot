@@ -15,10 +15,10 @@ references/
   application-playbook.md       Browser/ATS handling playbook (forms, uploads, CAPTCHA, etc.)
   safety-and-boundaries.md      Privacy, consent, and what should never be automated
 templates/
-  candidate_profile.template.json    Your facts: identity, contact, work authorization, targets
+  candidate_profile.template.json    Basic facts: identity, resume data, skills, work authorization
   application_rules.template.md      What to prioritize, consider, skip, or hand off to you
   resume_routing.template.md        Which resume/version to use for which role family
-  answer_bank.template.md           Reusable truthful answers for common application questions
+  answer_bank.template.md           Reusable answers and preferences for application questions
   experience_bank.template.md       Which internships/projects to feature per role family and JD
   dashboard-template/               Empty CSV dashboard + field reference (see its README.md)
 dashboard/                       A ready-to-run local dashboard (same CSV schema as the template)
@@ -119,10 +119,10 @@ references/
   application-playbook.md       浏览器/ATS 操作手册(表单、上传、验证码等)
   safety-and-boundaries.md      隐私、知情同意、以及绝不应自动化的事项
 templates/
-  candidate_profile.template.json    你的基本信息:身份、联系方式、工作资格、目标岗位
+  candidate_profile.template.json    你的基础事实:身份、履历、技能与工作资格
   application_rules.template.md      哪些优先投、需要人工复核、直接跳过或转交给你决定
   resume_routing.template.md         不同岗位族使用哪个简历版本
-  answer_bank.template.md           常见申请问题的可复用真实回答
+  answer_bank.template.md           申请问题的可复用回答与偏好
   experience_bank.template.md       针对不同岗位族/JD该用哪几段实习或项目经历
   dashboard-template/               空白CSV看板 + 字段说明(见其中的 README.md)
 dashboard/                       开箱即用的本地进度看板(CSV结构与模板一致)

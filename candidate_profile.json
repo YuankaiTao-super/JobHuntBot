@@ -1,4 +1,6 @@
 {
+  "schema_version": 3,
+  "profile_purpose": "Private canonical personal facts and structured resume data; application-question answers belong in answer_bank.md.",
   "candidate": {
     "legal_name": "Yuankai Tao",
     "preferred_name": "Yuankai Tao",
@@ -7,48 +9,198 @@
     "current_location": "1025 Spring St NW, Atlanta, GA 30309, United States",
     "linkedin_url": "https://www.linkedin.com/in/yuankai-tao-211788328/",
     "portfolio_url": "https://yuankaitao-super.github.io/",
-    "github_url": "https://github.com/YuankaiTao-super"
-  },
-  "current_status": {
-    "current_role_or_framing": "M.S. student in Operations Research at Georgia Tech; prior M.S. in Quantitative Finance at UC San Diego",
-    "employment_status_answer": "TBD - do not infer from student status",
-    "available_start_date": "2027-05-17",
-    "notice_period": "TBD"
-  },
-  "application_facts": {
-    "is_at_least_18": true,
-    "relatives_employed_by_applicant_company_or_named_affiliates": false,
-    "criminal_conviction_offense_or_unlawful_conduct_history": false,
-    "confirmed_by_user_on": "2026-10-03",
-    "notes": "Use these confirmed facts for equivalent yes/no questions. If wording materially expands the scope or requests details, follow answer_bank.md and ask rather than inventing information."
-  },
-  "form_answer_guidance": {
-    "question_specific_source": "Use answer_bank.md for confirmed question-specific mappings, exact yes/no answers, dropdown fallbacks, and reusable wording.",
-    "tbd_policy": "TBD means the underlying fact is not confirmed. Do not infer it or replace it from a loosely related answer; use answer_bank.md only when it contains an explicitly confirmed answer to the same question, otherwise ask the user."
+    "github_url": "https://github.com/YuankaiTao-super",
+    "linkedin_login_email": "KevinLetao@outlook.com"
   },
   "education": [
     {
       "institution": "Georgia Institute of Technology",
-      "degree": "M.S. in Operations Research",
+      "degree": "Master of Science",
+      "field_of_study": "Operations Research",
       "start_date": "2026-08",
       "end_date": "2027-12",
-      "gpa": ""
+      "status": "confirmed",
+      "source_note": "Confirmed by user on 2026-09-13; consistent with the I-20 program end date of 2027-12-17."
     },
     {
       "institution": "University of California, San Diego",
-      "degree": "M.S. in Quantitative Finance",
+      "degree": "Master of Science",
+      "field_of_study": "Quantitative Finance",
       "start_date": "2024-09",
       "end_date": "2025-12",
       "gpa": "3.84/4.0"
     },
     {
       "institution": "Zhongnan University of Economics and Law",
-      "degree": "B.S. in Management, Accounting",
+      "degree": "Bachelor of Science",
+      "field_of_study": "Accounting",
       "start_date": "2020-09",
       "end_date": "2024-06",
       "gpa": "3.63/4.0"
     }
   ],
+  "work_experiences": [
+    {
+      "id": "variflight_data_analyst",
+      "company": "VariFlight Technology",
+      "job_title": "Data Analyst Intern",
+      "department": "Data Development Department",
+      "location": "Anhui, China",
+      "start_date": "2025-07",
+      "end_date": "2025-09",
+      "currently_work_here": false,
+      "description_bullets": [
+        "Built Python web-scraping workflows to collect public reports, webpages, and images from the Civil Aviation Administration of China for recurring data analysis.",
+        "Applied OCR and table-extraction tools to transform 600+ unstructured PDF reports and 500+ webpages into standardized, analysis-ready datasets for local LLM training; added repeatable cleaning and quality-control steps.",
+        "Created dashboards for transportation and passenger-turnover metrics, visualizing operational trends and enabling faster interpretation of key aviation indicators."
+      ]
+    },
+    {
+      "id": "guangdong_quant_research",
+      "company": "Guangdong Hedge Fund Investment Management Co., Ltd.",
+      "job_title": "Quantitative Research Intern",
+      "department": "Quantitative Strategy Department",
+      "location": "Hong Kong",
+      "start_date": "2026-05",
+      "end_date": "2026-07",
+      "currently_work_here": false,
+      "description_bullets": [
+        "Developed an end-to-end ML pipeline with 16 trend, momentum, volatility, liquidity, volume, and open-interest features; trained LightGBM, XGBoost, CatBoost, and neural-network models across 1- to 20-day horizons.",
+        "Designed rolling, time-aware validation and retraining workflows; evaluated models with statistical, risk, and transaction-cost metrics to reduce leakage and support reproducible comparison.",
+        "Implemented a monthly rebalanced model in Backtrader that achieved a 1.89 Sharpe ratio, 16.79% annualized return, and 25.51% excess return after transaction costs."
+      ]
+    },
+    {
+      "id": "ey_audit",
+      "company": "Ernst & Young",
+      "job_title": "Audit Intern",
+      "department": "Financial Service Office (FSO)",
+      "location": "Beijing, China",
+      "start_date": "2022-12",
+      "end_date": "2023-02",
+      "currently_work_here": false,
+      "description_bullets": [
+        "Automated the cleaning and consolidation of financial tables from 220+ CSV files, generating standardized audit outputs and improving the consistency of recurring data-review workflows.",
+        "Performed variance analysis on intercompany and investment transactions, investigated anomalies, and validated findings against supporting records."
+      ]
+    },
+    {
+      "id": "haitong_investment_analyst",
+      "company": "Haitong Securities",
+      "job_title": "Investment Analyst Intern",
+      "department": "Investment Banking Department",
+      "location": "Shanghai, China",
+      "start_date": "2024-01",
+      "end_date": "2024-05",
+      "currently_work_here": false,
+      "description_bullets": [
+        "Conducted IPO due diligence using Wind financial terminal; validated client creditworthiness and investigated material fluctuations in sales and procurement data to identify exceptions and potential business risks.",
+        "Benchmarked R&D and other key expenditures across peer companies, summarized variance drivers, and developed preliminary recommendations to support IPO filing priorities and management review."
+      ]
+    }
+  ],
+  "research_experiences": [
+    {
+      "id": "unc_housing_research",
+      "organization": "University of North Carolina at Chapel Hill",
+      "job_title": "Research Assistant",
+      "supervisor": "Professor Franklin Qian",
+      "location": "Chapel Hill, NC, United States",
+      "start_date": "2025-03",
+      "end_date": "2026-01",
+      "currently_work_here": false,
+      "project_title": "The Numbers Game: Signaling Effects of Pricing Formats in Housing Bargaining",
+      "description_bullets": [
+        "Engineered an end-to-end Python and SQL pipeline for a 76-million-observation spatial dataset with 40+ variables on Google Cloud Platform, integrating property and population data from multiple sources.",
+        "Developed parallelized PostGIS workflows with property-specific filters across multiple distance ranges, achieving approximately 50x computational speedup while preserving reproducible analytical logic.",
+        "Built and managed a 964.5M-record, 100GB+ database using PostgreSQL, BigQuery, and DuckDB on GCP and UNC Longleaf HPC; executed complex geospatial and time-window queries for downstream research."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "jane_street_market_prediction",
+      "name": "Kaggle Jane Street Market Prediction Competition",
+      "role": "Competitor",
+      "result": "Silver Medal; 94th of 3,757 teams (Top 2.5%)",
+      "url": "https://github.com/YuankaiTao-super/Kaggle2024-Jane-Street-Real-Time-Market-Data-Forecasting"
+    },
+    {
+      "id": "sec_10k_bert",
+      "name": "Text Analysis and BERT Fine-tuning on SEC 10-K Reports",
+      "role": "Team Lead",
+      "organization": "University of California, San Diego",
+      "url": "https://github.com/YuankaiTao-super/Text-Analysis-and-Bert-Fine-tuning-on-10k-files"
+    },
+    {
+      "id": "fmsbonds_capstone",
+      "name": "UCSD / FMSbonds, Inc. 2025 Capstone Project",
+      "role": "Team Lead",
+      "start_date": "2025-08",
+      "end_date": "2025-12",
+      "url": "https://github.com/YuankaiTao-super/Capstone_FMS_2025"
+    }
+  ],
+  "skills": {
+    "verified_inventory": [
+      "Python",
+      "SQL",
+      "MATLAB",
+      "VBA",
+      "LaTeX",
+      "Git",
+      "Linux",
+      "Excel",
+      "Microsoft Office",
+      "Google Cloud Platform",
+      "Google Compute Engine",
+      "High-Performance Computing",
+      "PostgreSQL",
+      "PostGIS",
+      "BigQuery",
+      "DuckDB",
+      "Bloomberg",
+      "Wind Financial Terminal",
+      "Probability",
+      "Statistics",
+      "Time Series Analysis",
+      "A/B Testing",
+      "Operations Research",
+      "Optimization",
+      "Simulation",
+      "Monte Carlo Simulation",
+      "Stochastic Processes",
+      "Machine Learning",
+      "Regression Analysis",
+      "Risk Management",
+      "Risk Analysis",
+      "VaR",
+      "CVaR",
+      "GARCH",
+      "EWMA",
+      "Derivatives Pricing",
+      "Financial Analysis",
+      "Data Analysis",
+      "Data Engineering",
+      "Data Cleaning",
+      "Data Visualization",
+      "Feature Engineering",
+      "Model Selection",
+      "Backtesting",
+      "Hyperparameter Tuning",
+      "Ensemble Learning",
+      "Dashboarding",
+      "KPI Reporting",
+      "Web Scraping",
+      "OCR",
+      "Table Extraction",
+      "LightGBM",
+      "XGBoost",
+      "CatBoost",
+      "Backtrader",
+      "Numba"
+    ]
+  },
   "work_authorization": {
     "country": "United States",
     "status": "F-1 student",
@@ -56,139 +208,6 @@
     "cpt_eligibility": "Confirmed by user; final authorization remains employer- and date-specific",
     "cpt_current_employer_authorization": "Not applicable until a specific internship offer is selected and CPT is approved for that employer and period",
     "i20_program_end_date": "2027-12-17",
-    "requires_employer_sponsorship_for_cpt_internship": false,
-    "requires_sponsorship_now": false,
-    "requires_sponsorship_in_future": true,
-    "answer_exactly_as": {
-      "sponsorship_for_this_cpt_internship": "No",
-      "sponsorship_now": "No",
-      "sponsorship_now_or_in_future": "Yes",
-      "sponsorship_in_future": "Yes",
-      "unrestricted_work_authorization": "No",
-      "legally_authorized_to_work_in_the_united_states": "Yes"
-    },
-    "notes_for_unclear_forms": "CPT does not require an employer-filed visa petition, but authorization is employer- and date-specific. Ask the user whenever a form combines current authorization, unrestricted authorization, and future sponsorship in unclear wording."
-  },
-  "targets": {
-    "primary_role_families": [
-      "Quantitative Research / Trading Internship",
-      "Risk Analytics / Quantitative Risk Internship"
-    ],
-    "secondary_role_families": [
-      "Data Science / Data Analytics / Data Engineering Internship"
-    ],
-    "roles_to_avoid": [
-      "Deep Learning-focused roles",
-      "Roles that explicitly require C++",
-      "Roles that explicitly require Java",
-      "Roles that explicitly require phd student status"
-    ],
-    "target_industries": [],
-    "industries_to_avoid": [],
-    "target_company_stage": [],
-    "target_locations": [
-      "United States - nationwide",
-      "Hong Kong",
-      "Singapore"
-    ],
-    "form_location_preferences": ["New York, NY", "Chicago, IL"],
-    "form_location_selection_policy": "Select both when multiple choices are allowed; if only one choice is allowed, prefer New York, then Chicago.",
-    "remote_hybrid_onsite_preference": "No preference; remote, hybrid, and onsite are all acceptable",
-    "willing_to_relocate_within_the_united_states": true,
-    "relocation_policy": "Open to locations across the United States; confirm relocation wording if a form asks for a binding commitment"
-  },
-  "compensation": {
-    "base_salary_range": "TBD",
-    "total_compensation_range": "TBD",
-    "form_default_range": {
-      "minimum": 20000,
-      "maximum": 40000,
-      "currency": "USD",
-      "pay_period": "annually"
-    },
-    "answer_strategy": "Use the confirmed USD 20000 to 40000 annual range when the field asks for a general expected salary or compensation range; defer when allowed; ask if the field specifically distinguishes base salary from total compensation and the intended type is unclear.",
-    "notes": "Currency and pay period are confirmed as USD annually. Do not infer whether this generic range means base or total compensation when a form requires that distinction."
-  },
-  "resume_files": [
-    {
-      "role_family": "General technical / quantitative (temporary route pending variants)",
-      "file_path": "my-materials/original_CV/CV_Yuankai_Tao.pdf",
-      "editable_source": "my-materials/original_CV/CV_Yuankai_Tao.tex",
-      "version": "original_CV",
-      "availability": "available",
-      "source_policy": "read_only_do_not_modify_rename_overwrite_or_delete",
-      "use_when": "Read-only reference or copied basis for a new tailored version; never edit files inside my-materials/original_CV"
-    },
-    {
-      "role_family": "Data Science / Data Analytics / Data Engineering Internship",
-      "file_path": "my-materials/Data/CV_Yuankai_Tao_Data.pdf",
-      "editable_source": "my-materials/Data/CV_Yuankai_Tao_Data.tex",
-      "version": "data_base",
-      "availability": "available",
-      "source_policy": "read_only_base_copy_before_tailoring",
-      "use_when": "Secondary route for data science, data analytics, analytics engineering, and Python/SQL-oriented data engineering internships"
-    },
-    {
-      "role_family": "Quantitative Research / Trading Internship",
-      "file_path": "my-materials/Quant/CV_Yuankai_Tao_Quant.pdf",
-      "editable_source": "my-materials/Quant/CV_Yuankai_Tao_Quant.tex",
-      "version": "quant_base",
-      "availability": "available",
-      "source_policy": "read_only_base_copy_before_tailoring",
-      "use_when": "Primary route for quantitative research, quantitative trading, systematic strategy, derivatives, and financial modeling internships"
-    },
-    {
-      "role_family": "Risk Analytics / Quantitative Risk Internship",
-      "file_path": "my-materials/Risk/CV_Yuankai_Tao_Risk.pdf",
-      "editable_source": "my-materials/Risk/CV_Yuankai_Tao_Risk.tex",
-      "version": "risk_base",
-      "availability": "available",
-      "source_policy": "read_only_base_copy_before_tailoring",
-      "use_when": "Primary route for market risk, model risk, credit risk, portfolio risk, risk analytics, and validation internships"
-    },
-    {
-      "role_family": "Business Analytics Internship",
-      "file_path": "my-materials/BA/CV_Yuankai_Tao_BA.pdf",
-      "editable_source": "my-materials/BA/CV_Yuankai_Tao_BA.tex",
-      "version": "ba_base",
-      "availability": "available",
-      "source_policy": "read_only_base_copy_before_tailoring",
-      "use_when": "Specialized secondary route for business analytics, reporting, KPI, dashboard, and Excel/SQL-heavy internships"
-    }
-  ],
-  "voluntary_self_identification": {
-    "strategy": "answer_with_user_confirmed_values",
-    "fill_automatically": true,
-    "gender": "Man / Male",
-    "gender_identity": "Man",
-    "sexual_orientation": "Straight / Heterosexual",
-    "race_ethnicity": "Asian - East Asian",
-    "military_status": "Never served in the military",
-    "veteran_status": "Not a veteran / Not a protected veteran",
-    "disability_status": "No disability",
-    "lgbtq_community": "No",
-    "confirmed_by_user_on": "2026-09-30",
-    "notes": "Use the equivalent dropdown values defined in answer_bank.md. These values are private and only for voluntary self-identification fields; do not add them to resumes or public materials. Ask if a question materially expands beyond these confirmed meanings."
-  },
-  "source_notes": [
-    "Profile initialized from my-materials/original_CV/CV_Yuankai_Tao.tex on 2026-08-30.",
-    "The user confirmed yuankaitao0909@gmail.com as the application email and Yuankai Tao as the legal name on 2026-08-30.",
-    "The user confirmed CPT eligibility and an I-20 program end date of 2027-12-17 on 2026-09-12.",
-    "The user confirmed Georgia Tech expected graduation as 2027-12 on 2026-09-13; this aligns with the I-20 program end date of 2027-12-17.",
-    "The user explicitly configured automatic voluntary self-identification answers on 2026-09-30: man/male, straight/heterosexual, Asian/East Asian, never served/not a veteran, no disability, and not part of the LGBTQ+ community.",
-    "The user requested synchronization from answer_bank.md on 2026-10-03: available start date 2027-05-17, age 18 or older, no relatives employed by the applicant company or named affiliates, no criminal or unlawful-conduct history, and a form default compensation range of USD 20000 to 40000 annually.",
-    "No transcript or separate project-notes file was present in original_CV at initialization."
-  ],
-  "never_guess": [
-    "work authorization",
-    "sponsorship",
-    "employment status",
-    "available start date beyond the confirmed 2027-05-17 default",
-    "salary expectations beyond the confirmed USD 20000 to 40000 annual form default, including any required base-versus-total distinction",
-    "relocation commitments beyond the confirmed willingness to relocate within the United States",
-    "degree dates not supported by source materials",
-    "employment dates not supported by source materials",
-    "voluntary self-identification beyond the exact values explicitly configured in voluntary_self_identification",
-    "background check or non-compete questions"
-  ]
+    "confirmed_by_user_on": "2026-09-12"
+  }
 }

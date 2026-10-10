@@ -67,7 +67,7 @@ Default skip when:
 Stop and ask the user when:
 
 - Legal, identity, work authorization, sponsorship, or compensation wording is unclear.
-- A posting's sponsorship, authorization, relocation, or compensation requirement conflicts with a `TBD` profile field.
+- A posting's sponsorship, authorization, relocation, or compensation requirement conflicts with a confirmed answer or remains unconfirmed in `answer_bank.md`.
 - CAPTCHA, Cloudflare, login, 2FA, or anti-bot appears.
 - Resume upload cannot be verified.
 - Portfolio, video, writing sample, references, or custom materials are required.
@@ -111,13 +111,7 @@ Custom policy:
 
 ## Account Policy
 
-Use these accounts only:
-
-- LinkedIn:
-- Email:
-- Job boards:
-
-If a different account appears, stop and ask.
+Use only the account identifiers configured in `candidate_profile.json`. If a different account appears, stop and ask.
 
 Optional ATS account-creation policy:
 

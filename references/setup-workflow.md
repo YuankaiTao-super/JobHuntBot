@@ -76,30 +76,26 @@ Do not recommend `Limited low-risk apply` when sponsorship, work authorization, 
 
 Use these concepts differently:
 
-- Candidate Profile: stable facts about the person. It answers "Who is this candidate, what are their constraints, and what must never be guessed?"
+- Candidate Profile: stable personal and resume facts. It answers "Who is this candidate, and what verified education, experience, project, skill, and authorization facts belong to them?"
 - Application Rules: decision policy. It answers "Which jobs should be prioritized, considered, skipped, or handed off?"
 - Resume Strategy: materials policy. It answers "Which resume should be used, and when should a resume be tailored?"
-- Answer Bank: reusable form answers. It answers "How should the agent respond to repeated application questions using user-provided wording or agent-drafted wording the user has confirmed once?"
+- Answer Bank: reusable form answers and application preferences. It answers "How should the agent respond to repeated application questions using answers or wording the user has confirmed?"
 - Dashboard: operating memory. It answers "What happened, what is the current state, and what needs action?"
 
-Example: compensation belongs in Candidate Profile as the user's real range and constraints. Answer Bank stores the exact phrasing to use on forms, such as "I am flexible depending on scope and total package; my target base range is X-Y."
+Example: Candidate Profile stores the candidate's factual F-1/CPT status. Answer Bank stores sponsorship answers, compensation expectations, availability, location preferences, voluntary self-ID responses, and the exact wording or dropdown mappings used on forms.
 
 ## 1. Candidate Profile
 
-The candidate profile is the source of truth. It is more than a resume.
+The candidate profile is the compact source of truth for personal and resume facts. Do not turn it into a second answer bank.
 
 Collect:
 
 - Basic identity: name, email, phone, LinkedIn, portfolio, current location.
-- Current framing: current role, target transition, availability, start date.
-- Work authorization: current authorization, sponsorship needs, restrictions, and expiration details if the user wants them stored.
-- Target roles: primary, secondary, and avoid lists.
-- Target companies: industries, company stages, geographies, and dealbreakers.
-- Location preferences: remote, hybrid, onsite, relocation, commute radius.
-- Compensation: base range, total compensation range, answer style, and when to defer.
-- Resume files: role family, file path, version, and when to use each file.
-- Voluntary self-ID preferences: only if the user explicitly wants these stored.
-- Non-guessable facts: legal status, employment dates, degree dates, sponsorship, salary, relocation, non-compete, references, background checks.
+- Education, work experience, research experience, projects, and verified skills.
+- Factual work-authorization status, restrictions, and relevant expiration or program-end dates.
+- Account identifiers and public profile links needed for form entry.
+
+Store target roles and screening policy in Application Rules, resume paths and selection logic in Resume Strategy, and all question-specific responses or preferences in Answer Bank. This includes sponsorship answers, compensation, availability, location/relocation preferences, background defaults, offer deadlines, and voluntary self-ID.
 
 If a high-impact fact is missing, ask before using it.
 
@@ -233,7 +229,7 @@ Create truthful reusable answers for common questions:
 
 If the answer depends on the job, write a reusable pattern rather than a fixed answer.
 
-Answer Bank is not the source of personal truth. Candidate Profile stores the facts; Answer Bank stores reusable wording.
+Candidate Profile remains the source for biographical and resume facts. Answer Bank owns reusable application answers, preferences, wording, question patterns, and dropdown mappings.
 
 Keep this lightweight:
 
@@ -245,10 +241,10 @@ Keep this lightweight:
 
 Examples:
 
-- Candidate Profile stores whether the user needs sponsorship. Answer Bank stores the wording to use for common sponsorship forms.
-- Candidate Profile stores target compensation. Answer Bank stores how to phrase compensation when the field is required.
-- Candidate Profile stores location preferences. Answer Bank stores relocation, remote, hybrid, and onsite wording.
-- Candidate Profile stores portfolio links. Answer Bank stores which link to use for which question pattern.
+- Candidate Profile stores factual F-1/CPT status and authorization dates. Answer Bank stores the confirmed Yes/No responses for common authorization and sponsorship questions.
+- Answer Bank stores target compensation and how to phrase it when the field is required.
+- Answer Bank stores location, relocation, remote/hybrid/onsite, availability, and start-date responses.
+- Candidate Profile stores portfolio links. Answer Bank references those fields and controls which link to use for each question pattern.
 
 For "Why this company?" or "Why this role?", store reusable patterns and let the agent customize them with public job/company context. Do not reuse a generic answer if it would look careless.
 
@@ -258,7 +254,7 @@ Voluntary self-ID strategy:
 
 - During onboarding, ask only for the user's strategy, not detailed identity answers.
 - Default to `Prefer not to say`, decline, or leave blank when available.
-- If the user wants exact answers used, store them only in their private candidate profile.
+- If the user wants exact answers used, store them only in their private answer bank.
 - If the user does not choose a strategy, explicitly tell them JobHuntBot will default to non-disclosure and will not guess identity information.
 
 Custom answer policy:
@@ -270,8 +266,8 @@ Custom answer policy:
 
 Default application question behavior:
 
-- Fill basic profile fields automatically when the candidate profile has clear values: name, email, phone, LinkedIn, location, resume upload, and start date.
-- Fill work authorization, sponsorship, and compensation only when the form wording matches the candidate profile or answer bank closely.
+- Fill basic factual profile fields automatically when the candidate profile has clear values: name, email, phone, LinkedIn, location, education, experience, skills, and resume upload.
+- Fill work-authorization questions, sponsorship, compensation, availability, and other derived answers only when the form wording matches the answer bank closely.
 - If wording differs, ask one focused question instead of stopping the whole page.
 - For voluntary self-ID, default to leaving blank, "Prefer not to say", or decline/skip when the form allows it, unless the user configured exact answers.
 - For custom questions, use an answer-bank pattern if one exists. If not, draft one answer and ask the user to confirm it.

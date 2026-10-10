@@ -12,7 +12,7 @@
 
 ## Prioritize
 
-- Primary role families: Quantitative Research / Trading; Risk Analytics / Quantitative Risk.
+- Primary role families: Quantitative Trading / Research; Risk Analytics / Quantitative Risk.
 - Secondary role families: Data Science / Data Analytics / Data Engineering; Operations Research / Optimization.
 - Level and employment type: internships only; verify the posting's student and graduation-date eligibility.
 - Freshness: jobs posted within the last 45 calendar days.
@@ -58,25 +58,28 @@
 - A custom answer would add a new claim or unsupported metric.
 - Always stop before final submission and show the company, role, resume, selected experiences, and high-impact answers.
 
+## Never Guess
+
+- Legal identity, current employment status, notice period, or unconfirmed availability.
+- Work authorization or sponsorship beyond the exact facts and question mappings already recorded.
+- Compensation outside the confirmed answer-bank range or any required base-versus-total distinction not already confirmed.
+- Binding relocation commitments, unsupported education or employment dates, non-compete matters, references, or background details.
+- Voluntary self-identification beyond the exact confirmed answer-bank values and their clear equivalents.
+
 ## Default Form Behavior
 
 - Prefer `Apply Manually`; do not choose resume parsing or `Autofill with Resume` when a manual path exists.
-- Upload the tailored PDF only as an attachment. Populate employment, education, projects, skills, and websites from `ats_profile.json`, not from text extracted from the PDF.
-- If parsing is unavoidable, reconcile every parsed field against `ats_profile.json` before saving: correct missing company/title/location/date fields, remove departments from titles, remove contact details and URLs from descriptions, and keep projects separate from work experience.
+- Upload the tailored PDF only as an attachment. Populate identity, employment, education, projects, skills, and websites from `candidate_profile.json`, not from text extracted from the PDF.
+- If parsing is unavoidable, reconcile every parsed field against `candidate_profile.json` before saving: correct missing company/title/location/date fields, remove departments from titles, remove contact details and URLs from descriptions, and keep projects separate from work experience.
 - Treat source conflicts as `Needs user`; never resolve conflicting dates or titles by guessing.
-- Fill voluntary self-identification automatically from the user-confirmed private values in `candidate_profile.json` and the option mappings in `answer_bank.md`: Man/Male; Straight/Heterosexual; Asian/East Asian; never served/not a veteran; no disability; and No for LGBTQ+ community membership.
-- Choose the closest semantically equivalent dropdown value, not merely the first option. Ask the user only when the form combines categories unusually, materially expands the question beyond the confirmed values, or provides no clear equivalent.
-- Draft the first occurrence of a custom answer and obtain confirmation before reuse.
+- Use `answer_bank.md` as the single source for reusable form answers and confirmed dropdown fallbacks. Use an answer only when the form question has the same meaning and scope as the recorded pattern.
+- Choose the closest semantically equivalent dropdown value, not merely the first option. Ask the user when the wording combines categories, materially broadens the recorded question, conflicts with verified data, or provides no clear equivalent.
+- Draft an unlisted custom answer from verified sources and obtain confirmation before recording it for reuse.
 - Count an application as Submitted only after explicit confirmation evidence.
-- For work-location preference fields, select New York and Chicago when available; if only one selection is permitted, choose New York first, then Chicago.
-- For `Why this company?`, use the company's official homepage and other official pages to write and directly fill 3-4 concise sentences connecting verified company facts with the candidate's verified strengths and selected experiences. Include the answer in the pre-submit preview; do not pause for separate approval.
-- For the undergraduate institution, search for `Zhongnan University of Economics and Law`; if it is absent from a required school selector, choose `Other` and enter the true school name in any follow-up text field.
-- Reuse only verified basic fields from `candidate_profile.json`.
-- For `Have you previously worked for / been employed by this company?`, default to `No` without asking again, using the confirmed pattern in `answer_bank.md`. First compare the company and any explicitly named affiliate with the verified work history in `ats_profile.json`; if they match or the wording broadens the definition in a potentially conflicting way, ask the user instead of entering a false answer.
-- For `How did you hear about this opportunity?` and equivalent discovery-source questions, default to `Indeed` without asking again. Select `Indeed` when available; otherwise use the closest truthful job-board category and enter `Indeed` in any detail field.
-- For education field-of-study fields, enter the verified value from `ats_profile.json` whenever the field accepts text or the exact dropdown option exists. Only when a constrained dropdown lacks the exact value, use the confirmed mapping `Operations Research` -> `Statistics` and `Quantitative Finance` -> `Finance`. Do not use a fallback merely because it is easier to find.
-- After using a field-of-study fallback, keep the underlying education record unchanged and include the substitution in the pre-submit summary. If neither the exact value nor its configured fallback exists, ask the user.
-- Fill ATS `Skills`, `Add Skills`, `Type to Add Skills`, and equivalent tag fields automatically from `ats_profile.json.skills`. Rank verified skills that match required JD terms first, then preferred JD terms, then the routed role-family priority list; never add a JD keyword that is absent from the verified inventory and aliases.
+- Reuse candidate facts and structured resume/application data only from `candidate_profile.json`; use `answer_bank.md` for confirmed response wording and fallbacks.
+- For `Why this company?`, follow the research and drafting procedure in `answer_bank.md`, use official company sources, and include the completed text in the pre-submit preview.
+- When a configured education fallback is used, leave the underlying education records unchanged and disclose the substitution in the pre-submit summary.
+- Fill ATS `Skills`, `Add Skills`, `Type to Add Skills`, and equivalent tag fields automatically from `candidate_profile.json.skills.verified_inventory`; use only the aliases recorded in `answer_bank.md`. Rank verified skills that match required JD terms first, then preferred JD terms, then the routed role-family priority list in `resume_routing.md`; never add a JD keyword that is absent from the verified inventory and mappings.
 - Use the ATS field's stated limit; when no limit is visible, add at most 15 skills. Avoid duplicates. For a controlled suggestion list, select the real offered option and try configured aliases when needed; skip the skill if no verified equivalent is offered. For a true free-text tag field, enter the canonical verified name.
 - Verify that every skill appears as a committed tag rather than unsubmitted text, and include the selected skill list in the pre-submit summary.
 
@@ -95,18 +98,13 @@
 
 - Employment type: internship only.
 - Target geography: United States nationwide; no remote/hybrid/onsite preference.
-- Future sponsorship: required.
-- Current work authorization: F-1 student; eligible to apply for CPT for a qualifying internship, with employer- and date-specific approval required before work begins.
-- CPT internship sponsorship: no employer-filed visa petition required.
-- I-20 program end date: 2027-12-17.
+- Sponsorship compatibility: screen each posting against the current work-authorization and sponsorship facts in `answer_bank.md`; skip explicit conflicts and hand off ambiguous eligibility language.
 - Industries: no exclusions currently.
 - Sources: LinkedIn, Handshake, Indeed, and official company career sites.
 
 ## Account Policy
 
-- LinkedIn: `KevinLetao@outlook.com`.
-- Email: `yuankaitao0909@gmail.com`.
-- Job boards: LinkedIn, Handshake, Indeed, and official company career sites.
+- Use only the configured account identifiers in `candidate_profile.json`.
 - If a different account appears, stop and ask.
 - When an ATS requires an account, first try the configured email and determine whether an account already exists without guessing credentials.
 - If no account exists, open the ATS account-creation flow and fill verified non-secret fields automatically.
@@ -116,10 +114,11 @@
 - Stop immediately before the final `Create Account` / registration action and obtain action-time confirmation. Account creation is not consent to submit the job application; final application submission requires a separate confirmation.
 - Hand off email verification codes, 2FA, CAPTCHA, Cloudflare, and other identity or anti-bot checks unless an explicitly authorized safe verification integration is available.
 
-## Work Authorization Answer Routing
+## Answer Ownership and Routing
 
-- Sponsorship for this CPT internship / sponsorship now: `No`.
-- Sponsorship now or in the future / sponsorship in the future: `Yes`.
-- Unrestricted authorization to work for any U.S. employer: `No`.
-- General legal-authorization question: use `Yes` only when it asks whether authorization can be obtained by the start date; hand off if it asks whether employer-specific CPT is already active today.
-- Never describe CPT eligibility as an already approved authorization for a company before the employer and dates appear on the updated I-20.
+- `answer_bank.md` owns reusable question patterns, concrete answers, option mappings, explanations, and form-specific fallbacks.
+- `candidate_profile.json` owns stable candidate facts and structured identity, education, experience, project, skill, and website data.
+- `application_rules.md` owns screening, routing, safety, verification, escalation, and submission-control rules. Do not copy concrete reusable answers into this file.
+- Before reusing an answer, match the question's meaning, timeframe, employer scope, and requested level of detail to the corresponding `answer_bank.md` entry.
+- If sources conflict or the question is broader than a confirmed pattern, stop and ask rather than choosing the most convenient answer.
+- When the user confirms a new or changed reusable answer, update `answer_bank.md`; update this file only if the operating rule itself changes.

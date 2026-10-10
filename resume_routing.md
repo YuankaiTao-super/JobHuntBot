@@ -34,6 +34,14 @@
 | Secondary | Business / Data Analytics | BA | Business Analyst, Data Analyst, BI/Reporting, KPI, dashboard, Excel/SQL-heavy analytics | Software engineering or research-heavy roles |
 | Secondary | Operations Research / Optimization | Quant by default; Data when pipeline/analytics-heavy | Operations Research Intern, Optimization Scientist, Decision Scientist, Supply Chain Analytics, simulation, stochastic modeling | Senior operations management; required C++ or Java |
 
+## Skill Priority by Role Family
+
+- Quantitative Research / Trading: Python, SQL, Probability, Statistics, Time Series Analysis, Optimization, Monte Carlo Simulation, Stochastic Processes, Machine Learning, Backtesting, Derivatives Pricing, Risk Management, MATLAB, Git, Linux.
+- Risk Analytics / Quantitative Risk: Python, SQL, Risk Management, VaR, CVaR, GARCH, EWMA, Time Series Analysis, Monte Carlo Simulation, Regression Analysis, Statistics, Data Analysis, Excel, MATLAB, Machine Learning.
+- Data Science / Data Engineering: Python, SQL, Data Engineering, Data Analysis, Machine Learning, PostgreSQL, BigQuery, DuckDB, Google Cloud Platform, Data Cleaning, Feature Engineering, Data Visualization, Git, Linux, Web Scraping.
+- Operations Research / Optimization: Python, SQL, Operations Research, Optimization, Simulation, Stochastic Processes, Statistics, Probability, Monte Carlo Simulation, Data Analysis, MATLAB, Machine Learning, Git, Linux, Google Cloud Platform.
+- Business / Data Analytics: SQL, Excel, Python, Data Analysis, Data Visualization, Dashboarding, KPI Reporting, VBA, Microsoft Office, PostgreSQL, BigQuery, Google Cloud Platform, Git, Risk Analysis, Financial Analysis.
+
 ## Tie-Break Rules
 
 1. Use Risk rather than Quant when the JD centers on controls, exposure, VaR/CVaR, stress testing, validation, credit, or regulatory risk.

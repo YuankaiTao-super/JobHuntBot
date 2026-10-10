@@ -15,9 +15,9 @@ Use this reference for browser-based job applications, LinkedIn Easy Apply, Simp
 
 ## Form Answer Defaults
 
-- Basic fields with clear profile values can be filled automatically: name, email, phone, LinkedIn, location, resume upload, and start date.
-- Populate structured employment, education, project, skill, and website fields from `ats_profile.json`. Do not derive them live from PDF reading order.
-- Work authorization, sponsorship, and compensation can be filled only when wording matches the profile or answer bank closely.
+- Basic factual fields with clear profile values can be filled automatically: name, email, phone, LinkedIn, location, and resume upload. Use `answer_bank.md` for start date and other question-specific answers.
+- Populate identity, contact, employment, education, project, skill, and website fields from `candidate_profile.json`. Do not derive them live from PDF reading order.
+- Read underlying work-authorization facts from `candidate_profile.json`; fill work-authorization questions, sponsorship, compensation, availability, and other derived answers only when the wording matches `answer_bank.md` closely.
 - Voluntary self-ID defaults to blank, "Prefer not to say", or decline/skip when available unless the user configured exact answers.
 - Custom questions should use answer-bank patterns when available. If no pattern exists, draft the specific answer and ask the user to confirm it.
 - Final submit always requires user approval. Show a concise summary before the final click.
@@ -49,7 +49,7 @@ Playwright is an implementation detail, not the user-facing concept. Describe it
 ## Manual ATS Entry Contract
 
 1. Choose `Apply Manually` whenever the ATS offers it.
-2. Fill identity/contact fields from `candidate_profile.json` and structured resume fields from `ats_profile.json`.
+2. Fill identity/contact and structured resume fields from `candidate_profile.json`.
 3. Upload the routed PDF only in the attachment section and verify the displayed filename.
 4. Keep `work_experiences`, `research_experiences`, `projects`, `education`, `skills`, and `websites` in their matching ATS sections. Never convert a project into employment merely because an ATS lacks a project section.
 5. Departments belong in a department field or role description, never in company or job title. URLs belong only in website/social fields.
@@ -58,7 +58,7 @@ Playwright is an implementation detail, not the user-facing concept. Describe it
 
 ### ATS Skills and Tag Fields
 
-Use the structured `skills` object in `ats_profile.json`; do not extract a new skill inventory from the PDF or copy every keyword from the JD.
+Use `candidate_profile.json.skills.verified_inventory` as the skill source and `answer_bank.md` for ATS option aliases; do not extract a new skill inventory from the PDF or copy every keyword from the JD.
 
 1. Identify the routed role family and its priority list.
 2. Build the candidate list from verified inventory only: JD required matches first, JD preferred matches second, then remaining role-family priorities.
@@ -93,9 +93,9 @@ If the same field repeatedly fails, record a blocker instead of burning time.
 Education field-of-study dropdowns:
 
 1. For `Zhongnan University of Economics and Law`, choose `Other` only when the exact school is absent from a required selector, then enter the true institution name in any follow-up text field.
-2. Read the verified major from `ats_profile.json` and search for that exact option first.
+2. Read the verified major from `candidate_profile.json` and search for that exact option first.
 3. If the field accepts free text, enter the verified major and do not use a fallback.
-4. If a required dropdown does not contain the verified major, check `field_of_study_form_fallbacks` in `ats_profile.json` and select only the mapped value. The confirmed mappings are `Operations Research` -> `Statistics` and `Quantitative Finance` -> `Financial Mathematics` and `Finance`.
+4. If a required dropdown does not contain the verified major, use only the confirmed mapping in `answer_bank.md`: `Operations Research` -> `Statistics` and `Quantitative Finance` -> `Finance`.
 5. Do not edit the canonical education record to match the dropdown. Record the substituted display value for the pre-submit summary.
 6. If no exact or configured fallback option is available, stop and ask the user rather than improvising another major.
 

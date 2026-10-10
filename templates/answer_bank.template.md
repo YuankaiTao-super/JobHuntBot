@@ -2,7 +2,7 @@
 
 Use truthful reusable answers. The user can provide them directly, or the agent can draft them from Candidate Profile and ask the user to confirm the first version.
 
-Candidate Profile stores facts. Answer Bank stores reusable wording for repeated form questions.
+Candidate Profile stores basic personal and facts. Answer Bank stores question-specific answers, application preferences, reusable wording, and dropdown mappings.
 
 Do not make onboarding heavy:
 
@@ -29,12 +29,10 @@ Default handling:
 
 Examples:
 
-- Candidate Profile: actual work authorization status.
-- Answer Bank: exact sentence to use when a form asks about sponsorship.
-- Candidate Profile: compensation range.
-- Answer Bank: exact wording for required salary fields.
-- Candidate Profile: target locations.
-- Answer Bank: relocation and remote/hybrid/onsite wording.
+- Candidate Profile: factual work-authorization status and dates.
+- Answer Bank: confirmed answers for authorization and sponsorship questions.
+- Answer Bank: compensation range and wording for required salary fields.
+- Answer Bank: target locations plus relocation and remote/hybrid/onsite wording.
 
 ## Work Authorization
 
@@ -81,6 +79,12 @@ Reusable pattern:
 Default links:
 
 When to ask:
+
+## Skills Field Mappings
+
+Canonical inventory source: `candidate_profile.json.skills.verified_inventory`
+
+Confirmed ATS aliases:
 
 ## Voluntary Self-ID
 

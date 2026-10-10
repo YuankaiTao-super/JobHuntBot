@@ -36,7 +36,6 @@ Read `references/setup-workflow.md` when:
 Use the templates in `templates/` to create user-owned files:
 
 - `candidate_profile.template.json`
-- `ats_profile.template.json`
 - `application_rules.template.md`
 - `resume_routing.template.md`
 - `answer_bank.template.md`
@@ -93,7 +92,7 @@ Never fabricate experience, credentials, degrees, employers, dates, work authori
 
 Read `references/application-playbook.md` before operating browser-based applications, LinkedIn Easy Apply, Simplify, Greenhouse, Lever, Ashby, Workday, or other ATS flows.
 
-Default to `Apply Manually` or the equivalent non-parsing path. Use the selected PDF only as the recruiter-facing attachment and populate ATS fields from `ats_profile.json`, `candidate_profile.json`, `resume_routing.md`, `experience_bank.md` (for relevant-experience/self-evaluation fields, using the combo picked in step 5), and `answer_bank.md`. Never treat PDF parsing as authoritative. If an ATS forces parsing, reconcile every parsed field against the structured sources before continuing: overwrite incorrect values, remove contact details or URLs from descriptions, keep projects out of work experience, and stop on conflicting source facts. Stop and ask the user (don't guess) for anything on the `never_guess` list or anything requiring a subjective call.
+Default to `Apply Manually` or the equivalent non-parsing path. Use the selected PDF only as the recruiter-facing attachment and populate ATS fields from `candidate_profile.json`, `resume_routing.md`, `experience_bank.md` (for relevant-experience/self-evaluation fields, using the combo picked in step 5), and `answer_bank.md`. Never treat PDF parsing as authoritative. If an ATS forces parsing, reconcile every parsed field against these structured sources before continuing: overwrite incorrect values, remove contact details or URLs from descriptions, keep projects out of work experience, and stop on conflicting source facts. Stop and ask the user (don't guess) for anything protected by the `Never Guess` section of `application_rules.md` or anything requiring a subjective call.
 
 Stop or hand off for CAPTCHA, Cloudflare, anti-bot checks, login or 2FA, unclear legal/identity questions, missing files, payment prompts, permission prompts, or anything that would require bypassing a site control.
 
@@ -115,7 +114,7 @@ Count only confirmed submissions. Saved jobs, trackers, autofill badges, or "qui
 
 For a first trial or demo run, default to lead finding only: find, screen, classify, and update the dashboard without opening real application flows or submitting anything. In lead-finding-only runs, update `job_pool`, `daily_dashboard`, `blocker_queue`, and `automation_rules` as needed; leave `application_log` empty because no application attempt occurred.
 
-For a real submission, update the same dashboard files (`job_pool` status, `application_log` with the resume version/evidence/answers used, `follow_up` if a next step is already known, `daily_dashboard` summary) *and* the candidate's own profile: if filling the form surfaced a fact that isn't already in `candidate_profile.json` (a new internship detail, an updated exam/grade result, a preference the user stated on the spot, anything), write it back into the profile before moving on — don't let it live only in the one application you just filed. Same discipline as everywhere else in this skill: record what you've confirmed, don't invent what you haven't.
+For a real submission, update the same dashboard files (`job_pool` status, `application_log` with the resume version/evidence/answers used, `follow_up` if a next step is already known, `daily_dashboard` summary) and the appropriate source file. Write newly confirmed biographical or resume facts to `candidate_profile.json`; write reusable form answers, preferences, and question-specific mappings to `answer_bank.md`; write operating-policy changes to `application_rules.md`. Do not let confirmed information live only in one application record, and do not invent what has not been confirmed.
 
 When recording a submission in `application_log`, also capture the full job description text (responsibilities and requirements) from the official posting into the `job_description` field, copied verbatim from the source — not summarized or paraphrased. This is what makes later interview prep possible without having to re-find a posting that may since have been taken down.
 
