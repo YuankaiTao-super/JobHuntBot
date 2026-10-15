@@ -1,163 +1,171 @@
 {
-  "date": "2026-10-14",
+  "date": "2026-10-15",
   "timezone": "America/New_York",
   "status": "pending_user",
   "candidates": [
     {
       "number": 1,
-      "company": "Navy Federal Credit Union",
-      "title": "Summer Associate Internship (Data Scientist)",
-      "provisional_role_family": "Data Science / Credit Risk Analytics Internship",
-      "level": "Bachelor's or higher student internship",
-      "location": "Vienna, VA",
-      "remote_policy": "Hybrid",
-      "official_url": "https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/32337",
-      "posted_date": "2026-09-09",
+      "company": "Capstone Investment Advisors",
+      "title": "Summer 2027 Risk Tech Internship",
+      "provisional_role_family": "Quantitative Risk / Risk Technology Internship",
+      "level": "Bachelor's or master's student internship",
+      "location": "New York, NY",
+      "remote_policy": "Office-based; confirm exact New York schedule",
+      "official_url": "https://job-boards.greenhouse.io/capstoneinvestmentadvisors/jobs/8867730002",
+      "posted_date": "Verified open 2026-10-15; exact posting date not stated",
       "priority": "High",
-      "resume_route": "Data",
-      "fit_summary": "Strong fit for Python, SQL, statistical modeling, model building, dashboards and credit-risk analytics; the program accepts students graduating December 2027 or later.",
-      "eligibility_sponsorship_notes": "The reviewed official posting does not state a current or future sponsorship exclusion. Confirm CPT acceptance and future sponsorship before applying.",
-      "recommended_next_action": "Prioritize as the strongest data-science and financial-risk option in today's list."
+      "resume_route": "Risk",
+      "fit_summary": "Strong match for Python, quantitative risk analytics, scenario analysis, PnL decomposition, exposure monitoring and financial-markets knowledge; Java or C is listed as an alternative rather than a mandatory requirement.",
+      "eligibility_sponsorship_notes": "The reviewed official posting does not state a current or future sponsorship exclusion. Confirm CPT acceptance, future sponsorship and New York work schedule before applying.",
+      "recommended_next_action": "Prioritize as today's strongest quantitative-risk opportunity."
     },
     {
       "number": 2,
-      "company": "Navy Federal Credit Union",
-      "title": "Summer Associate Internship (Business Intelligence Analyst)",
-      "provisional_role_family": "Business Intelligence / Credit Risk Analytics Internship",
-      "level": "Bachelor's or higher student internship",
-      "location": "Vienna, VA; Pensacola, FL; and other listed campuses",
-      "remote_policy": "Hybrid",
-      "official_url": "https://jobs.navyfederal.org/hcmUI/CandidateExperience/en/sites/nfcu/job/32351",
-      "posted_date": "2026-09-09",
-      "priority": "High",
+      "company": "Conagra Brands",
+      "title": "Data Management (DMO) Internship - Summer 2027",
+      "provisional_role_family": "Business Intelligence / Data Management Internship",
+      "level": "Bachelor's or master's student internship",
+      "location": "Omaha, NE",
+      "remote_policy": "On-site",
+      "official_url": "https://conagrabrands.wd1.myworkdayjobs.com/Careers_US/job/Omaha-Nebraska/Data-Management--DMO--Internship---Summer-2027_Req-039968",
+      "posted_date": "2026-10-14",
+      "priority": "Medium",
       "resume_route": "BA",
-      "fit_summary": "Strong match for SQL, Python or R, statistics, forecasting, workforce modeling, BI dashboards and financial-services analytics; the graduation requirement includes December 2027.",
+      "fit_summary": "Good match for SQL, Python, Power BI, Databricks, data automation and business-process improvement; the requirement to have at least one semester remaining after the internship fits a December 2027 graduation.",
       "eligibility_sponsorship_notes": "The reviewed official posting does not state a current or future sponsorship exclusion. Confirm CPT acceptance and future sponsorship before applying.",
-      "recommended_next_action": "Prioritize for its quantitative BI scope and direct overlap with forecasting and dashboard experience."
+      "recommended_next_action": "Keep as a fresh enterprise data-management and analytics option."
     },
     {
       "number": 3,
-      "company": "Navy Federal Credit Union",
-      "title": "Summer Associate Internship (Internal Audit - Data Analytics)",
-      "provisional_role_family": "Risk / Audit Data Analytics Internship",
-      "level": "Bachelor's or higher student internship",
-      "location": "Vienna, VA; Winchester, VA; or Pensacola, FL",
-      "remote_policy": "Hybrid",
-      "official_url": "https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/32355",
-      "posted_date": "2026-09-09",
+      "company": "Nationwide",
+      "title": "Summer 2027 Enterprise Risk Management Internship",
+      "provisional_role_family": "Enterprise / Model Risk Analytics Internship",
+      "level": "Student internship",
+      "location": "Columbus, OH",
+      "remote_policy": "Not stated; Columbus-based",
+      "official_url": "https://nationwide.wd1.myworkdayjobs.com/en-US/Nationwide_Career/job/Summer-2027-Enterprise-Risk-Management-Internship_100097",
+      "posted_date": "Official page shows 30+ days; independently surfaced active 2026-10-09 and verified open 2026-10-15",
       "priority": "High",
       "resume_route": "Risk",
-      "fit_summary": "Excellent fit for exploratory and statistical analysis, Python, SQL, Power BI, risk assessment, data transformation and full-population audit testing; December 2027 graduation is eligible.",
-      "eligibility_sponsorship_notes": "The reviewed official posting does not state a current or future sponsorship exclusion. Confirm CPT acceptance and future sponsorship before applying.",
-      "recommended_next_action": "Prioritize as a close match to both risk analytics and prior audit experience."
+      "fit_summary": "Strong role-family fit across enterprise, model, investment and operational risk, with analytical work closely aligned to quantitative finance and risk-management training.",
+      "eligibility_sponsorship_notes": "Nationwide states that it does not participate in the STEM OPT extension and sponsorship is discretionary and uncommon for entry-level roles. This is not an explicit internship exclusion, but CPT and future sponsorship must be confirmed before applying.",
+      "recommended_next_action": "Review the immigration constraint first; retain only if recruiting confirms eligibility."
     },
     {
       "number": 4,
-      "company": "Navy Federal Credit Union",
-      "title": "Summer Associate Internship (Financial Risk Analyst)",
-      "provisional_role_family": "Financial Risk Analytics Internship",
-      "level": "Student internship",
-      "location": "Vienna, VA",
-      "remote_policy": "Hybrid",
-      "official_url": "https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/32331",
-      "posted_date": "2026-09-09",
-      "priority": "High",
-      "resume_route": "Risk",
-      "fit_summary": "Strong match for financial-risk assessment, risk metrics, investment and hedging review, quantitative data synthesis and management reporting; the program accepts December 2027 graduates.",
-      "eligibility_sponsorship_notes": "The reviewed official posting does not state a current or future sponsorship exclusion. Confirm CPT acceptance and future sponsorship before applying.",
-      "recommended_next_action": "Prioritize for direct alignment with quantitative finance and risk-management training."
+      "company": "Aramark",
+      "title": "2027 Internship Program - IT Intern - HQ",
+      "provisional_role_family": "Data Engineering / IT Analytics Internship",
+      "level": "Bachelor's or master's student internship",
+      "location": "Philadelphia, PA",
+      "remote_policy": "Not stated; headquarters-based",
+      "official_url": "https://careers.aramark.com/job/2027-aramark-internship-program-it-intern-hq-philadelphia-pa/philadelphia-pa/683542/",
+      "posted_date": "Verified open 2026-10-15; exact posting date not stated",
+      "priority": "Medium",
+      "resume_route": "Data",
+      "fit_summary": "Good match for Python, SQL, data engineering, cloud platforms, dbt, data warehousing and CI/CD; the listed graduation window of December 2027 through June 2029 includes the candidate.",
+      "eligibility_sponsorship_notes": "The reviewed official posting does not state a current or future sponsorship exclusion. Confirm CPT acceptance, future sponsorship and work arrangement before applying.",
+      "recommended_next_action": "Keep as a broad technical-data internship with a compatible graduation window."
     },
     {
       "number": 5,
-      "company": "Navy Federal Credit Union",
-      "title": "Summer Associate Internship (Risk Analyst)",
-      "provisional_role_family": "Operational / Third-Party Risk Analytics Internship",
-      "level": "Student internship",
-      "location": "Vienna, VA",
-      "remote_policy": "Hybrid",
-      "official_url": "https://jobs.navyfederal.org/hcmUI/CandidateExperience/en/sites/nfcu/job/32373",
-      "posted_date": "2026-09-09",
+      "company": "ERCOT",
+      "title": "Intern - Internal Audit",
+      "provisional_role_family": "Risk / Audit Data Analytics Internship",
+      "level": "Undergraduate or graduate internship",
+      "location": "Taylor, TX",
+      "remote_policy": "Hybrid; minimum two days per week on-site",
+      "official_url": "https://ercot.wd1.myworkdayjobs.com/ercot_careers/job/taylor-tx/intern---internal-audit_r2484",
+      "posted_date": "Verified open 2026-10-15; exact posting date not stated",
       "priority": "High",
       "resume_route": "Risk",
-      "fit_summary": "Good fit for operational-risk assessments, control testing, risk reporting, evidence analysis and dashboard development; the graduation-date requirement includes December 2027.",
+      "fit_summary": "Excellent fit for internal audit, risk-management coursework, SQL, Power BI, analytical testing and evidence-based reporting, reinforced by prior EY audit experience.",
       "eligibility_sponsorship_notes": "The reviewed official posting does not state a current or future sponsorship exclusion. Confirm CPT acceptance and future sponsorship before applying.",
-      "recommended_next_action": "Keep high on the list as a practical enterprise-risk role with analytical deliverables."
+      "recommended_next_action": "Prioritize as a close combination of risk, audit and data analytics."
     },
     {
       "number": 6,
-      "company": "Navy Federal Credit Union",
-      "title": "Summer Associate Internship (Experience Analyst)",
-      "provisional_role_family": "Business / Experience Analytics Internship",
-      "level": "Student internship",
-      "location": "Vienna, VA; Winchester, VA; or Pensacola, FL",
-      "remote_policy": "Hybrid",
-      "official_url": "https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/32357",
-      "posted_date": "2026-09-09",
+      "company": "ERCOT",
+      "title": "Intern - Portfolio Management",
+      "provisional_role_family": "Portfolio / Operations Analytics Internship",
+      "level": "Bachelor's or postgraduate student internship",
+      "location": "Taylor, TX",
+      "remote_policy": "Hybrid; minimum two days per week on-site",
+      "official_url": "https://ercot.wd1.myworkdayjobs.com/en-US/ercot_careers/job/Intern---Portfolio-Management_R2485",
+      "posted_date": "Approximately 2026-09-17; verified open 2026-10-15",
       "priority": "Medium",
       "resume_route": "BA",
-      "fit_summary": "Relevant for business-process analysis, research, requirements gathering, dashboards, journey mapping and data-backed recommendations; the role accepts students graduating December 2027 or later.",
+      "fit_summary": "Relevant for Power BI, resource-capacity analysis, workflow improvement, process optimization and applied AI; both bachelor's and postgraduate students are eligible.",
       "eligibility_sponsorship_notes": "The reviewed official posting does not state a current or future sponsorship exclusion. Confirm CPT acceptance and future sponsorship before applying.",
-      "recommended_next_action": "Use as a broader business-analytics option when prioritizing stakeholder-facing work."
+      "recommended_next_action": "Keep as an operations and portfolio-analytics alternative."
     },
     {
       "number": 7,
-      "company": "Continental Resources",
-      "title": "Data Analyst Intern (Summer 2027)",
-      "provisional_role_family": "Data / Operations Analytics Internship",
-      "level": "Student internship",
-      "location": "Oklahoma City, OK",
+      "company": "Muon Space",
+      "title": "Industrial Engineering Intern (Summer 2027)",
+      "provisional_role_family": "Operations Research / Optimization Internship",
+      "level": "Bachelor's or master's student internship",
+      "location": "San Jose, CA",
       "remote_policy": "On-site",
-      "official_url": "https://clr.wd5.myworkdayjobs.com/en-US/clr_careers/job/Oklahoma-City-OK/Data-Analyst-Intern--Summer-2027-_R02591-1",
-      "posted_date": "2026-10-03",
-      "priority": "Medium",
-      "resume_route": "Data",
-      "fit_summary": "Good match for solving engineering-business problems through data analysis, process automation, operational analytics and applied AI; Python, SQL and dashboard experience are directly relevant.",
-      "eligibility_sponsorship_notes": "The reviewed official posting does not state a current or future sponsorship exclusion. Confirm degree timing, CPT acceptance and future sponsorship before applying.",
-      "recommended_next_action": "Review as a fresh non-financial data-analytics option with hands-on operational scope."
+      "official_url": "https://job-boards.greenhouse.io/muonspace/jobs/5256284007",
+      "posted_date": "Verified open 2026-10-15; exact posting date not stated",
+      "priority": "High",
+      "resume_route": "Quant",
+      "fit_summary": "Excellent academic fit for Operations Research through process optimization, capacity analysis, production scheduling and resource modeling, with relevant Python, SQL and BI-tool experience.",
+      "eligibility_sponsorship_notes": "The reviewed official posting does not state a current or future sponsorship exclusion. Confirm CPT acceptance and future sponsorship before applying.",
+      "recommended_next_action": "Prioritize as the strongest operations-research and optimization match."
     },
     {
       "number": 8,
-      "company": "Lifetime Healthcare Companies",
-      "title": "College Intern - Summer 2027 - Research Insights",
-      "provisional_role_family": "Research / Business Analytics Internship",
-      "level": "Undergraduate or graduate internship",
-      "location": "Rochester, Buffalo, Utica, DeWitt, Binghamton, or Watertown, NY",
-      "remote_policy": "Potential remote work is case-by-case",
-      "official_url": "https://lthc.wd1.myworkdayjobs.com/en-US/ExcellusBCBSCareers/job/College-Intern---Summer-2027---Research-Insights_JR104048-2",
-      "posted_date": "2026-10-01",
+      "company": "Assured Guaranty",
+      "title": "Business Operations Intern - Summer 2027",
+      "provisional_role_family": "Business / Financial Operations Analytics Internship",
+      "level": "Student internship",
+      "location": "New York, NY",
+      "remote_policy": "Not stated; New York-based",
+      "official_url": "https://job-boards.greenhouse.io/assuredguaranty/jobs/8817699002?gh_jid=8817699002",
+      "posted_date": "Verified new and open 2026-10-15; exact posting date not stated",
       "priority": "Medium",
       "resume_route": "BA",
-      "fit_summary": "Good fit for survey design, statistical analysis, R, report writing, operational-efficiency research and presenting recommendations; full-time graduate students are explicitly eligible.",
-      "eligibility_sponsorship_notes": "The reviewed official posting does not state a current or future sponsorship exclusion. Confirm CPT acceptance and future sponsorship before applying.",
-      "recommended_next_action": "Keep as a New York-state research and analytics option with broad graduate eligibility."
+      "fit_summary": "Relevant for bond-data metrics, management reporting, operational automation, Power BI and Power Platform work, with the added benefit of the preferred New York location.",
+      "eligibility_sponsorship_notes": "The reviewed posting does not clearly state degree timing, CPT acceptance or future sponsorship. Confirm all three before applying.",
+      "recommended_next_action": "Keep as a New York financial-operations option pending eligibility confirmation."
     }
   ],
   "rejected_candidates": [
     {
-      "company": "Munich Re",
-      "reason": "Both newly verified New York analytics internships explicitly exclude candidates needing current or future sponsorship, including CPT and OPT."
+      "company": "Capital One",
+      "reason": "Already appears in the job pool; a reviewed data-analyst posting also explicitly excluded F-1 CPT candidates."
     },
     {
-      "company": "Dow Jones",
-      "reason": "Fresh data-science and data-analyst internships require an undergraduate program and no current or future sponsorship."
+      "company": "Stryker",
+      "reason": "Already appears in the job pool and the reviewed internship did not support the candidate's sponsorship needs."
     },
     {
-      "company": "Raymond James",
-      "reason": "Fresh risk-management internship explicitly requires no visa sponsorship now or in the future."
+      "company": "Morningstar",
+      "reason": "The reviewed opportunity was bachelor's-only and its deadline appeared stale or closed."
     },
     {
-      "company": "Land O'Lakes",
-      "reason": "Fresh business-analytics internship is undergraduate-only and states that immigration sponsorship will not be considered."
+      "company": "Sigma",
+      "reason": "The reviewed AI and machine-learning internship required current PhD enrollment."
     },
     {
-      "company": "Avis Budget Group",
-      "reason": "Fresh data-analytics internship requires graduation in May or June 2027, which conflicts with the candidate's December 2027 graduation."
+      "company": "Relay",
+      "reason": "The reviewed posting explicitly excluded candidates needing future employment sponsorship."
     },
     {
-      "company": "McKesson",
-      "reason": "Fresh data-analyst internship requires current pursuit of a bachelor's degree rather than the candidate's graduate program."
+      "company": "Spectrum",
+      "reason": "The reviewed role was bachelor's-only and explicitly excluded sponsorship."
+    },
+    {
+      "company": "Humana",
+      "reason": "The reviewed internship explicitly excluded current or future sponsorship."
+    },
+    {
+      "company": "Neuberger Berman / Almanac",
+      "reason": "The reviewed role explicitly excluded current or future sponsorship."
     }
   ],
   "requested_replacement_count": 0,
-  "last_updated_at": "2026-10-14T09:01:03-04:00"
+  "last_updated_at": "2026-10-15T14:23:24-04:00"
 }
