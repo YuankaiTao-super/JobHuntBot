@@ -1,171 +1,171 @@
 {
-  "date": "2026-10-15",
+  "date": "2026-10-17",
   "timezone": "America/New_York",
   "status": "pending_user",
   "candidates": [
     {
       "number": 1,
-      "company": "Capstone Investment Advisors",
-      "title": "Summer 2027 Risk Tech Internship",
-      "provisional_role_family": "Quantitative Risk / Risk Technology Internship",
-      "level": "Bachelor's or master's student internship",
+      "company": "Millennium",
+      "title": "2027 Market Risk Summer Intern - New York",
+      "provisional_role_family": "Market Risk / Quantitative Risk Internship",
+      "level": "Undergraduate or master's student internship",
       "location": "New York, NY",
-      "remote_policy": "Office-based; confirm exact New York schedule",
-      "official_url": "https://job-boards.greenhouse.io/capstoneinvestmentadvisors/jobs/8867730002",
-      "posted_date": "Verified open 2026-10-15; exact posting date not stated",
+      "remote_policy": "Not stated; New York-based",
+      "official_url": "https://campusjobs.mlp.com/careers?location=United+States&microsite=campus-site&pid=755957778862&recommended=1",
+      "posted_date": "Verified open 2026-10-17; exact posting date not stated",
       "priority": "High",
       "resume_route": "Risk",
-      "fit_summary": "Strong match for Python, quantitative risk analytics, scenario analysis, PnL decomposition, exposure monitoring and financial-markets knowledge; Java or C is listed as an alternative rather than a mandatory requirement.",
-      "eligibility_sponsorship_notes": "The reviewed official posting does not state a current or future sponsorship exclusion. Confirm CPT acceptance, future sponsorship and New York work schedule before applying.",
-      "recommended_next_action": "Prioritize as today's strongest quantitative-risk opportunity."
+      "fit_summary": "Excellent match for market-risk monitoring, exposure analysis, stress testing, portfolio sensitivities, model validation, Python, time-series analysis and derivatives knowledge; December 2027 graduation is explicitly eligible.",
+      "eligibility_sponsorship_notes": "The reviewed official posting does not state a current or future sponsorship exclusion. Confirm CPT acceptance and future sponsorship before applying. Millennium permits at most two applications across businesses or offices.",
+      "recommended_next_action": "Prioritize first and reserve one of Millennium's two application slots for this role."
     },
     {
       "number": 2,
-      "company": "Conagra Brands",
-      "title": "Data Management (DMO) Internship - Summer 2027",
-      "provisional_role_family": "Business Intelligence / Data Management Internship",
-      "level": "Bachelor's or master's student internship",
-      "location": "Omaha, NE",
-      "remote_policy": "On-site",
-      "official_url": "https://conagrabrands.wd1.myworkdayjobs.com/Careers_US/job/Omaha-Nebraska/Data-Management--DMO--Internship---Summer-2027_Req-039968",
-      "posted_date": "2026-10-14",
-      "priority": "Medium",
-      "resume_route": "BA",
-      "fit_summary": "Good match for SQL, Python, Power BI, Databricks, data automation and business-process improvement; the requirement to have at least one semester remaining after the internship fits a December 2027 graduation.",
-      "eligibility_sponsorship_notes": "The reviewed official posting does not state a current or future sponsorship exclusion. Confirm CPT acceptance and future sponsorship before applying.",
-      "recommended_next_action": "Keep as a fresh enterprise data-management and analytics option."
+      "company": "Millennium",
+      "title": "2027 Quantitative Researcher Intern - Austin",
+      "provisional_role_family": "Quantitative Research / Trading Internship",
+      "level": "Master's student internship",
+      "location": "Austin, TX",
+      "remote_policy": "Not stated; Austin-based",
+      "official_url": "https://campusjobs.mlp.com/careers?domain=mlp.com&pid=755944533206&sort_by=relevance",
+      "posted_date": "Verified open 2026-10-17; exact posting date not stated",
+      "priority": "High",
+      "resume_route": "Quant",
+      "fit_summary": "Excellent match for Python, statistical and machine-learning research, alternative and market data, backtesting, portfolio optimization and real-world quantitative projects; C++ is only a plus, not a requirement.",
+      "eligibility_sponsorship_notes": "The reviewed official posting does not state a current or future sponsorship exclusion. Confirm CPT acceptance and future sponsorship before applying. Millennium permits at most two applications across businesses or offices.",
+      "recommended_next_action": "Prioritize alongside the Market Risk role as the second Millennium application slot."
     },
     {
       "number": 3,
-      "company": "Nationwide",
-      "title": "Summer 2027 Enterprise Risk Management Internship",
-      "provisional_role_family": "Enterprise / Model Risk Analytics Internship",
-      "level": "Student internship",
-      "location": "Columbus, OH",
-      "remote_policy": "Not stated; Columbus-based",
-      "official_url": "https://nationwide.wd1.myworkdayjobs.com/en-US/Nationwide_Career/job/Summer-2027-Enterprise-Risk-Management-Internship_100097",
-      "posted_date": "Official page shows 30+ days; independently surfaced active 2026-10-09 and verified open 2026-10-15",
+      "company": "Charles River Associates",
+      "title": "Data Analytics Consulting Analyst/Associate Intern (Summer 2027)",
+      "provisional_role_family": "Data Analytics / Consulting Internship",
+      "level": "Bachelor's or master's student internship",
+      "location": "New York, NY",
+      "remote_policy": "Hybrid; normally three to four office days per week",
+      "official_url": "https://job-boards.greenhouse.io/charlesriverassociates/jobs/8263475",
+      "posted_date": "Verified open 2026-10-17; candidate review begins 2026-11-01",
       "priority": "High",
-      "resume_route": "Risk",
-      "fit_summary": "Strong role-family fit across enterprise, model, investment and operational risk, with analytical work closely aligned to quantitative finance and risk-management training.",
-      "eligibility_sponsorship_notes": "Nationwide states that it does not participate in the STEM OPT extension and sponsorship is discretionary and uncommon for entry-level roles. This is not an explicit internship exclusion, but CPT and future sponsorship must be confirmed before applying.",
-      "recommended_next_action": "Review the immigration constraint first; retain only if recruiting confirms eligibility."
+      "resume_route": "Data",
+      "fit_summary": "Strong fit for Operations Research, large datasets, Python and SQL, GCP, machine learning, analytics automation and client-facing communication; the required December 2027 or Summer 2028 graduation window matches exactly.",
+      "eligibility_sponsorship_notes": "The official posting asks about current eligibility and future sponsorship but does not state that sponsorship candidates are ineligible. Confirm CPT and future sponsorship before applying. A cover letter and transcript are required.",
+      "recommended_next_action": "Prioritize if willing to prepare the required cover letter and transcript."
     },
     {
       "number": 4,
-      "company": "Aramark",
-      "title": "2027 Internship Program - IT Intern - HQ",
-      "provisional_role_family": "Data Engineering / IT Analytics Internship",
+      "company": "APEX Analytix",
+      "title": "Data Analyst Intern (Summer 2027)",
+      "provisional_role_family": "Data Engineering / Data Quality Analytics Internship",
       "level": "Bachelor's or master's student internship",
-      "location": "Philadelphia, PA",
-      "remote_policy": "Not stated; headquarters-based",
-      "official_url": "https://careers.aramark.com/job/2027-aramark-internship-program-it-intern-hq-philadelphia-pa/philadelphia-pa/683542/",
-      "posted_date": "Verified open 2026-10-15; exact posting date not stated",
-      "priority": "Medium",
+      "location": "Greensboro, NC",
+      "remote_policy": "Not stated; location-based role",
+      "official_url": "https://ats.rippling.com/apexanalytix-careers/jobs/e275fd70-45a3-4a64-8688-cace8a3f87ef",
+      "posted_date": "Verified open 2026-10-17; exact posting date not stated",
+      "priority": "High",
       "resume_route": "Data",
-      "fit_summary": "Good match for Python, SQL, data engineering, cloud platforms, dbt, data warehousing and CI/CD; the listed graduation window of December 2027 through June 2029 includes the candidate.",
-      "eligibility_sponsorship_notes": "The reviewed official posting does not state a current or future sponsorship exclusion. Confirm CPT acceptance, future sponsorship and work arrangement before applying.",
-      "recommended_next_action": "Keep as a broad technical-data internship with a compatible graduation window."
+      "fit_summary": "Strong match for SQL, Python/Pandas, Linux, ETL, data-warehouse validation, data quality, testing and scalable data processes, with direct overlap with prior large-dataset pipeline work.",
+      "eligibility_sponsorship_notes": "The reviewed official posting accepts bachelor's or master's students and does not state a sponsorship exclusion. Confirm internship dates, CPT acceptance and future sponsorship before applying.",
+      "recommended_next_action": "Prioritize as a practical SQL and data-engineering role with clear technical requirements."
     },
     {
       "number": 5,
-      "company": "ERCOT",
-      "title": "Intern - Internal Audit",
-      "provisional_role_family": "Risk / Audit Data Analytics Internship",
-      "level": "Undergraduate or graduate internship",
-      "location": "Taylor, TX",
-      "remote_policy": "Hybrid; minimum two days per week on-site",
-      "official_url": "https://ercot.wd1.myworkdayjobs.com/ercot_careers/job/taylor-tx/intern---internal-audit_r2484",
-      "posted_date": "Verified open 2026-10-15; exact posting date not stated",
+      "company": "Hubbell Incorporated",
+      "title": "2027 Summer Intern: Operations - Business Intelligence & Analytics",
+      "provisional_role_family": "Business Intelligence / Data Analytics Internship",
+      "level": "Bachelor's or master's student internship",
+      "location": "St. Louis, MO",
+      "remote_policy": "Hybrid",
+      "official_url": "https://careers.hubbell.com/job/St_-Louis-2027-Summer-Intern-Operations-Business-Intelligence-%26-Analytics-MO-63146/1421642300/",
+      "posted_date": "2026-10-17",
       "priority": "High",
-      "resume_route": "Risk",
-      "fit_summary": "Excellent fit for internal audit, risk-management coursework, SQL, Power BI, analytical testing and evidence-based reporting, reinforced by prior EY audit experience.",
+      "resume_route": "BA",
+      "fit_summary": "Strong match for Power BI, enterprise data models, visualizations, analytical calculations and operational decision support; the posting accepts bachelor's or master's students and requires a 3.0 GPA.",
       "eligibility_sponsorship_notes": "The reviewed official posting does not state a current or future sponsorship exclusion. Confirm CPT acceptance and future sponsorship before applying.",
-      "recommended_next_action": "Prioritize as a close combination of risk, audit and data analytics."
+      "recommended_next_action": "Prioritize as the freshest business-intelligence role in today's list."
     },
     {
       "number": 6,
-      "company": "ERCOT",
-      "title": "Intern - Portfolio Management",
-      "provisional_role_family": "Portfolio / Operations Analytics Internship",
-      "level": "Bachelor's or postgraduate student internship",
-      "location": "Taylor, TX",
-      "remote_policy": "Hybrid; minimum two days per week on-site",
-      "official_url": "https://ercot.wd1.myworkdayjobs.com/en-US/ercot_careers/job/Intern---Portfolio-Management_R2485",
-      "posted_date": "Approximately 2026-09-17; verified open 2026-10-15",
+      "company": "Hubbell Incorporated",
+      "title": "2027 Summer Intern: Operations - SAP Data Analytics",
+      "provisional_role_family": "Operations / Master Data Analytics Internship",
+      "level": "Bachelor's or master's student internship",
+      "location": "St. Louis, MO",
+      "remote_policy": "Hybrid",
+      "official_url": "https://careers.hubbell.com/job/St_-Louis-2027-Summer-Intern-Operations-SAP-Data-Analytics-MO-63146/1421642600/",
+      "posted_date": "2026-10-17",
       "priority": "Medium",
       "resume_route": "BA",
-      "fit_summary": "Relevant for Power BI, resource-capacity analysis, workflow improvement, process optimization and applied AI; both bachelor's and postgraduate students are eligible.",
-      "eligibility_sponsorship_notes": "The reviewed official posting does not state a current or future sponsorship exclusion. Confirm CPT acceptance and future sponsorship before applying.",
-      "recommended_next_action": "Keep as an operations and portfolio-analytics alternative."
+      "fit_summary": "Good fit for master-data quality metrics, cross-site benchmarking, process analysis, governance recommendations and continuous improvement; SAP experience is preferred rather than required.",
+      "eligibility_sponsorship_notes": "The reviewed official posting accepts bachelor's or master's students and does not state a sponsorship exclusion. Confirm CPT acceptance and future sponsorship before applying.",
+      "recommended_next_action": "Keep as a fresh operations-analytics option and rank below Hubbell's BI role."
     },
     {
       "number": 7,
-      "company": "Muon Space",
-      "title": "Industrial Engineering Intern (Summer 2027)",
-      "provisional_role_family": "Operations Research / Optimization Internship",
+      "company": "Hubbell Incorporated",
+      "title": "2027 Summer Intern: Operations - Supply Chain & Manufacturing Analytics",
+      "provisional_role_family": "Operations Research / Supply Chain Analytics Internship",
       "level": "Bachelor's or master's student internship",
-      "location": "San Jose, CA",
-      "remote_policy": "On-site",
-      "official_url": "https://job-boards.greenhouse.io/muonspace/jobs/5256284007",
-      "posted_date": "Verified open 2026-10-15; exact posting date not stated",
+      "location": "Portsmouth, NH or Manchester, NH",
+      "remote_policy": "Hybrid",
+      "official_url": "https://careers.hubbell.com/job/Portsmouth-2027-Summer-Intern-Operations-Supply-Chain-%26-Manufacturing-Analytics-NH-03801/1421653500/",
+      "posted_date": "2026-10-17",
       "priority": "High",
       "resume_route": "Quant",
-      "fit_summary": "Excellent academic fit for Operations Research through process optimization, capacity analysis, production scheduling and resource modeling, with relevant Python, SQL and BI-tool experience.",
+      "fit_summary": "Strong Operations Research fit through supply-chain and manufacturing analytics, process improvement, optimization, AI applications, Excel and Power BI; master's students are eligible.",
       "eligibility_sponsorship_notes": "The reviewed official posting does not state a current or future sponsorship exclusion. Confirm CPT acceptance and future sponsorship before applying.",
-      "recommended_next_action": "Prioritize as the strongest operations-research and optimization match."
+      "recommended_next_action": "Prioritize as Hubbell's closest match to Operations Research and optimization."
     },
     {
       "number": 8,
-      "company": "Assured Guaranty",
-      "title": "Business Operations Intern - Summer 2027",
-      "provisional_role_family": "Business / Financial Operations Analytics Internship",
-      "level": "Student internship",
-      "location": "New York, NY",
-      "remote_policy": "Not stated; New York-based",
-      "official_url": "https://job-boards.greenhouse.io/assuredguaranty/jobs/8817699002?gh_jid=8817699002",
-      "posted_date": "Verified new and open 2026-10-15; exact posting date not stated",
+      "company": "Hubbell Incorporated",
+      "title": "2027 Summer Intern: Data & Systems Management",
+      "provisional_role_family": "Data Management / Systems Analytics Internship",
+      "level": "Bachelor's or master's student internship",
+      "location": "Portsmouth, NH",
+      "remote_policy": "Hybrid",
+      "official_url": "https://careers.hubbell.com/job/Portsmouth-2027-Summer-Intern-Data-%26-Systems-Management-NH-03801/1421045300/",
+      "posted_date": "2026-10-16",
       "priority": "Medium",
-      "resume_route": "BA",
-      "fit_summary": "Relevant for bond-data metrics, management reporting, operational automation, Power BI and Power Platform work, with the added benefit of the preferred New York location.",
-      "eligibility_sponsorship_notes": "The reviewed posting does not clearly state degree timing, CPT acceptance or future sponsorship. Confirm all three before applying.",
-      "recommended_next_action": "Keep as a New York financial-operations option pending eligibility confirmation."
+      "resume_route": "Data",
+      "fit_summary": "Relevant for data cleansing, validation, software reliability, documentation, PLM migration and scalable data processes; the posting accepts bachelor's or master's students.",
+      "eligibility_sponsorship_notes": "The reviewed official posting does not state a current or future sponsorship exclusion. Confirm CPT acceptance and future sponsorship before applying.",
+      "recommended_next_action": "Use as a secondary Hubbell option after the BI, supply-chain analytics and SAP analytics roles."
     }
   ],
   "rejected_candidates": [
     {
-      "company": "Capital One",
-      "reason": "Already appears in the job pool; a reviewed data-analyst posting also explicitly excluded F-1 CPT candidates."
+      "company": "EY",
+      "reason": "The fresh Digital Risk internship explicitly requires authorization without employer sponsorship now or in the future."
     },
     {
-      "company": "Stryker",
-      "reason": "Already appears in the job pool and the reviewed internship did not support the candidate's sponsorship needs."
+      "company": "nCino",
+      "reason": "The fresh Data Science internship explicitly excludes current and future sponsorship and is framed primarily for bachelor's students or recent graduates."
     },
     {
-      "company": "Morningstar",
-      "reason": "The reviewed opportunity was bachelor's-only and its deadline appeared stale or closed."
+      "company": "Principal Financial Group",
+      "reason": "The quantitative research internship explicitly excludes F-1 CPT, OPT and all current or future immigration sponsorship."
     },
     {
-      "company": "Sigma",
-      "reason": "The reviewed AI and machine-learning internship required current PhD enrollment."
+      "company": "Corning",
+      "reason": "The Engineering Data Analyst internship explicitly states that immigration sponsorship is not supported."
     },
     {
-      "company": "Relay",
-      "reason": "The reviewed posting explicitly excluded candidates needing future employment sponsorship."
+      "company": "Fidelity Investments",
+      "reason": "The fresh audit, risk and compliance internship is undergraduate-only and explicitly provides no immigration sponsorship."
     },
     {
-      "company": "Spectrum",
-      "reason": "The reviewed role was bachelor's-only and explicitly excluded sponsorship."
+      "company": "Cargill",
+      "reason": "The Risk Management internship requires work authorization not based solely on a student visa, which conflicts with the candidate's F-1 CPT route."
     },
     {
-      "company": "Humana",
-      "reason": "The reviewed internship explicitly excluded current or future sponsorship."
+      "company": "The Nuclear Company",
+      "reason": "The AI Applied Research internship requires U.S. Person status and provides no visa sponsorship."
     },
     {
-      "company": "Neuberger Berman / Almanac",
-      "reason": "The reviewed role explicitly excluded current or future sponsorship."
+      "company": "National Life Group",
+      "reason": "The new Data Science internship explicitly states that visa sponsorship is not offered."
     }
   ],
   "requested_replacement_count": 0,
-  "last_updated_at": "2026-10-15T14:23:24-04:00"
+  "last_updated_at": "2026-10-17T16:26:10-04:00"
 }
