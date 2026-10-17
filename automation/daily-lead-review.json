@@ -1,42 +1,10 @@
 {
   "date": "2026-10-17",
   "timezone": "America/New_York",
-  "status": "pending_user",
+  "status": "confirmed_committed",
   "candidates": [
     {
       "number": 1,
-      "company": "Millennium",
-      "title": "2027 Market Risk Summer Intern - New York",
-      "provisional_role_family": "Market Risk / Quantitative Risk Internship",
-      "level": "Undergraduate or master's student internship",
-      "location": "New York, NY",
-      "remote_policy": "Not stated; New York-based",
-      "official_url": "https://campusjobs.mlp.com/careers?location=United+States&microsite=campus-site&pid=755957778862&recommended=1",
-      "posted_date": "Verified open 2026-10-17; exact posting date not stated",
-      "priority": "High",
-      "resume_route": "Risk",
-      "fit_summary": "Excellent match for market-risk monitoring, exposure analysis, stress testing, portfolio sensitivities, model validation, Python, time-series analysis and derivatives knowledge; December 2027 graduation is explicitly eligible.",
-      "eligibility_sponsorship_notes": "The reviewed official posting does not state a current or future sponsorship exclusion. Confirm CPT acceptance and future sponsorship before applying. Millennium permits at most two applications across businesses or offices.",
-      "recommended_next_action": "Prioritize first and reserve one of Millennium's two application slots for this role."
-    },
-    {
-      "number": 2,
-      "company": "Millennium",
-      "title": "2027 Quantitative Researcher Intern - Austin",
-      "provisional_role_family": "Quantitative Research / Trading Internship",
-      "level": "Master's student internship",
-      "location": "Austin, TX",
-      "remote_policy": "Not stated; Austin-based",
-      "official_url": "https://campusjobs.mlp.com/careers?domain=mlp.com&pid=755944533206&sort_by=relevance",
-      "posted_date": "Verified open 2026-10-17; exact posting date not stated",
-      "priority": "High",
-      "resume_route": "Quant",
-      "fit_summary": "Excellent match for Python, statistical and machine-learning research, alternative and market data, backtesting, portfolio optimization and real-world quantitative projects; C++ is only a plus, not a requirement.",
-      "eligibility_sponsorship_notes": "The reviewed official posting does not state a current or future sponsorship exclusion. Confirm CPT acceptance and future sponsorship before applying. Millennium permits at most two applications across businesses or offices.",
-      "recommended_next_action": "Prioritize alongside the Market Risk role as the second Millennium application slot."
-    },
-    {
-      "number": 3,
       "company": "Charles River Associates",
       "title": "Data Analytics Consulting Analyst/Associate Intern (Summer 2027)",
       "provisional_role_family": "Data Analytics / Consulting Internship",
@@ -52,23 +20,7 @@
       "recommended_next_action": "Prioritize if willing to prepare the required cover letter and transcript."
     },
     {
-      "number": 4,
-      "company": "APEX Analytix",
-      "title": "Data Analyst Intern (Summer 2027)",
-      "provisional_role_family": "Data Engineering / Data Quality Analytics Internship",
-      "level": "Bachelor's or master's student internship",
-      "location": "Greensboro, NC",
-      "remote_policy": "Not stated; location-based role",
-      "official_url": "https://ats.rippling.com/apexanalytix-careers/jobs/e275fd70-45a3-4a64-8688-cace8a3f87ef",
-      "posted_date": "Verified open 2026-10-17; exact posting date not stated",
-      "priority": "High",
-      "resume_route": "Data",
-      "fit_summary": "Strong match for SQL, Python/Pandas, Linux, ETL, data-warehouse validation, data quality, testing and scalable data processes, with direct overlap with prior large-dataset pipeline work.",
-      "eligibility_sponsorship_notes": "The reviewed official posting accepts bachelor's or master's students and does not state a sponsorship exclusion. Confirm internship dates, CPT acceptance and future sponsorship before applying.",
-      "recommended_next_action": "Prioritize as a practical SQL and data-engineering role with clear technical requirements."
-    },
-    {
-      "number": 5,
+      "number": 2,
       "company": "Hubbell Incorporated",
       "title": "2027 Summer Intern: Operations - Business Intelligence & Analytics",
       "provisional_role_family": "Business Intelligence / Data Analytics Internship",
@@ -84,7 +36,7 @@
       "recommended_next_action": "Prioritize as the freshest business-intelligence role in today's list."
     },
     {
-      "number": 6,
+      "number": 3,
       "company": "Hubbell Incorporated",
       "title": "2027 Summer Intern: Operations - SAP Data Analytics",
       "provisional_role_family": "Operations / Master Data Analytics Internship",
@@ -100,7 +52,7 @@
       "recommended_next_action": "Keep as a fresh operations-analytics option and rank below Hubbell's BI role."
     },
     {
-      "number": 7,
+      "number": 4,
       "company": "Hubbell Incorporated",
       "title": "2027 Summer Intern: Operations - Supply Chain & Manufacturing Analytics",
       "provisional_role_family": "Operations Research / Supply Chain Analytics Internship",
@@ -116,7 +68,7 @@
       "recommended_next_action": "Prioritize as Hubbell's closest match to Operations Research and optimization."
     },
     {
-      "number": 8,
+      "number": 5,
       "company": "Hubbell Incorporated",
       "title": "2027 Summer Intern: Data & Systems Management",
       "provisional_role_family": "Data Management / Systems Analytics Internship",
@@ -130,6 +82,54 @@
       "fit_summary": "Relevant for data cleansing, validation, software reliability, documentation, PLM migration and scalable data processes; the posting accepts bachelor's or master's students.",
       "eligibility_sponsorship_notes": "The reviewed official posting does not state a current or future sponsorship exclusion. Confirm CPT acceptance and future sponsorship before applying.",
       "recommended_next_action": "Use as a secondary Hubbell option after the BI, supply-chain analytics and SAP analytics roles."
+    },
+    {
+      "number": 6,
+      "company": "Western Digital",
+      "title": "Summer 2027 Intern - Software Engineering (Data Analytics track)",
+      "provisional_role_family": "Data Engineering / Data Analytics Internship",
+      "level": "Bachelor's or master's student internship",
+      "location": "San Jose, CA; Irvine, CA; Fremont, CA; Longmont, CO; Colorado Springs, CO; Rochester, MN",
+      "remote_policy": "On-site or location-based",
+      "official_url": "https://jobs.smartrecruiters.com/WesternDigital/744000138727213",
+      "posted_date": "Verified open 2026-10-17; anticipated deadline 2026-10-20",
+      "priority": "High",
+      "resume_route": "Data",
+      "fit_summary": "The Data Analytics track covers pipelines, databases, warehouses, automation, dashboards and large-dataset analysis; master's students and Python or SQL experience are accepted.",
+      "eligibility_sponsorship_notes": "The reviewed official posting does not state a sponsorship exclusion. Confirm placement on the Data Analytics track, CPT and future sponsorship before applying.",
+      "recommended_next_action": "Review immediately because the anticipated deadline is October 20, 2026."
+    },
+    {
+      "number": 7,
+      "company": "Point72",
+      "title": "Quantitative Researcher Intern - Internal Alpha Capture",
+      "provisional_role_family": "Quantitative Research / Trading Internship",
+      "level": "Master's or PhD internship",
+      "location": "New York, NY",
+      "remote_policy": "On-site",
+      "official_url": "https://careers.point72.com/CSJobDetail?jobCode=CSS-0012539",
+      "posted_date": "Verified open 2026-10-17; exact posting date not stated",
+      "priority": "High",
+      "resume_route": "Quant",
+      "fit_summary": "Excellent match for independent quantitative research, machine learning on large noisy datasets, Python, backtesting and systematic equity signals.",
+      "eligibility_sponsorship_notes": "Master's students are explicitly eligible and the reviewed official posting does not state a sponsorship exclusion. Confirm CPT and future sponsorship before applying.",
+      "recommended_next_action": "Prioritize as a direct New York quantitative-research match."
+    },
+    {
+      "number": 8,
+      "company": "Point72",
+      "title": "Quantitative Researcher - Intern (Cubist)",
+      "provisional_role_family": "Quantitative Research / Trading Internship",
+      "level": "Master's or PhD internship",
+      "location": "New York, NY; Seattle, WA",
+      "remote_policy": "On-site",
+      "official_url": "https://careers.point72.com/CSJobDetail?jobCode=CSS-0000570",
+      "posted_date": "Verified open 2026-10-17; exact posting date not stated",
+      "priority": "High",
+      "resume_route": "Quant",
+      "fit_summary": "Excellent fit for statistical learning, predictive modeling, large-dataset preprocessing and systematic trading; Python is one of several accepted languages and C++ is not required.",
+      "eligibility_sponsorship_notes": "Master's students are explicitly eligible and the reviewed official posting does not state a sponsorship exclusion. Confirm CPT and future sponsorship before applying.",
+      "recommended_next_action": "Prioritize for New York and distinguish it from the Internal Alpha Capture opening."
     }
   ],
   "rejected_candidates": [
@@ -164,8 +164,24 @@
     {
       "company": "National Life Group",
       "reason": "The new Data Science internship explicitly states that visa sponsorship is not offered."
+    },
+    {
+      "company": "Millennium",
+      "reason": "User excluded this company from the recent backlog before confirmation."
+    },
+    {
+      "company": "Optiver",
+      "reason": "User excluded this company from the recent backlog before confirmation."
+    },
+    {
+      "company": "Robinhood",
+      "reason": "User excluded this company from the recent backlog before confirmation."
+    },
+    {
+      "company": "APEX Analytix",
+      "reason": "Removed from the 2026-10-17 shortlist because the same job URL was already retained from 2026-10-13."
     }
   ],
   "requested_replacement_count": 0,
-  "last_updated_at": "2026-10-17T16:26:10-04:00"
+  "last_updated_at": "2026-10-17T16:37:42.7995914-04:00"
 }
