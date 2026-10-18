@@ -1,187 +1,196 @@
 {
-  "date": "2026-10-17",
+  "date": "2026-10-18",
   "timezone": "America/New_York",
   "status": "confirmed_committed",
   "candidates": [
     {
       "number": 1,
-      "company": "Charles River Associates",
-      "title": "Data Analytics Consulting Analyst/Associate Intern (Summer 2027)",
-      "provisional_role_family": "Data Analytics / Consulting Internship",
-      "level": "Bachelor's or master's student internship",
-      "location": "New York, NY",
-      "remote_policy": "Hybrid; normally three to four office days per week",
-      "official_url": "https://job-boards.greenhouse.io/charlesriverassociates/jobs/8263475",
-      "posted_date": "Verified open 2026-10-17; candidate review begins 2026-11-01",
-      "priority": "High",
-      "resume_route": "Data",
-      "fit_summary": "Strong fit for Operations Research, large datasets, Python and SQL, GCP, machine learning, analytics automation and client-facing communication; the required December 2027 or Summer 2028 graduation window matches exactly.",
-      "eligibility_sponsorship_notes": "The official posting asks about current eligibility and future sponsorship but does not state that sponsorship candidates are ineligible. Confirm CPT and future sponsorship before applying. A cover letter and transcript are required.",
-      "recommended_next_action": "Prioritize if willing to prepare the required cover letter and transcript."
+      "company": "Manulife",
+      "title": "Analyst Intern (6-months), Private Equity Asia, January 2027 Intake",
+      "provisional_role_family": "Investment Analytics / Private Equity Internship",
+      "level": "Undergraduate or graduate internship",
+      "location": "Hong Kong",
+      "remote_policy": "Full-time; work arrangement not stated",
+      "official_url": "https://manulife.wd3.myworkdayjobs.com/MFCJH_Jobs/job/Hong-Kong/Manulife---Analyst-Intern--6-months---Private-Equity-Asia--January-2027-Intake_JR26091338",
+      "posted_date": "Posted in early October 2026; application deadline 2026-11-01",
+      "priority": "Medium",
+      "resume_route": "Quant",
+      "fit_summary": "Strong fit for portfolio monitoring, investment reviews, due diligence, valuation and financial modeling, supported by the candidate's quantitative-finance degree, accounting background and investment-banking internship.",
+      "eligibility_sponsorship_notes": "The official posting accepts undergraduate or graduate students in finance, economics or business administration and requires full-time availability from January through July 2027. Sponsorship is not stated; confirm Hong Kong work authorization and academic availability before applying.",
+      "recommended_next_action": "Review only if a six-month full-time placement from January to July is academically feasible."
     },
     {
       "number": 2,
-      "company": "Hubbell Incorporated",
-      "title": "2027 Summer Intern: Operations - Business Intelligence & Analytics",
-      "provisional_role_family": "Business Intelligence / Data Analytics Internship",
-      "level": "Bachelor's or master's student internship",
-      "location": "St. Louis, MO",
-      "remote_policy": "Hybrid",
-      "official_url": "https://careers.hubbell.com/job/St_-Louis-2027-Summer-Intern-Operations-Business-Intelligence-%26-Analytics-MO-63146/1421642300/",
-      "posted_date": "2026-10-17",
+      "company": "Citi",
+      "title": "Banking - Capital Markets, Summer Analyst, Hong Kong - APAC, 2027",
+      "provisional_role_family": "Capital Markets / Risk Analytics Internship",
+      "level": "Penultimate-year bachelor's or master's internship; December 2027 to June 2028 graduates",
+      "location": "Hong Kong, Central and Western District",
+      "remote_policy": "On-site",
+      "official_url": "https://jobs.citi.com/job/hong-kong/banking-capital-markets-summer-analyst-hong-kong-apac-2027/287/98836109888",
+      "posted_date": "2026-10-16; application deadline 2026-10-30",
       "priority": "High",
-      "resume_route": "BA",
-      "fit_summary": "Strong match for Power BI, enterprise data models, visualizations, analytical calculations and operational decision support; the posting accepts bachelor's or master's students and requires a 3.0 GPA.",
-      "eligibility_sponsorship_notes": "The reviewed official posting does not state a current or future sponsorship exclusion. Confirm CPT acceptance and future sponsorship before applying.",
-      "recommended_next_action": "Prioritize as the freshest business-intelligence role in today's list."
+      "resume_route": "Risk",
+      "fit_summary": "Strong fit for fixed-income and equity capital markets, derivatives, interest-rate and credit-risk analysis, financial modeling and client-facing analytical work; the December 2027 graduation date is explicitly eligible.",
+      "eligibility_sponsorship_notes": "The official posting does not state a sponsorship exclusion. Confirm Hong Kong work authorization before applying; Citi permits up to three summer-program applications across its Asia clusters.",
+      "recommended_next_action": "Review before the October 30 deadline and emphasize quantitative-finance, derivatives and risk-analysis experience."
     },
     {
       "number": 3,
-      "company": "Hubbell Incorporated",
-      "title": "2027 Summer Intern: Operations - SAP Data Analytics",
-      "provisional_role_family": "Operations / Master Data Analytics Internship",
-      "level": "Bachelor's or master's student internship",
-      "location": "St. Louis, MO",
-      "remote_policy": "Hybrid",
-      "official_url": "https://careers.hubbell.com/job/St_-Louis-2027-Summer-Intern-Operations-SAP-Data-Analytics-MO-63146/1421642600/",
-      "posted_date": "2026-10-17",
-      "priority": "Medium",
-      "resume_route": "BA",
-      "fit_summary": "Good fit for master-data quality metrics, cross-site benchmarking, process analysis, governance recommendations and continuous improvement; SAP experience is preferred rather than required.",
-      "eligibility_sponsorship_notes": "The reviewed official posting accepts bachelor's or master's students and does not state a sponsorship exclusion. Confirm CPT acceptance and future sponsorship before applying.",
-      "recommended_next_action": "Keep as a fresh operations-analytics option and rank below Hubbell's BI role."
+      "company": "Flow Traders",
+      "title": "Trading Intern",
+      "provisional_role_family": "Quantitative Trading Internship",
+      "level": "Student internship; graduation August 2027 to December 2028",
+      "location": "Hong Kong",
+      "remote_policy": "On-site; flight and accommodation provided",
+      "official_url": "https://job-boards.greenhouse.io/flowtraders/jobs/8102618",
+      "posted_date": "Verified open 2026-10-18; exact posting date not stated",
+      "priority": "High",
+      "resume_route": "Quant",
+      "fit_summary": "Excellent match for Python or MATLAB, quantitative modeling, trading simulations, strategy design and market problem solving; the December 2027 graduation date falls inside the stated window.",
+      "eligibility_sponsorship_notes": "The posting requests current visa status but does not state a sponsorship exclusion and explicitly supports overseas interns with travel and accommodation. Confirm the Hong Kong visa route before applying.",
+      "recommended_next_action": "Prioritize as the strongest Hong Kong quantitative-trading lead in today's confirmed list."
     },
     {
       "number": 4,
-      "company": "Hubbell Incorporated",
-      "title": "2027 Summer Intern: Operations - Supply Chain & Manufacturing Analytics",
-      "provisional_role_family": "Operations Research / Supply Chain Analytics Internship",
-      "level": "Bachelor's or master's student internship",
-      "location": "Portsmouth, NH or Manchester, NH",
-      "remote_policy": "Hybrid",
-      "official_url": "https://careers.hubbell.com/job/Portsmouth-2027-Summer-Intern-Operations-Supply-Chain-%26-Manufacturing-Analytics-NH-03801/1421653500/",
-      "posted_date": "2026-10-17",
+      "company": "Hong Kong Exchanges and Clearing Limited",
+      "title": "HKEX 2027 Summer Internship Programme",
+      "provisional_role_family": "Market Data / Financial Risk Analytics Internship",
+      "level": "University summer internship",
+      "location": "Hong Kong",
+      "remote_policy": "On-site",
+      "official_url": "https://hkex.wd3.myworkdayjobs.com/en-US/HKEXCareerPage/job/HK-TWO-ES-8F/HKEX-2027-Summer-Internship-Programme_R004457",
+      "posted_date": "Posted approximately 2026-09-16; application deadline 2026-10-25",
       "priority": "High",
-      "resume_route": "Quant",
-      "fit_summary": "Strong Operations Research fit through supply-chain and manufacturing analytics, process improvement, optimization, AI applications, Excel and Power BI; master's students are eligible.",
-      "eligibility_sponsorship_notes": "The reviewed official posting does not state a current or future sponsorship exclusion. Confirm CPT acceptance and future sponsorship before applying.",
-      "recommended_next_action": "Prioritize as Hubbell's closest match to Operations Research and optimization."
+      "resume_route": "Risk",
+      "fit_summary": "Strong fit through the Financial Risk Management, Technology Risk Management, Data Business and market-structure tracks, with direct exposure to Hong Kong capital markets.",
+      "eligibility_sponsorship_notes": "The reviewed official posting does not state a sponsorship exclusion. Confirm track selection and Hong Kong work authorization before applying.",
+      "recommended_next_action": "Review promptly because the official deadline is October 25."
     },
     {
       "number": 5,
-      "company": "Hubbell Incorporated",
-      "title": "2027 Summer Intern: Data & Systems Management",
-      "provisional_role_family": "Data Management / Systems Analytics Internship",
-      "level": "Bachelor's or master's student internship",
-      "location": "Portsmouth, NH",
+      "company": "Ekimetrics",
+      "title": "Business Scientist Internship (6-month full-time) - Hong Kong - January 2027",
+      "provisional_role_family": "Data Science / Analytics Consulting Internship",
+      "level": "Bachelor's or master's internship; 2027-2028 graduates",
+      "location": "Hong Kong",
       "remote_policy": "Hybrid",
-      "official_url": "https://careers.hubbell.com/job/Portsmouth-2027-Summer-Intern-Data-%26-Systems-Management-NH-03801/1421045300/",
-      "posted_date": "2026-10-16",
-      "priority": "Medium",
+      "official_url": "https://jobs.lever.co/ekimetrics/c7a0112a-4228-416f-8dd0-ff65fd0e87cc",
+      "posted_date": "Newly verified open 2026-10-18; exact posting date not stated",
+      "priority": "High",
       "resume_route": "Data",
-      "fit_summary": "Relevant for data cleansing, validation, software reliability, documentation, PLM migration and scalable data processes; the posting accepts bachelor's or master's students.",
-      "eligibility_sponsorship_notes": "The reviewed official posting does not state a current or future sponsorship exclusion. Confirm CPT acceptance and future sponsorship before applying.",
-      "recommended_next_action": "Use as a secondary Hubbell option after the BI, supply-chain analytics and SAP analytics roles."
+      "fit_summary": "Excellent match for statistics, applied mathematics, modeling, optimization, Python, data analysis and translating quantitative findings into client recommendations.",
+      "eligibility_sponsorship_notes": "The application accepts Student Visa as a work-permit status option but requires a full-time five-to-six-month commitment beginning January 2027. Confirm Hong Kong visa eligibility and academic availability.",
+      "recommended_next_action": "Prioritize if a January-to-June full-time placement is academically feasible."
     },
     {
       "number": 6,
-      "company": "Western Digital",
-      "title": "Summer 2027 Intern - Software Engineering (Data Analytics track)",
-      "provisional_role_family": "Data Engineering / Data Analytics Internship",
-      "level": "Bachelor's or master's student internship",
-      "location": "San Jose, CA; Irvine, CA; Fremont, CA; Longmont, CO; Colorado Springs, CO; Rochester, MN",
-      "remote_policy": "On-site or location-based",
-      "official_url": "https://jobs.smartrecruiters.com/WesternDigital/744000138727213",
-      "posted_date": "Verified open 2026-10-17; anticipated deadline 2026-10-20",
+      "company": "HSBC",
+      "title": "Investment Specialist - Alternatives - Internship",
+      "provisional_role_family": "Investment Analytics / Alternatives Internship",
+      "level": "Student internship; graduation November 2027 to July 2028",
+      "location": "Central, Hong Kong",
+      "remote_policy": "On-site",
+      "official_url": "https://apply.careers.hsbc.com/emergingtalent/job/Central-Investment-Specialist-Alternatives-Internship-Hong/1371079557/",
+      "posted_date": "2026-09-03; application deadline 2026-10-31",
       "priority": "High",
-      "resume_route": "Data",
-      "fit_summary": "The Data Analytics track covers pipelines, databases, warehouses, automation, dashboards and large-dataset analysis; master's students and Python or SQL experience are accepted.",
-      "eligibility_sponsorship_notes": "The reviewed official posting does not state a sponsorship exclusion. Confirm placement on the Data Analytics track, CPT and future sponsorship before applying.",
-      "recommended_next_action": "Review immediately because the anticipated deadline is October 20, 2026."
+      "resume_route": "Quant",
+      "fit_summary": "Strong fit for hedge-fund strategy research, market analysis, benchmarking, quantitative and cash-flow modeling, supported by the candidate's quantitative-finance and investment-research background.",
+      "eligibility_sponsorship_notes": "The official posting explicitly states that candidates requiring visa sponsorship will be considered; the December 2027 graduation date and GPA meet the stated criteria.",
+      "recommended_next_action": "Prioritize as the clearest Hong Kong sponsorship-compatible role in today's list."
     },
     {
       "number": 7,
-      "company": "Point72",
-      "title": "Quantitative Researcher Intern - Internal Alpha Capture",
-      "provisional_role_family": "Quantitative Research / Trading Internship",
-      "level": "Master's or PhD internship",
-      "location": "New York, NY",
-      "remote_policy": "On-site",
-      "official_url": "https://careers.point72.com/CSJobDetail?jobCode=CSS-0012539",
-      "posted_date": "Verified open 2026-10-17; exact posting date not stated",
+      "company": "Charles River Associates",
+      "title": "Economics Consulting Analyst/Associate Intern (Summer 2027)",
+      "provisional_role_family": "Economic / Quantitative Consulting Internship",
+      "level": "Bachelor's or master's internship; December 2027 or Summer 2028 graduates",
+      "location": "Boston, Chicago, New York, Oakland, Salt Lake City or Washington, DC",
+      "remote_policy": "Hybrid; normally three to four office days per week",
+      "official_url": "https://job-boards.greenhouse.io/charlesriverassociates/jobs/8120300",
+      "posted_date": "Verified open 2026-10-18; resume review begins in fall 2026",
       "priority": "High",
       "resume_route": "Quant",
-      "fit_summary": "Excellent match for independent quantitative research, machine learning on large noisy datasets, Python, backtesting and systematic equity signals.",
-      "eligibility_sponsorship_notes": "Master's students are explicitly eligible and the reviewed official posting does not state a sponsorship exclusion. Confirm CPT and future sponsorship before applying.",
-      "recommended_next_action": "Prioritize as a direct New York quantitative-research match."
+      "fit_summary": "Strong match for Python, SQL, regression analysis, cloud computing, financial and economic modeling, Mandarin capability and large-scale research data experience; the graduation window matches exactly.",
+      "eligibility_sponsorship_notes": "CRA asks about current eligibility and future sponsorship but does not state that sponsorship candidates are ineligible and advertises in-house immigration support. A cover letter, transcripts and quantitative writing sample are required.",
+      "recommended_next_action": "Prioritize the Chicago or New York option if willing to prepare the required writing sample."
     },
     {
       "number": 8,
-      "company": "Point72",
-      "title": "Quantitative Researcher - Intern (Cubist)",
-      "provisional_role_family": "Quantitative Research / Trading Internship",
-      "level": "Master's or PhD internship",
-      "location": "New York, NY; Seattle, WA",
-      "remote_policy": "On-site",
-      "official_url": "https://careers.point72.com/CSJobDetail?jobCode=CSS-0000570",
-      "posted_date": "Verified open 2026-10-17; exact posting date not stated",
+      "company": "Charles River Associates",
+      "title": "Accounting/Business/Finance Consulting Analyst/Associate Intern (Summer 2027)",
+      "provisional_role_family": "Financial / Risk Analytics Consulting Internship",
+      "level": "Bachelor's or master's internship; December 2027 or Summer 2028 graduates",
+      "location": "Boston, Chicago, Houston, New York or Oakland",
+      "remote_policy": "Hybrid; normally three to four office days per week",
+      "official_url": "https://job-boards.greenhouse.io/charlesriverassociates/jobs/8160288",
+      "posted_date": "Resume review began 2026-10-15; verified open 2026-10-18",
       "priority": "High",
-      "resume_route": "Quant",
-      "fit_summary": "Excellent fit for statistical learning, predictive modeling, large-dataset preprocessing and systematic trading; Python is one of several accepted languages and C++ is not required.",
-      "eligibility_sponsorship_notes": "Master's students are explicitly eligible and the reviewed official posting does not state a sponsorship exclusion. Confirm CPT and future sponsorship before applying.",
-      "recommended_next_action": "Prioritize for New York and distinguish it from the Internal Alpha Capture opening."
+      "resume_route": "Risk",
+      "fit_summary": "Strong fit for financial modeling, accounting analysis, anomaly detection, large transactional datasets, Python and SQL, combining the candidate's Quantitative Finance degree with EY audit experience.",
+      "eligibility_sponsorship_notes": "CRA asks about future sponsorship but does not state an exclusion and advertises in-house immigration support. A cover letter and undergraduate and graduate transcripts are required.",
+      "recommended_next_action": "Prioritize Chicago or New York and emphasize audit automation plus quantitative-finance training."
+    },
+    {
+      "number": 9,
+      "company": "Perpay",
+      "title": "Data Engineering Internship, Summer 2027",
+      "provisional_role_family": "Data Engineering Internship",
+      "level": "Master's internship; winter 2027 to summer 2028 graduates",
+      "location": "Philadelphia, PA",
+      "remote_policy": "On-site",
+      "official_url": "https://job-boards.greenhouse.io/perpay/jobs/4076965007",
+      "posted_date": "Newly verified open 2026-10-18; exact posting date not stated",
+      "priority": "High",
+      "resume_route": "Data",
+      "fit_summary": "Excellent match for SQL, Python, data warehouses, APIs, cloud infrastructure and production pipelines, supported by the candidate's PostgreSQL, BigQuery, DuckDB and GCP research experience.",
+      "eligibility_sponsorship_notes": "The posting asks about future sponsorship but does not state that sponsorship candidates are ineligible. Confirm CPT acceptance and future sponsorship before applying.",
+      "recommended_next_action": "Prioritize as the strongest new United States data-engineering lead."
+    },
+    {
+      "number": 10,
+      "company": "World Vision International",
+      "title": "Impact Data Analytics Intern",
+      "provisional_role_family": "Impact / Business Data Analytics Internship",
+      "level": "Current graduate student or recent graduate internship",
+      "location": "United States",
+      "remote_policy": "Remote; local United States applicants only",
+      "official_url": "https://worldvision.wd1.myworkdayjobs.com/WorldVisionInternational/job/Home-Working-United-States/Impact-Data-Analytics-Intern_JR52640",
+      "posted_date": "Verified open 2026-10-18; exact posting date not stated",
+      "priority": "Medium",
+      "resume_route": "BA",
+      "fit_summary": "Good match for data analytics, economics, business analysis and communicating evidence-based insights; current graduate students are eligible and the role is remote within the United States.",
+      "eligibility_sponsorship_notes": "The posting explicitly accepts F-1 students with valid work authorization and requires a U.S. Social Security number. It runs January 25 to April 23, 2027 for 30-40 hours weekly, is unpaid with an $800 monthly stipend, and requires adherence to the organization's Christian statement of faith.",
+      "recommended_next_action": "Keep as a conditional option only if the spring schedule, stipend and faith-based requirements are acceptable."
     }
   ],
   "rejected_candidates": [
     {
-      "company": "EY",
-      "reason": "The fresh Digital Risk internship explicitly requires authorization without employer sponsorship now or in the future."
+      "company": "Qube Research & Technologies",
+      "reason": "Two otherwise relevant Hong Kong internships were first posted in August and fall outside the 45-day freshness rule."
     },
     {
-      "company": "nCino",
-      "reason": "The fresh Data Science internship explicitly excludes current and future sponsorship and is framed primarily for bachelor's students or recent graduates."
+      "company": "HSBC",
+      "reason": "The Student Work Placement is undergraduate-only and requires Hong Kong work authorization without employer sponsorship; a separate sponsorship-compatible Alternatives internship was retained instead."
     },
     {
-      "company": "Principal Financial Group",
-      "reason": "The quantitative research internship explicitly excludes F-1 CPT, OPT and all current or future immigration sponsorship."
+      "company": "WPP Media",
+      "reason": "The 2027 internship page remains visible but lists an April 30, 2026 application deadline, so it is treated as closed."
     },
     {
-      "company": "Corning",
-      "reason": "The Engineering Data Analyst internship explicitly states that immigration sponsorship is not supported."
+      "company": "Boeing, Cardinal Health, GE HealthCare, Humana, Gallup and Relay",
+      "reason": "Fresh United States analytics internships explicitly exclude current or future sponsorship or CPT support."
     },
     {
-      "company": "Fidelity Investments",
-      "reason": "The fresh audit, risk and compliance internship is undergraduate-only and explicitly provides no immigration sponsorship."
+      "company": "MEMX",
+      "reason": "The new Data Engineering internship requires a current undergraduate student, which conflicts with the candidate's current master's status."
     },
     {
-      "company": "Cargill",
-      "reason": "The Risk Management internship requires work authorization not based solely on a student visa, which conflicts with the candidate's F-1 CPT route."
-    },
-    {
-      "company": "The Nuclear Company",
-      "reason": "The AI Applied Research internship requires U.S. Person status and provides no visa sponsorship."
-    },
-    {
-      "company": "National Life Group",
-      "reason": "The new Data Science internship explicitly states that visa sponsorship is not offered."
-    },
-    {
-      "company": "Millennium",
-      "reason": "User excluded this company from the recent backlog before confirmation."
-    },
-    {
-      "company": "Optiver",
-      "reason": "User excluded this company from the recent backlog before confirmation."
-    },
-    {
-      "company": "Robinhood",
-      "reason": "User excluded this company from the recent backlog before confirmation."
-    },
-    {
-      "company": "APEX Analytix",
-      "reason": "Removed from the 2026-10-17 shortlist because the same job URL was already retained from 2026-10-13."
+      "company": "Jane Street",
+      "reason": "Both Hong Kong roles were removed from the staged shortlist at the user's request on 2026-10-18."
     }
   ],
   "requested_replacement_count": 0,
-  "last_updated_at": "2026-10-17T16:37:42.7995914-04:00"
+  "confirmed_at": "2026-10-18T10:46:18-04:00",
+  "last_updated_at": "2026-10-18T10:46:18-04:00"
 }
