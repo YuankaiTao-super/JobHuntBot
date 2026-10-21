@@ -38,7 +38,7 @@
 - Closed, duplicate, stale-cycle, or internship-only roles when the requested employment type does not match the confirmed target.
 - Roles requiring credentials, licenses, languages, clearance, or domain experience not supported by the source materials.
 - Roles explicitly stating that candidates needing future sponsorship are ineligible.
-- Any posting that conflicts with confirmed work authorization, sponsorship, nationwide-US location, or internship-only rules.
+- Any posting that conflicts with confirmed work authorization, sponsorship, the current Hong Kong/United States location quota, or internship-only rules.
 - Mandatory video, extensive writing sample, or new account creation in the first Volume trial.
 
 ## Submitted-Company Exclusion
@@ -97,7 +97,11 @@
 ## Confirmed Search Scope
 
 - Employment type: internship only.
-- Target geography: United States nationwide; no remote/hybrid/onsite preference.
+- Daily location quota: exactly 10 shortlisted internships — 6 based in Hong Kong and 4 based in the United States.
+- Hong Kong bucket: the role must be physically based in Hong Kong or explicitly hire remote interns located in Hong Kong.
+- United States bucket: nationwide; no remote/hybrid/onsite preference.
+- Keep the two location buckets separate during search, replacement, review, and dashboard writes. Do not use extra roles from one region to fill a shortage in the other unless the user explicitly approves it.
+- If fewer than 6 valid Hong Kong roles or 4 valid United States roles can be verified, return the valid roles found and report the regional shortfall; never pad either bucket with weak, closed, duplicate, excluded-company, or fabricated roles.
 - Sponsorship compatibility: screen each posting against the current work-authorization and sponsorship facts in `answer_bank.md`; skip explicit conflicts and hand off ambiguous eligibility language.
 - Industries: no exclusions currently.
 - Sources: LinkedIn, Handshake, Indeed, and official company career sites.

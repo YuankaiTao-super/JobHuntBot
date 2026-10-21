@@ -75,12 +75,12 @@ dashboard/                       A ready-to-run local dashboard (same CSV schema
 The dashboard is a static HTML page + a tiny local Node server (no framework, no build, no external dependencies). It groups your `job_pool.csv` rows into three views:
 
 - **Applied** — rows with `status = Submitted`, with follow-up timeline and how each was submitted. Expand a card and click **"进度已结束" (Mark as ended)** at the bottom, then **"已通过" (Passed)** or **"已被挂" (Rejected)** — this writes the new status straight back into `job_pool.csv` and the job moves to the Ended view on next refresh. (The local server also confirms the row still matches company + job title before writing, in case the agent updated the same file in the meantime.)
-- **Pending** — rows with `status = Pending` / `Needs user`, split into "confirmed open, not yet applied" vs. "not open / unclear" using the `cohort_match_status` column (see `templates/dashboard-template/README.md` for the full field reference).
+- **Pending** — rows with `status = Pending` / `Needs user`. This is the default view when the dashboard opens, sorted by `date_found` newest-first (later-added rows come first within the same date). Each card has an **“已手动投递” (Manually submitted)** checkbox. Use it after completing a CAPTCHA or another manual application flow: the job moves to Applied and `application_log.csv` records today's date plus a clear “user submitted, not automation-verified” note.
 - **Ended** — rows marked `Offer` or `Rejected`.
 
 Below the three views, a **7-day calendar** shows upcoming events (tests, interviews, anything you schedule) for jobs in the Applied bucket. Click **"+ 添加日程"** to add one: pick the date/time, search for the company/job from your already-submitted list, and type the event content freely (e.g. "二轮面试", "笔试") — whatever you type is used verbatim, since every company's process reads differently. Saving an event also stamps that job's `current_stage` in `job_pool.csv` with the same text, so the Applied card immediately shows it. Events can be edited or deleted later from the calendar; deleting one does not revert `current_stage` (there's no reliable "previous stage" to roll back to — edit it manually if needed). Calendar data lives in `follow_up.csv`.
 
-You can open the CSVs directly in Excel/Google Sheets/Numbers too — the dashboard is just a nicer view on top of the same files (read-only, except for the "mark as ended" and calendar actions above).
+You can open the CSVs directly in Excel/Google Sheets/Numbers too — the dashboard is just a nicer view on top of the same files (read-only, except for manual-submission tracking, "mark as ended", and calendar actions).
 
 **Important:** open the dashboard through `start-dashboard.bat`/`start-dashboard.sh`, not by double-clicking `dashboard.html` directly — the page fetches the CSVs over `http://`, which browsers block when a file is opened directly from disk.
 
@@ -179,7 +179,7 @@ dashboard/                       开箱即用的本地进度看板(CSV结构与�
 看板是一个纯静态网页 + 一个很小的本地 Node 服务器(没有框架、不需要构建、没有外部依赖)。它把 `job_pool.csv` 里的记录分成三类视图:
 
 - **已投递** —— `status = Submitted` 的记录,附带后续跟进时间线和投递方式。展开某张卡片,点最下方的 **"进度已结束"**,再选 **"已通过"** 或 **"已被挂"**——会直接把新状态写回 `job_pool.csv`,刷新后这条记录就会出现在"已结束"里。(本地服务器写入前会先核对这一行的公司+职位是否还对得上,防止 Agent 恰好同时改过这份文件导致写错行。)
-- **未投递** —— `status = Pending` / `Needs user` 的记录,根据 `cohort_match_status` 列区分"已确认开放但还没投"和"未开放/状态不明"(完整字段说明见 `templates/dashboard-template/README.md`)。
+- **未投递** —— `status = Pending` / `Needs user` 的记录。看板启动后默认打开这一页，并按 `date_found` 从新到旧排列；同一天新增的岗位以后写入的排在前面。每个岗位前有 **“已手动投递”** 复选框：遇到验证码或其他需要自行完成的流程时，投递完成后勾选它，看板会把岗位移到“已投递”，并在 `application_log.csv` 中记录当天日期以及“用户自行投递（未经自动化核实）”。
 - **已结束** —— 标记为 `Offer` 或 `Rejected` 的记录。
 
 你也可以直接用 Excel/Google Sheets/Numbers 打开这些 CSV——看板在同一份数据上提供了更好看的视图(除了上面的"标记结束"操作外都是只读的)。

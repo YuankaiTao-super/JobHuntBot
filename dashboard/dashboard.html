@@ -107,6 +107,16 @@
     background: var(--surface-1); border: 1px solid var(--border); border-radius: 12px;
     padding: 14px 16px; margin-bottom: 8px; cursor: pointer;
   }
+  .manual-check-wrap {
+    display: flex; align-items: flex-start; gap: 10px; flex: 0 0 auto;
+    padding-top: 2px;
+  }
+  .manual-check {
+    width: 20px; height: 20px; margin: 0; cursor: pointer;
+    accent-color: var(--series-1);
+  }
+  .manual-check:disabled { cursor: wait; opacity: .65; }
+  .manual-check-label { font-size: 12px; color: var(--text-muted); white-space: nowrap; }
   .card-top { display:flex; align-items:flex-start; justify-content:space-between; gap:12px; }
   .card-title { font-size:15px; font-weight:600; }
   .card-sub { font-size: 13px; color: var(--text-secondary); margin-top:2px; }
@@ -269,10 +279,8 @@
           <input type="text" id="pending-search" placeholder="搜索公司…">
         </div>
       </div>
-      <div class="section-title" id="pending-open-title">已确认开放，还没投</div>
-      <div id="pending-open-list"></div>
-      <div class="section-title" id="pending-notopen-title">未开 / 状态不明</div>
-      <div id="pending-notopen-list"></div>
+      <div class="section-title" id="pending-title">全部未投递（最新发现优先）</div>
+      <div id="pending-list"></div>
     </div>
 
     <div id="ended-view" class="hidden">
@@ -372,6 +380,7 @@
     renderPending();
     renderEnded();
     renderCalendar();
+    showView('pending');
   }
 
   // ---------- categorization helpers ----------
@@ -425,6 +434,12 @@
     const logs = logsFor(r.company);
     if (logs.length) return logs[logs.length - 1].attempt_date || r.date_found;
     return r.date_found;
+  }
+  function sortByFoundDesc(rows) {
+    return rows.sort((a, b) =>
+      (b.date_found || '').localeCompare(a.date_found || '') ||
+      b.__rowIndex - a.__rowIndex
+    );
   }
   function submissionMode(company) {
     const logs = logsFor(company);
@@ -507,7 +522,7 @@
         const q = search.value.trim().toLowerCase();
         filtered = filtered.filter(r => (r.company||'').toLowerCase().includes(q));
       }
-      filtered.sort((a,b) => (submittedDateFor(b)||'').localeCompare(submittedDateFor(a)||''));
+      sortByFoundDesc(filtered);
 
       listEl.innerHTML = '';
       if (!filtered.length) { listEl.innerHTML = '<div class="empty">没有匹配的记录</div>'; return; }
@@ -530,7 +545,7 @@
                 <span class="chip ${mode.cls}">${esc(mode.label)}</span>
               </div>
             </div>
-            <div class="card-right">投递于 ${esc(submittedDateFor(r))}</div>
+            <div class="card-right">发现于 ${esc(r.date_found)} · 投递于 ${esc(submittedDateFor(r))}</div>
           </div>
           <div class="detail">
             <dt>职位/城市</dt><dd>${esc(r.job_title)} · ${esc(r.location)}</dd>
@@ -569,9 +584,26 @@
   }
 
   // ---------- pending view ----------
+  async function markManualSubmitted(r, checkbox) {
+    checkbox.disabled = true;
+    try {
+      const res = await fetch('/api/manual-submit', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ rowIndex: r.__rowIndex, company: r.company, job_title: r.job_title }),
+      });
+      const result = await res.json().catch(() => ({}));
+      if (!res.ok || !result.ok) throw new Error(result.error || ('HTTP ' + res.status));
+      location.reload();
+    } catch (e) {
+      checkbox.checked = false;
+      checkbox.disabled = false;
+      alert('记录失败：' + e.message);
+    }
+  }
+
   function renderPending() {
-    const openEl = document.getElementById('pending-open-list');
-    const notOpenEl = document.getElementById('pending-notopen-list');
+    const listEl = document.getElementById('pending-list');
     const catSel = document.getElementById('pending-filter-cat');
     const prioSel = document.getElementById('pending-filter-priority');
     const citySel = document.getElementById('pending-filter-city');
@@ -595,6 +627,10 @@
       const unclearChip = r.cohort_match_status === 'Unclear' ? '<span class="chip chip-warning">状态不明确，需人工复核</span>' : '';
       const html = `
         <div class="card-top">
+          <label class="manual-check-wrap" title="勾选后记录为用户自行投递">
+            <input class="manual-check" type="checkbox" aria-label="标记 ${esc(r.company)} ${esc(r.job_title)} 为已手动投递">
+            <span class="manual-check-label">已手动投递</span>
+          </label>
           <div>
             <div class="card-title">${esc(r.company)}</div>
             <div class="card-sub">${esc(r.job_title)} · ${esc(r.location)}</div>
@@ -604,14 +640,21 @@
               ${unclearChip}
             </div>
           </div>
-          <div class="card-right">${esc(summary)}</div>
+          <div class="card-right">发现于 ${esc(r.date_found)}<br>${esc(summary)}</div>
         </div>
         <div class="detail">
           <dt>next_action</dt><dd>${esc(r.next_action)}</dd>
           <dt>备注</dt><dd>${esc(r.notes)}</dd>
           ${r.job_url ? `<dt>链接</dt><dd><a href="${esc(r.job_url)}" target="_blank" rel="noopener">${esc(r.job_url)}</a></dd>` : ''}
         </div>`;
-      return cardEl(html);
+      const card = cardEl(html);
+      card.querySelector('.manual-check-wrap').addEventListener('click', e => e.stopPropagation());
+      const checkbox = card.querySelector('.manual-check');
+      checkbox.addEventListener('change', e => {
+        e.stopPropagation();
+        if (checkbox.checked) markManualSubmitted(r, checkbox);
+      });
+      return card;
     }
 
     function draw() {
@@ -623,18 +666,10 @@
         const q = search.value.trim().toLowerCase();
         filtered = filtered.filter(r => (r.company||'').toLowerCase().includes(q));
       }
-      const openRows = filtered.filter(isCycleOpen);
-      const notOpenRows = filtered.filter(r => !isCycleOpen(r));
-
-      document.getElementById('pending-open-title').textContent = `已确认开放，还没投（${openRows.length}）`;
-      document.getElementById('pending-notopen-title').textContent = `未开 / 状态不明（${notOpenRows.length}）`;
-
-      openEl.innerHTML = '';
-      notOpenEl.innerHTML = '';
-      openEl.innerHTML = openRows.length ? '' : '<div class="empty">没有匹配的记录</div>';
-      notOpenEl.innerHTML = notOpenRows.length ? '' : '<div class="empty">没有匹配的记录</div>';
-      openRows.forEach(r => openEl.appendChild(rowCard(r)));
-      notOpenRows.forEach(r => notOpenEl.appendChild(rowCard(r)));
+      sortByFoundDesc(filtered);
+      document.getElementById('pending-title').textContent = `全部未投递（${filtered.length}，最新发现优先）`;
+      listEl.innerHTML = filtered.length ? '' : '<div class="empty">没有匹配的记录</div>';
+      filtered.forEach(r => listEl.appendChild(rowCard(r)));
     }
     catSel.onchange = draw; prioSel.onchange = draw; citySel.onchange = draw; search.oninput = draw;
     draw();
@@ -652,7 +687,7 @@
         const q = search.value.trim().toLowerCase();
         filtered = filtered.filter(r => (r.company||'').toLowerCase().includes(q));
       }
-      filtered.sort((a,b) => (a.status === 'Offer' ? -1 : 1) - (b.status === 'Offer' ? -1 : 1));
+      sortByFoundDesc(filtered);
 
       listEl.innerHTML = '';
       if (!filtered.length) { listEl.innerHTML = '<div class="empty">暂无已结束的投递</div>'; return; }

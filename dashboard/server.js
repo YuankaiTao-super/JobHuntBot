@@ -2,6 +2,7 @@
 // Serves this folder on http://localhost:8420 so dashboard.html can fetch()
 // the CSV files with fresh data on every reload. Also exposes write
 // endpoints so the dashboard can:
+//   - record a user-completed manual application (POST /api/manual-submit)
 //   - mark a job as Offer/Rejected (POST /api/update-status)
 //   - add/edit/delete an upcoming calendar event, which also stamps the
 //     job's current_stage in job_pool.csv (POST /api/calendar/*)
@@ -9,9 +10,10 @@ const http = require('http');
 const fs = require('fs');
 const path = require('path');
 
-const PORT = 8420;
+const PORT = Number(process.env.PORT || 8420);
 const ROOT = __dirname;
 const JOB_POOL_PATH = path.join(ROOT, 'job_pool.csv');
+const APPLICATION_LOG_PATH = path.join(ROOT, 'application_log.csv');
 const FOLLOW_UP_PATH = path.join(ROOT, 'follow_up.csv');
 
 const MIME = {
@@ -85,6 +87,92 @@ function sendJSON(res, statusCode, obj) {
 
 const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
 const TIME_RE = /^\d{2}:\d{2}$/;
+
+function todayInNewYork() {
+  const parts = new Intl.DateTimeFormat('en-US', {
+    timeZone: 'America/New_York', year: 'numeric', month: '2-digit', day: '2-digit',
+  }).formatToParts(new Date());
+  const value = type => parts.find(p => p.type === type).value;
+  return `${value('year')}-${value('month')}-${value('day')}`;
+}
+
+async function handleManualSubmit(req, res) {
+  let payload;
+  try {
+    payload = await readJSONBody(req);
+  } catch (e) {
+    return sendJSON(res, 400, { ok: false, error: e.message });
+  }
+
+  const { rowIndex, company, job_title } = payload || {};
+  if (!Number.isInteger(rowIndex) || rowIndex < 0) {
+    return sendJSON(res, 400, { ok: false, error: 'rowIndex must be a non-negative integer' });
+  }
+
+  let poolHeader, poolRows, logHeader, logRows;
+  try {
+    ({ header: poolHeader, dataRows: poolRows } = readCSVRows(JOB_POOL_PATH));
+    ({ header: logHeader, dataRows: logRows } = readCSVRows(APPLICATION_LOG_PATH));
+  } catch (e) {
+    return sendJSON(res, 500, { ok: false, error: 'Could not read dashboard CSV files: ' + e.message });
+  }
+
+  const poolCols = {
+    company: poolHeader.indexOf('company'), title: poolHeader.indexOf('job_title'),
+    status: poolHeader.indexOf('status'), stage: poolHeader.indexOf('current_stage'),
+    url: poolHeader.indexOf('job_url'), resume: poolHeader.indexOf('resume_variant'),
+  };
+  if (Object.values(poolCols).includes(-1)) {
+    return sendJSON(res, 500, { ok: false, error: 'job_pool.csv is missing an expected column' });
+  }
+  if (rowIndex >= poolRows.length) {
+    return sendJSON(res, 409, { ok: false, error: 'rowIndex out of range — the file may have changed, please refresh' });
+  }
+
+  const target = poolRows[rowIndex];
+  if (target[poolCols.company] !== company || target[poolCols.title] !== job_title) {
+    return sendJSON(res, 409, { ok: false, error: 'This row no longer matches — the dashboard data changed, please refresh and try again' });
+  }
+  if (!['Pending', 'Needs user'].includes(target[poolCols.status])) {
+    return sendJSON(res, 409, { ok: false, error: 'Only Pending or Needs user jobs can be marked as manually submitted' });
+  }
+
+  const requiredLogCols = [
+    'attempt_date', 'company', 'job_title', 'job_url', 'platform', 'status',
+    'submission_evidence', 'resume_used', 'answers_used', 'confirmation_url',
+    'confirmation_text', 'notes',
+  ];
+  if (requiredLogCols.some(c => logHeader.indexOf(c) === -1)) {
+    return sendJSON(res, 500, { ok: false, error: 'application_log.csv is missing an expected column' });
+  }
+
+  const logRow = new Array(logHeader.length).fill('');
+  const setLog = (column, value) => { logRow[logHeader.indexOf(column)] = value; };
+  setLog('attempt_date', todayInNewYork());
+  setLog('company', company);
+  setLog('job_title', job_title);
+  setLog('job_url', target[poolCols.url]);
+  setLog('platform', 'Manual');
+  setLog('status', 'Submitted');
+  setLog('submission_evidence', '用户自行投递（看板勾选）');
+  setLog('resume_used', target[poolCols.resume]);
+  setLog('answers_used', '用户自行填写');
+  setLog('confirmation_text', '用户在看板中确认已手动投递');
+  setLog('notes', '由用户在本地看板勾选记录；未经自动化核实');
+
+  target[poolCols.status] = 'Submitted';
+  target[poolCols.stage] = '用户自行投递，等待中';
+  logRows.push(logRow);
+
+  try {
+    writeCSVRows(APPLICATION_LOG_PATH, logHeader, logRows);
+    writeCSVRows(JOB_POOL_PATH, poolHeader, poolRows);
+  } catch (e) {
+    return sendJSON(res, 500, { ok: false, error: 'Could not write dashboard CSV files: ' + e.message });
+  }
+
+  sendJSON(res, 200, { ok: true, attempt_date: logRow[logHeader.indexOf('attempt_date')] });
+}
 
 async function handleUpdateStatus(req, res) {
   let payload;
@@ -333,6 +421,7 @@ async function handleCalendarDelete(req, res) {
 }
 
 const ROUTES = {
+  '/api/manual-submit': handleManualSubmit,
   '/api/update-status': handleUpdateStatus,
   '/api/calendar/add': handleCalendarAdd,
   '/api/calendar/update': handleCalendarUpdate,
