@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-21",
+  "date": "2026-10-22",
   "timezone": "America/New_York",
   "status": "pending_user",
   "candidates": [
@@ -12,15 +12,31 @@
       "location": "Hong Kong",
       "remote_policy": "Not stated",
       "official_url": "https://job-boards.greenhouse.io/mwinternshipprogram/jobs/8857614002",
-      "posted_date": "Newly verified open 2026-10-21",
+      "posted_date": "Newly verified open 2026-10-22",
       "priority": "High",
       "resume_route": "Quant",
       "fit_summary": "Excellent match for Python, statistics, portfolio construction, model validation, market data and systematic-investing workflows.",
-      "eligibility_sponsorship_notes": "The posting accepts master''s students and explicitly says Hong Kong visa sponsorship can be offered.",
+      "eligibility_sponsorship_notes": "The posting accepts master''s students and explicitly states Hong Kong visa sponsorship can be offered.",
       "recommended_next_action": "Prioritize as the strongest Hong Kong lead."
     },
     {
       "number": 2,
+      "company": "Marshall Wace",
+      "title": "Technology Intern – Hong Kong 2027",
+      "provisional_role_family": "Technology / Quantitative Systems Internship",
+      "level": "Current student internship",
+      "location": "Hong Kong",
+      "remote_policy": "Fully in-office",
+      "official_url": "https://job-boards.greenhouse.io/mwinternshipprogram/jobs/8608328002",
+      "posted_date": "Newly verified open 2026-10-22",
+      "priority": "High",
+      "resume_route": "Data",
+      "fit_summary": "Strong fit for Python, GCP, data pipelines and technology supporting systematic strategies, trading and AI-enabled workflows.",
+      "eligibility_sponsorship_notes": "The form explicitly treats December 2027 graduation as 2028 and says visa sponsorship is available. Marshall Wace progresses only one application per person, so choose between this and role 1.",
+      "recommended_next_action": "Compare directly with role 1 before choosing the single Marshall Wace application."
+    },
+    {
+      "number": 3,
       "company": "Verition Group",
       "title": "2027 Investment Internship (APAC)",
       "provisional_role_family": "Investment Research / Quantitative Analytics Internship",
@@ -28,7 +44,7 @@
       "location": "Hong Kong",
       "remote_policy": "Not stated",
       "official_url": "https://job-boards.greenhouse.io/veritiongroupllcinternships/jobs/5264435007",
-      "posted_date": "Newly verified open 2026-10-21",
+      "posted_date": "Newly verified open 2026-10-22",
       "priority": "High",
       "resume_route": "Quant",
       "fit_summary": "Strong fit for data-driven investment research, alpha-oriented analysis and the candidate''s quantitative-finance background.",
@@ -36,7 +52,7 @@
       "recommended_next_action": "Prioritize after confirming eligibility and internship dates."
     },
     {
-      "number": 3,
+      "number": 4,
       "company": "Manulife",
       "title": "Co-op Internship 2027 – Global Information Risk Management (6 months)",
       "provisional_role_family": "Risk Analytics / Information Risk Internship",
@@ -52,7 +68,7 @@
       "recommended_next_action": "Review promptly before the November 1 deadline."
     },
     {
-      "number": 4,
+      "number": 5,
       "company": "Manulife",
       "title": "Co-op Internship 2027 – Investment Management, General Account Investments (6 months)",
       "provisional_role_family": "Investment Analytics / Asset Allocation Internship",
@@ -60,7 +76,7 @@
       "location": "Hong Kong",
       "remote_policy": "Full-time; work arrangement not stated",
       "official_url": "https://manulife.wd3.myworkdayjobs.com/mfcjh_jobs/job/Manulife-Co-op-Program---Investment-Management---General-Account-Investments---January-2027-Intake_JR26091329",
-      "posted_date": "Posted approximately 2026-10-14; application deadline 2026-11-01",
+      "posted_date": "Posted approximately 2026-10-15; application deadline 2026-11-01",
       "priority": "High",
       "resume_route": "Quant",
       "fit_summary": "Strong match for investment analytics, asset allocation, portfolio oversight and quantitative-finance training.",
@@ -68,39 +84,39 @@
       "recommended_next_action": "Prioritize if the six-month schedule is feasible."
     },
     {
-      "number": 5,
-      "company": "Manulife",
-      "title": "Co-op Internship 2027 – Business & Investment Advisory, General Account Investments (6 months)",
-      "provisional_role_family": "Investment Advisory / Business Analytics Internship",
-      "level": "Student internship",
-      "location": "Hong Kong",
-      "remote_policy": "Full-time; work arrangement not stated",
-      "official_url": "https://manulife.wd3.myworkdayjobs.com/mfcjh_jobs/job/Manulife-Co-op-Program----Business---Investment-Advisory--General-Accounts-Investment---January-2027-Intake_JR26091510",
-      "posted_date": "Posted approximately 2026-10-21; application deadline 2026-11-01",
-      "priority": "High",
-      "resume_route": "Quant",
-      "fit_summary": "Good fit for portfolio analysis, investment strategy and data-backed advisory work across a large general-account platform.",
-      "eligibility_sponsorship_notes": "This is a full-time six-month placement. Sponsorship is not stated; confirm Hong Kong work authorization and academic availability.",
-      "recommended_next_action": "Review promptly as a distinct investment-advisory option."
-    },
-    {
       "number": 6,
-      "company": "Barclays",
-      "title": "Quantitative Analytics Associate Off Cycle Internship 2027 – Hong Kong",
-      "provisional_role_family": "Quantitative Analytics / Risk Modelling Internship",
-      "level": "Postgraduate off-cycle internship",
-      "location": "Hong Kong",
+      "company": "Qube Research & Technologies",
+      "title": "2027 – Internship or Graduate, Software Engineer and Quantitative Developer",
+      "provisional_role_family": "Quantitative Development / Software Engineering Internship",
+      "level": "Penultimate or final-year student; internship or graduate pathway",
+      "location": "Hong Kong or Singapore; select Hong Kong",
       "remote_policy": "Not stated",
-      "official_url": "https://barclays.wd3.myworkdayjobs.com/en-US/External_Career_Site_Barclays/job/Quantitative-Analytics-Associate-Off-Cycle-Internship-2027-Hong-Kong_JR-0000117565",
-      "posted_date": "Posted 30+ days ago; verified open 2026-10-21; application deadline 2026-12-01",
+      "official_url": "https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8617401002",
+      "posted_date": "Posted approximately 2026-10-20; verified open 2026-10-22",
       "priority": "High",
       "resume_route": "Quant",
-      "fit_summary": "Direct match for Operations Research, quantitative finance, model development and Python-based quantitative analytics.",
-      "eligibility_sponsorship_notes": "The six-month June-to-December 2027 program targets postgraduate students graduating December 2027 through June 2028. Sponsorship is not stated; confirm Hong Kong work authorization.",
-      "recommended_next_action": "Prioritize if the six-month off-cycle schedule works."
+      "fit_summary": "Good fit for Python-based quantitative development, data systems and the candidate''s systematic-investing and large-scale data experience.",
+      "eligibility_sponsorship_notes": "The application accepts 2027 internship candidates and asks directly about visa sponsorship without stating an exclusion. Confirm Hong Kong authorization and sponsorship details.",
+      "recommended_next_action": "Select Hong Kong as the preferred location and review the role-track choice carefully."
     },
     {
       "number": 7,
+      "company": "Duolingo",
+      "title": "Data Scientist, Intern",
+      "provisional_role_family": "Product Data Science Internship",
+      "level": "Undergraduate or master''s internship",
+      "location": "New York, NY or Pittsburgh, PA",
+      "remote_policy": "In-person; relocation required",
+      "official_url": "https://careers.duolingo.com/jobs/8888721002?gh_jid=8888721002",
+      "posted_date": "Posted approximately 2026-10-15; verified open 2026-10-22",
+      "priority": "High",
+      "resume_route": "Data",
+      "fit_summary": "Excellent fit for SQL, Python, statistics, large-dataset analysis, experiments, forecasting and communicating product insights.",
+      "eligibility_sponsorship_notes": "The Fall 2027 or Spring/Summer 2028 graduation window includes December 2027. The official posting states no sponsorship exclusion; confirm CPT and future sponsorship before applying.",
+      "recommended_next_action": "Prioritize New York as the preferred location."
+    },
+    {
+      "number": 8,
       "company": "Geneva Trading",
       "title": "Quantitative Trading Internship – Summer 2027",
       "provisional_role_family": "Quantitative Trading Internship",
@@ -108,7 +124,7 @@
       "location": "Chicago, IL",
       "remote_policy": "On-site",
       "official_url": "https://job-boards.greenhouse.io/genevatrading/jobs/5232641007",
-      "posted_date": "Newly verified open 2026-10-21; expected close 2026-12-23",
+      "posted_date": "Newly verified open 2026-10-22; expected close 2026-12-23",
       "priority": "High",
       "resume_route": "Quant",
       "fit_summary": "Excellent match for Python, statistics, probability, optimization, SQL and quantitative-finance coursework.",
@@ -116,7 +132,7 @@
       "recommended_next_action": "Prioritize as the strongest United States trading lead."
     },
     {
-      "number": 8,
+      "number": 9,
       "company": "HPS Investment Partners",
       "title": "Intern – Risk & Quant Strats (NY)",
       "provisional_role_family": "Quantitative Risk / Credit Strategy Internship",
@@ -124,28 +140,12 @@
       "location": "New York, NY",
       "remote_policy": "Hybrid; four office days and optional remote Friday",
       "official_url": "https://job-boards.greenhouse.io/hpsinterns/jobs/4739868005",
-      "posted_date": "Newly verified open 2026-10-21",
+      "posted_date": "Newly verified open 2026-10-22",
       "priority": "High",
       "resume_route": "Risk",
       "fit_summary": "Excellent alignment with Python, SQL, quantitative credit research, risk-and-return analysis and financial modelling.",
       "eligibility_sponsorship_notes": "The official posting does not state a sponsorship exclusion. Confirm CPT acceptance and future sponsorship before applying.",
       "recommended_next_action": "Prioritize as a direct New York quantitative-risk match."
-    },
-    {
-      "number": 9,
-      "company": "Readystate Asset Management",
-      "title": "Investment Intern (Summer 2027 & 2028)",
-      "provisional_role_family": "Investment Research / Quantitative Strategy Internship",
-      "level": "Student internship",
-      "location": "Chicago, IL; select New York opportunities",
-      "remote_policy": "Not stated",
-      "official_url": "https://job-boards.greenhouse.io/readystate/jobs/4171077008",
-      "posted_date": "Newly verified open 2026-10-21",
-      "priority": "High",
-      "resume_route": "Quant",
-      "fit_summary": "Strong fit for systematic research, predictive pricing, quantitative analysis, Python or R and multi-strategy investing.",
-      "eligibility_sponsorship_notes": "The application asks about future sponsorship but the posting states no exclusion. Confirm CPT acceptance and future sponsorship.",
-      "recommended_next_action": "Prioritize for the quantitative track and indicate Chicago preference if asked."
     },
     {
       "number": 10,
@@ -156,7 +156,7 @@
       "location": "New York, NY",
       "remote_policy": "On-site",
       "official_url": "https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4716166006",
-      "posted_date": "Newly verified open 2026-10-21",
+      "posted_date": "Newly verified open 2026-10-22",
       "priority": "High",
       "resume_route": "Data",
       "fit_summary": "Strong fit for Python, SQL, APIs, quantitative analysis and building AI-enabled internal tools in a hedge-fund setting.",
@@ -165,10 +165,6 @@
     }
   ],
   "rejected_candidates": [
-    {
-      "company": "Schonfeld",
-      "reason": "The Hong Kong application asks whether the candidate graduates January 2028 through Summer 2028; the candidate''s December 2027 graduation falls outside that stated window."
-    },
     {
       "company": "Jane Street, Millennium, Optiver and Robinhood",
       "reason": "Excluded by the user''s standing instructions."
@@ -182,14 +178,26 @@
       "reason": "Excluded at company level before deeper research, including DV Group/DV Trading, CTC, IMC, Belvedere, Goldman Sachs and the other submitted-list companies."
     },
     {
-      "company": "Ekimetrics",
-      "reason": "The current Hong Kong internship is already in the job pool."
+      "company": "Schonfeld",
+      "reason": "The Hong Kong quantitative-research form asks for graduation from January 2028 through Summer 2028; December 2027 falls outside that stated window."
     },
     {
-      "company": "Pretium",
-      "reason": "The fresh Capital Markets internship requires enrollment in a bachelor''s program and Class of 2029, which does not match the candidate."
+      "company": "Nex",
+      "reason": "Fresh Hong Kong technical internships explicitly state that visa sponsorship is unavailable; Hong Kong work authorization is not confirmed."
+    },
+    {
+      "company": "Engineers Gate",
+      "reason": "The Hong Kong quantitative-research internship was originally posted in May 2026, outside the 45-day freshness window."
+    },
+    {
+      "company": "GE HealthCare, Stryker, Clarios, Fidelity, DriveTime and Dow Jones",
+      "reason": "Fresh United States roles explicitly exclude candidates who need current or future sponsorship."
+    },
+    {
+      "company": "Primient and Itron",
+      "reason": "Fresh analytics roles require current enrollment in a bachelor''s program; the candidate is enrolled in a master''s program."
     }
   ],
   "requested_replacement_count": 0,
-  "last_updated_at": "2026-10-21T12:25:40-04:00"
+  "last_updated_at": "2026-10-22T09:04:44-04:00"
 }
