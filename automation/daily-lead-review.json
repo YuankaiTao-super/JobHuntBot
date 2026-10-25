@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-24",
+  "date": "2026-10-25",
   "timezone": "America/New_York",
   "status": "pending_user",
   "candidates": [
@@ -12,7 +12,7 @@
       "location": "Hong Kong or Singapore; select Hong Kong",
       "remote_policy": "Not stated",
       "official_url": "https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8749947002",
-      "posted_date": "Posted approximately 2026-09-14; verified open 2026-10-24",
+      "posted_date": "Posted approximately 2026-09-14; verified open 2026-10-25",
       "priority": "High",
       "resume_route": "Data",
       "fit_summary": "Strong match for Python, SQL, cloud data pipelines and large-scale quantitative datasets in a systematic-investing environment.",
@@ -28,7 +28,7 @@
       "location": "Hong Kong",
       "remote_policy": "On-site",
       "official_url": "https://jobs.citi.com/job/hong-kong/services-summer-analyst-hong-kong-2027/287/102161042688",
-      "posted_date": "Posted 2026-10-19; verified open 2026-10-24",
+      "posted_date": "Posted 2026-10-19; verified open 2026-10-25",
       "priority": "High",
       "resume_route": "BA",
       "fit_summary": "Good fit for client-data analysis, predictive analytics, process optimization, risk mitigation and financial-services reporting.",
@@ -108,7 +108,7 @@
       "location": "New York, NY",
       "remote_policy": "On-site",
       "official_url": "https://careers.bankofamerica.com/en-us/students/job-detail/14896/global-quantitative-research-summer-associate-program-2027-new-york-new-york-united-states-esomprank-xy43lqcrf6-6",
-      "posted_date": "Verified open 2026-10-24; application deadline 2026-11-15",
+      "posted_date": "Verified open 2026-10-25; application deadline 2026-11-15",
       "priority": "High",
       "resume_route": "Quant",
       "fit_summary": "Excellent match for quantitative finance, machine learning, large datasets, derivatives, portfolio construction, forecasting and systematic strategies.",
@@ -140,7 +140,7 @@
       "location": "Remote - United States; two days in Brooklyn, NY",
       "remote_policy": "Remote in the United States with a two-day in-person experience",
       "official_url": "https://jobs.ashbyhq.com/amplify/143c8ccc-69ce-4141-bcfe-0bc553ea49b4",
-      "posted_date": "Verified open 2026-10-24",
+      "posted_date": "Verified open 2026-10-25",
       "priority": "High",
       "resume_route": "BA",
       "fit_summary": "Strong match for operations research, supply-chain analytics, structured problem solving and data visualization.",
@@ -156,7 +156,7 @@
       "location": "Redwood City, CA",
       "remote_policy": "On-site",
       "official_url": "https://job-boards.greenhouse.io/c3ascend/jobs/8738917002",
-      "posted_date": "Verified open 2026-10-24",
+      "posted_date": "Verified open 2026-10-25",
       "priority": "High",
       "resume_route": "Data",
       "fit_summary": "Strong match for Python, R, statistics, optimization and scalable analytics, with additional emphasis on applied machine learning and agentic AI.",
@@ -195,5 +195,5 @@
     }
   ],
   "requested_replacement_count": 0,
-  "last_updated_at": "2026-10-24T09:29:14-04:00"
+  "last_updated_at": "2026-10-25T08:56:39-04:00"
 }
