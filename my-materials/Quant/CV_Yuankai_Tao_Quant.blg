@@ -1,0 +1,9 @@
+[0] Config.pm:328> INFO - This is Biber 2.21
+[0] Config.pm:331> INFO - Logfile is 'CV_Yuankai_Tao_Quant.blg'
+[85] biber-MSWIN64:342> INFO - === 
+[118] Biber.pm:421> INFO - Reading 'CV_Yuankai_Tao_Quant.bcf'
+[201] Biber.pm:1002> INFO - Found 0 citekeys in bib section 0
+[212] bbl.pm:676> INFO - Writing 'CV_Yuankai_Tao_Quant.bbl' with encoding 'UTF-8'
+[212] bbl.pm:779> INFO - Output to CV_Yuankai_Tao_Quant.bbl
+[212] Biber.pm:132> WARN - The file 'CV_Yuankai_Tao_Quant.bcf' does not contain any citations!
+[212] Biber.pm:134> INFO - WARNINGS: 1

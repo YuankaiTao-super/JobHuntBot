@@ -58,7 +58,7 @@ Tel: \href{tel:+1 470 658 3699}{+1 470 658 3699} \quad \textbar \quad
 \begin{rSection}{EDUCATION}
 {\bf Georgia Institute of Technology} \hfill {\em Aug 2026} | {\em Dec 2027}
 \\ \textit{M.S. in Operations Research, Stewart School of Industrial and Systems Engineering} \hfill \textit{} \\
-\textbf{Selected Coursework:} Deterministic Optimization, Stochastic Process, Simulation \\
+\textbf{Selected Coursework:} Deterministic Optimization, Computational Statistics, Simulation \\
 {\bf University of California, San Diego} \hfill {\em Sep 2024} | {\em Dec 2025}
 \\ \textit{M.S. in Quantitative Finance, Rady School of Management} \hfill \textit{GPA:} 3.84/4.0 \\
 \textbf{Selected Coursework:} Deep Learning, Computational Finance Methods, Data Science for Finance \\
@@ -78,9 +78,9 @@ Libraries \& Frameworks  & Pandas, Polars, Numpy, Scipy, PyTorch, scikit-learn, 
 \noindent
 \textbf{Guangdong Hedge Fund Investment Management Co., Ltd.} \hfill {\em May 2026} | {\em Jul 2026} \\
 Quantitative Research, Intern \hfill \textit{Quantitative Strategy Department} $|$ \textit{Hong Kong} \\[4pt]
-• Engineered end-to-end commodity futures ML pipeline with 16 features (trend, momentum, volatility, liquidity, volume, open-interest); trained and ensemble LightGBM, XGBoost, CatBoost, and neural networks across 1- to 20-day horizons using rolling out-of-sample validation with both statistical and trading metrics.\\[1.5pt]    
-• Developed a monthly rebalanced cross-sectional futures strategy using LightGBM return probabilities with 120-day rolling retraining window; implemented in Backtrader achieving 1.89 Sharpe ratio after transaction costs, 16.79\% annualized return, and 25.51\% excess return.\\[1.5pt]
-• Built a dynamic VaR/CVaR risk measurement system for metal futures; constructed 17 risk models combining 5 volatility models (GARCH, EWMAV) with 3 distribution assumptions (Normal, Student-t, Skewed-t, Filtered Historical Simulation); introduced semi-variance slicing method to isolate long/short momentum risks.
+• Engineered end-to-end commodity futures ML pipeline with 16 features (trend, momentum, volatility, liquidity, volume, open-interest), trained and ensembled LightGBM, XGBoost, CatBoost, and NN across 1- to 20-day horizons, ranked them using rolling out-of-sample validation with both statistical and trading metrics.\\[1.5pt]    
+• Developed a monthly rebalanced cross-sectional futures strategy using LightGBM return probabilities with 120-day rolling retraining window; implemented in Backtrader achieving 1.89 Sharpe ratio after transaction costs and 15.51\% excess return comparing to the benchmark.\\[1.5pt]
+• Built a dynamic VaR/CVaR risk measurement system for metal futures; introduced semi-variance slicing method to isolate long/short momentum risks and constructed 17 risk models combining 5 volatility models (GARCH, EWMAV) with 3 distribution assumptions (Normal, Student\/Skewed-t, Filtered Historical Simulation).
 
 \textbf{VariFlight Technology} \hfill {\em Jul 2025} | {\em Sep 2025} \\
 Data Analyst, Intern \hfill \textit{Data Development Department} $|$ \textit{Anhui, China} \\[4pt]
@@ -94,22 +94,14 @@ Assurance, Intern \hfill \textit{Financial Service Office (FSO)}\\[4pt]
 
 \end{rSection}
 
-\begin{rSection}{RESEARCH EXPERIENCE}
-\noindent
-\textbf{\href{https://github.com/YuankaiTao-super/Construction-of-Comparable-Housing-Variables}{Research Assistant for Professor Franklin Qian, UNC-Chapel Hill}} \hfill {\em Mar 2025} | {\em Jan 2026}\\
-\textit{\href{https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4406954}{The Numbers Game: Signaling Effects of Pricing Formats in Housing Bargaining}}\\[4pt]
-• Engineered large-scale data pipeline (Python, PostgreSQL, PostGIS) processing 76-million-observation spatial dataset on Google Cloud Platform; managed 964.5M-record SQL database with 100GB+ data on UNC Longleaf HPC cluster using Python and DuckDB.\\[1.5pt]
-• Implemented parallelized spatial computation workflows to calculate comparable housing variables across multiple distance ranges with property-specific filtering criteria, achieving approximately 50$\times$ computational speedup.\\[1.5pt]
-• Executed complex geospatial queries to extract population statistics with time-window and property-related constraints.
-
-\end{rSection}
 
 \begin{rSection}{SELECTED PROJECTS}
 
 \noindent
 \href{https://github.com/YuankaiTao-super/Kaggle2024-Jane-Street-Real-Time-Market-Data-Forecasting}{\textbf{Kaggle Jane Street Market Prediction Competition}} \hfill \textit{Silver Medal}\\
-• Processed 47M minute-level observations spanning 1,669 trading days; engineered cross-sectional, lagged, rolling, and market-regime features from 79 anonymized variables and 9 responder targets.\\[1.5pt]
-• Trained and ensembled LightGBM, CatBoost, XGBoost, MLP, and TabNet models using time-aware validation; achieved 94th place (Top 2.5\%) of 3,757 teams on private leaderboard.
+• Built a memory-efficient Polars/PyTorch pipeline for 47M intraday anonymized market observations across 1,669 trading days, engineering lagged, rolling and temporal features, deploying online inference through Kaggle's streaming evaluation API.\\[1.5pt]
+• Implemented and evaluated a parameter-efficient TabM regressor, conducting a 32-member shared-parameter ensemble, and handling with 3 categorical features detected before with one-hot encoding in the training process, obtaining an improvement of +0.004 on CV.\\[1.5pt]
+• Contributed to the baseline training and final ensemble of XGBoost, MLP, Ridge, and TabM, increasing the generalization performance of the model sets over fine-tuning, helping the team finish 94th among 3,757 teams.
 
 \noindent
 \href{https://github.com/YuankaiTao-super/Capstone_FMS_2025}{\textbf{UCSD / FMSbonds, Inc. 2025 Capstone Project}} \hfill {\em Aug 2025} | {\em Dec 2025}\\
@@ -129,6 +121,16 @@ Assurance, Intern \hfill \textit{Financial Service Office (FSO)}\\[4pt]
 % \textit{Team Lead} $|$ \textit{Human-in-the-Loop BERT Fine-Tuning on 20.5M Text Rows} \\[4pt]
 % • Conducted exploratory NER and frequency analysis on Fluence Energy Inc. SEC filings.\\[1.5pt]
 % • Implemented iterative human-in-the-loop fine-tuning with 3 rounds of annotation; trained BERT model achieving 79\% accuracy in quantifying uncertainty tone in financial disclosures.
+
+\begin{rSection}{RESEARCH EXPERIENCE}
+\noindent
+\textbf{\href{https://github.com/YuankaiTao-super/Construction-of-Comparable-Housing-Variables}{Research Assistant for Professor Franklin Qian, UNC-Chapel Hill}} \hfill {\em Mar 2025} | {\em Jan 2026}\\
+\textit{\href{https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4406954}{The Numbers Game: Signaling Effects of Pricing Formats in Housing Bargaining}}\\[4pt]
+• Engineered large-scale data pipeline (Python, PostgreSQL, PostGIS) processing 76-million-observation spatial dataset on Google Cloud Platform; managed 964.5M-record SQL database with 100GB+ data on UNC Longleaf HPC cluster using Python and DuckDB.\\[1.5pt]
+• Implemented parallelized spatial computation workflows to calculate comparable housing variables across multiple distance ranges with property-specific filtering criteria, achieving approximately 50$\times$ computational speedup.\\[1.5pt]
+• Executed complex geospatial queries to extract population statistics with time-window and property-related constraints.
+
+\end{rSection}
 
 \end{rSection}
 
