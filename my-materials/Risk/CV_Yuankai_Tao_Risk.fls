@@ -1,6 +1,6 @@
-PWD e:\VS Code Projects\JobHuntBot\my-materials\Risk
+PWD E:\VS Code Projects\JobHuntBot\my-materials\Risk
 INPUT C:\Users\Administrator\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT e:\VS Code Projects\JobHuntBot\my-materials\Risk\CV_Yuankai_Tao_Risk.tex
+INPUT CV_Yuankai_Tao_Risk.tex
 OUTPUT CV_Yuankai_Tao_Risk.log
 INPUT .\resume.cls
 INPUT resume.cls

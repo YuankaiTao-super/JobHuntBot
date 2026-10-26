@@ -47,7 +47,7 @@ Tel: \href{tel:+14706583699}{+1 470 658 3699} \quad \textbar \quad
 \begin{rSection}{EDUCATION}
 {\bf Georgia Institute of Technology} \hfill {\em Aug 2026} | {\em Dec 2027}
 \\ \textit{M.S. in Operations Research, Stewart School of Industrial and Systems Engineering} \\
-\textbf{Selected Coursework:} Optimization, Stochastic Processes, Simulation \\
+\textbf{Selected Coursework:} Deterministic Optimization, Computational Statistics, Simulation \\
 {\bf University of California, San Diego} \hfill {\em Sep 2024} | {\em Dec 2025}
 \\ \textit{M.S. in Quantitative Finance, Rady School of Management} \hfill \textit{GPA:} 3.84/4.0 \\
 \textbf{Selected Coursework:} Data Science for Finance, Deep Learning, Computational Finance Methods \\
@@ -63,15 +63,6 @@ Data \& Cloud & \textbf{PostgreSQL, PostGIS, BigQuery, DuckDB, GCP}, Linux, Git 
 ML \& Analytics & Statistical Modeling, Time Series, Feature Engineering, Model Selection, Validation \\
 Libraries \& Tools & \textbf{Pandas, Polars, NumPy, scikit-learn}, PyTorch, Matplotlib, LightGBM, XGBoost \\
 \end{tabularx}
-\end{rSection}
-
-\begin{rSection}{RESEARCH EXPERIENCE}
-\noindent
-\textbf{\href{https://github.com/YuankaiTao-super/Construction-of-Comparable-Housing-Variables}{Research Assistant for Professor Franklin Qian, UNC-Chapel Hill}} \hfill {\em Mar 2025} | {\em Jan 2026}\\
-\textit{\href{https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4406954}{The Numbers Game: Signaling Effects of Pricing Formats in Housing Bargaining}}\\[4pt]
-$\bullet$ Engineered an end-to-end Python and SQL pipeline for a \textbf{76-million-observation spatial dataset} with 40+ variables on Google Cloud Platform, integrating property and population data from multiple sources.\\[1.5pt]
-$\bullet$ Developed parallelized PostGIS workflows with property-specific filters across multiple distance ranges, achieving approximately \textbf{50$\times$ computational speedup} while preserving reproducible analytical logic.\\[1.5pt]
-$\bullet$ Built and managed a \textbf{964.5M-record, 100GB+ database} using PostgreSQL, BigQuery, and DuckDB on GCP and UNC Longleaf HPC; executed complex geospatial and time-window queries for downstream research.
 \end{rSection}
 
 \begin{rSection}{PROFESSIONAL EXPERIENCE}
@@ -97,8 +88,9 @@ $\bullet$ Performed variance analysis on intercompany and investment transaction
 \begin{rSection}{SELECTED PROJECTS}
 \noindent
 \href{https://github.com/YuankaiTao-super/Kaggle2024-Jane-Street-Real-Time-Market-Data-Forecasting}{\textbf{Kaggle Jane Street Market Prediction Competition}} \hfill \textit{Silver Medal}\\
-$\bullet$ Processed \textbf{47M minute-level observations} spanning 1,669 trading days; engineered cross-sectional, lagged, rolling, and regime features from 79 anonymized variables and 9 targets.\\[1.5pt]
-$\bullet$ Trained and ensembled LightGBM, CatBoost, XGBoost, MLP, and TabNet models with time-aware validation; placed \textbf{94th (Top 2.5\%)} of 3,757 teams on the private leaderboard.
+$\bullet$ Built a memory-efficient Polars/PyTorch pipeline for \textbf{47M intraday observations} across 1,669 trading days; engineered lagged, rolling, and temporal features and deployed online inference through Kaggle's streaming evaluation API.\\[1.5pt]
+$\bullet$ Implemented a parameter-efficient TabM regressor with a \textbf{32-member shared-parameter ensemble}; one-hot encoded three categorical features and improved cross-validation performance by \textbf{0.004}.\\[1.5pt]
+$\bullet$ Contributed to the baseline training and final ensemble of XGBoost, MLP, Ridge, and TabM, helping the team place \textbf{94th of 3,757 teams}.
 
 \noindent
 \textbf{Text Analysis and BERT Fine-tuning on SEC 10-K Reports} \hfill \textit{MGTF 423, UCSD}\\
@@ -111,6 +103,15 @@ $\bullet$ Built a human-in-the-loop labeling and fine-tuning workflow with three
 \textit{Team Lead} $|$ \textit{High-Performance Bond Pricing Engine Optimization}\\[4pt]
 $\bullet$ Designed caching for high-frequency cash-flow queries, eliminating redundant object generation and reducing per-bond runtime from 1.17 ms to 0.13 ms (\textbf{9$\times$ speedup}).\\[1.5pt]
 $\bullet$ Reimplemented the yield-to-worst solver with Numba JIT, reducing runtime from 1.57 ms to 7.5 $\mu$s per bond (\textbf{210$\times$ speedup}) for scalable batch analytics.
+\end{rSection}
+
+\begin{rSection}{RESEARCH EXPERIENCE}
+\noindent
+\textbf{\href{https://github.com/YuankaiTao-super/Construction-of-Comparable-Housing-Variables}{Research Assistant for Professor Franklin Qian, UNC-Chapel Hill}} \hfill {\em Mar 2025} | {\em Jan 2026}\\
+\textit{\href{https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4406954}{The Numbers Game: Signaling Effects of Pricing Formats in Housing Bargaining}}\\[4pt]
+$\bullet$ Engineered an end-to-end Python and SQL pipeline for a \textbf{76-million-observation spatial dataset} with 40+ variables on Google Cloud Platform, integrating property and population data from multiple sources.\\[1.5pt]
+$\bullet$ Developed parallelized PostGIS workflows with property-specific filters across multiple distance ranges, achieving approximately \textbf{50$\times$ computational speedup} while preserving reproducible analytical logic.\\[1.5pt]
+$\bullet$ Built and managed a \textbf{964.5M-record, 100GB+ database} using PostgreSQL, BigQuery, and DuckDB on GCP and UNC Longleaf HPC; executed complex geospatial and time-window queries for downstream research.
 \end{rSection}
 
 \begin{rSection}{CERTIFICATIONS \& HONORS}

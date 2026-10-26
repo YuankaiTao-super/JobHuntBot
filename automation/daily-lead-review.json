@@ -1,39 +1,39 @@
 {
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "timezone": "America/New_York",
   "status": "pending_user",
   "candidates": [
     {
       "number": 1,
-      "company": "Qube Research & Technologies",
-      "title": "2027 – Internship, Data Engineering",
-      "provisional_role_family": "Data Engineering / Quantitative Systems Internship",
+      "company": "Schonfeld",
+      "title": "2027 Index Rebalancing Quantitative Research Intern",
+      "provisional_role_family": "Quantitative Research / Systematic Trading Internship",
       "level": "Student internship",
-      "location": "Hong Kong or Singapore; select Hong Kong",
+      "location": "Hong Kong",
       "remote_policy": "Not stated",
-      "official_url": "https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8749947002",
-      "posted_date": "Posted approximately 2026-09-14; verified open 2026-10-25",
+      "official_url": "https://job-boards.greenhouse.io/schonfeld/jobs/8311597",
+      "posted_date": "Newly listed in late October 2026; verified open 2026-10-26",
       "priority": "High",
-      "resume_route": "Data",
-      "fit_summary": "Strong match for Python, SQL, cloud data pipelines and large-scale quantitative datasets in a systematic-investing environment.",
-      "eligibility_sponsorship_notes": "The official application remains open and permits Hong Kong as the location. It asks about sponsorship without stating an exclusion; confirm Hong Kong authorization and sponsorship details.",
-      "recommended_next_action": "Prioritize as the strongest Hong Kong data-engineering lead."
+      "resume_route": "Quant",
+      "fit_summary": "Excellent fit for Python, probability, statistics, market-data research, signal validation, data pipelines and systematic investing.",
+      "eligibility_sponsorship_notes": "The role accepts students pursuing a quantitative degree and runs 3–6 months including June–August 2027. The posting does not state a sponsorship exclusion; confirm Hong Kong authorization and visa support.",
+      "recommended_next_action": "Prioritize as today's strongest Hong Kong quantitative-research lead."
     },
     {
       "number": 2,
       "company": "Citi",
-      "title": "Services - Summer Analyst, Hong Kong, 2027",
-      "provisional_role_family": "Business Analytics / Process Optimization Internship",
-      "level": "Penultimate-year student internship",
+      "title": "Banking - Investment Banking, Summer Analyst, Hong Kong – APAC, 2027",
+      "provisional_role_family": "Investment Banking / Financial Analytics Internship",
+      "level": "Penultimate-year bachelor's or master's internship",
       "location": "Hong Kong",
       "remote_policy": "On-site",
-      "official_url": "https://jobs.citi.com/job/hong-kong/services-summer-analyst-hong-kong-2027/287/102161042688",
-      "posted_date": "Posted 2026-10-19; verified open 2026-10-25",
-      "priority": "High",
+      "official_url": "https://jobs.citi.com/job/hong-kong/banking-investment-banking-summer-analyst-hong-kong-apac-2027/287/102156453936",
+      "posted_date": "Posted 2026-10-19; application deadline 2026-10-30",
+      "priority": "Medium",
       "resume_route": "BA",
-      "fit_summary": "Good fit for client-data analysis, predictive analytics, process optimization, risk mitigation and financial-services reporting.",
-      "eligibility_sponsorship_notes": "The December 2027–June 2028 graduation window includes the candidate. Sponsorship is not stated; confirm Hong Kong work authorization. Citi permits at most three APAC summer-program applications.",
-      "recommended_next_action": "Prioritize among the Citi options for its analytics and process-improvement content."
+      "fit_summary": "Good broader-finance fit for company research, financial-data analysis, valuation modeling and transaction support.",
+      "eligibility_sponsorship_notes": "The December 2027–June 2028 graduation window includes the candidate. Sponsorship is not stated; confirm Hong Kong work authorization. Citi permits at most three Asia summer-program applications.",
+      "recommended_next_action": "Review promptly because the October 30 deadline is near."
     },
     {
       "number": 3,
@@ -47,8 +47,8 @@
       "posted_date": "Posted 2026-10-19; application deadline 2026-10-30",
       "priority": "Medium",
       "resume_route": "Risk",
-      "fit_summary": "Reasonable fit for lending, cash management, trade, foreign exchange, derivatives and quantitatively informed client analysis.",
-      "eligibility_sponsorship_notes": "The December 2027–June 2028 graduation window includes the candidate. Sponsorship is not stated; confirm Hong Kong work authorization. Citi permits at most three APAC summer-program applications.",
+      "fit_summary": "Reasonable fit for lending, cash management, foreign exchange, derivatives and quantitatively informed client analysis.",
+      "eligibility_sponsorship_notes": "The December 2027–June 2028 graduation window includes the candidate. Sponsorship is not stated; confirm Hong Kong work authorization. Citi permits at most three Asia summer-program applications.",
       "recommended_next_action": "Review promptly because the October 30 deadline is near."
     },
     {
@@ -64,7 +64,7 @@
       "priority": "High",
       "resume_route": "Risk",
       "fit_summary": "Good fit through the program's data-analytics and risk-management assignments, supported by Python, statistics and finance experience.",
-      "eligibility_sponsorship_notes": "The December 2027–June 2028 graduation window includes the candidate. Sponsorship is not stated; confirm Hong Kong work authorization. Citi permits at most three APAC summer-program applications.",
+      "eligibility_sponsorship_notes": "The December 2027–June 2028 graduation window includes the candidate. Sponsorship is not stated; confirm Hong Kong work authorization. Citi permits at most three Asia summer-program applications.",
       "recommended_next_action": "Prioritize the data analytics or risk management assignment track."
     },
     {
@@ -80,7 +80,7 @@
       "priority": "Medium",
       "resume_route": "Quant",
       "fit_summary": "Reasonable finance fit for investment solutions, portfolio discussions and quantitative client insights, though less technical than the top roles.",
-      "eligibility_sponsorship_notes": "The December 2027–June 2028 graduation window includes the candidate. Sponsorship is not stated; confirm Hong Kong work authorization. Citi permits at most three APAC summer-program applications.",
+      "eligibility_sponsorship_notes": "The December 2027–June 2028 graduation window includes the candidate. Sponsorship is not stated; confirm Hong Kong work authorization. Citi permits at most three Asia summer-program applications.",
       "recommended_next_action": "Review promptly because the October 30 deadline is near."
     },
     {
@@ -96,7 +96,7 @@
       "priority": "High",
       "resume_route": "Risk",
       "fit_summary": "Strong broader-finance fit for credit analysis, cash-flow modeling, financial statements and risk assessment.",
-      "eligibility_sponsorship_notes": "The December 2027–June 2028 graduation window includes the candidate. Sponsorship is not stated; confirm Hong Kong work authorization. Citi permits at most three APAC summer-program applications.",
+      "eligibility_sponsorship_notes": "The December 2027–June 2028 graduation window includes the candidate. Sponsorship is not stated; confirm Hong Kong work authorization. Citi permits at most three Asia summer-program applications.",
       "recommended_next_action": "Prioritize among the Citi roles for its direct credit-risk relevance."
     },
     {
@@ -108,7 +108,7 @@
       "location": "New York, NY",
       "remote_policy": "On-site",
       "official_url": "https://careers.bankofamerica.com/en-us/students/job-detail/14896/global-quantitative-research-summer-associate-program-2027-new-york-new-york-united-states-esomprank-xy43lqcrf6-6",
-      "posted_date": "Verified open 2026-10-25; application deadline 2026-11-15",
+      "posted_date": "Verified open 2026-10-26; application deadline 2026-11-15",
       "priority": "High",
       "resume_route": "Quant",
       "fit_summary": "Excellent match for quantitative finance, machine learning, large datasets, derivatives, portfolio construction, forecasting and systematic strategies.",
@@ -140,7 +140,7 @@
       "location": "Remote - United States; two days in Brooklyn, NY",
       "remote_policy": "Remote in the United States with a two-day in-person experience",
       "official_url": "https://jobs.ashbyhq.com/amplify/143c8ccc-69ce-4141-bcfe-0bc553ea49b4",
-      "posted_date": "Verified open 2026-10-25",
+      "posted_date": "Posted approximately 2026-10-19; verified open 2026-10-26",
       "priority": "High",
       "resume_route": "BA",
       "fit_summary": "Strong match for operations research, supply-chain analytics, structured problem solving and data visualization.",
@@ -149,51 +149,43 @@
     },
     {
       "number": 10,
-      "company": "C3 AI",
-      "title": "Data Science - Intern (Summer 2027)",
-      "provisional_role_family": "Data Science / Machine Learning Internship",
-      "level": "MS or PhD internship",
-      "location": "Redwood City, CA",
-      "remote_policy": "On-site",
-      "official_url": "https://job-boards.greenhouse.io/c3ascend/jobs/8738917002",
-      "posted_date": "Verified open 2026-10-25",
+      "company": "Simbe Robotics",
+      "title": "Data Analytics & Data Science Intern — Spring & Summer 2027",
+      "provisional_role_family": "Data Analytics / Data Engineering Internship",
+      "level": "BS, MS or PhD internship",
+      "location": "San Francisco Bay Area, CA",
+      "remote_policy": "Listed as remote; program description references the Burlingame headquarters, so confirm attendance expectations",
+      "official_url": "https://jobs.lever.co/SimbeRobotics/96ee45fb-f094-4751-a43d-3e376f32667f",
+      "posted_date": "Posted approximately 2026-10-14; verified open 2026-10-26",
       "priority": "High",
       "resume_route": "Data",
-      "fit_summary": "Strong match for Python, R, statistics, optimization and scalable analytics, with additional emphasis on applied machine learning and agentic AI.",
-      "eligibility_sponsorship_notes": "The role accepts MS students and does not state a sponsorship exclusion on the official posting; confirm CPT and future sponsorship before applying.",
-      "recommended_next_action": "Review after the OR-focused roles because the position is more AI-intensive."
+      "fit_summary": "Excellent fit for Python, SQL, BigQuery, GCP, data pipelines, data quality, analytics engineering, dashboards and large production datasets.",
+      "eligibility_sponsorship_notes": "The role accepts master's students and targets students in their final year. The official posting does not state a sponsorship exclusion; confirm CPT, future sponsorship and the remote-versus-Burlingame attendance requirement.",
+      "recommended_next_action": "Prioritize as the freshest United States data role and clarify the location policy."
     }
   ],
   "rejected_candidates": [
+    {
+      "company": "Qube Research & Technologies, Marshall Wace, Barclays, Geneva Trading, HPS Investment Partners, Readystate Asset Management and Walleye Capital",
+      "reason": "Excluded because the current application log records manual submissions on 2026-10-26."
+    },
     {
       "company": "Jane Street, Millennium, Optiver and Robinhood",
       "reason": "Excluded by the user's standing instructions."
     },
     {
-      "company": "Western Digital, Muon Space, Point72, Perpay, HSBC and Flow Traders",
-      "reason": "Excluded because the application log shows prior manual submissions."
+      "company": "C3 AI",
+      "reason": "Removed because the role's core emphasis on agentic AI and foundation models is too close to the standing deep-learning-focused exclusion."
     },
     {
       "company": "Companies in submitted-lists",
       "reason": "Excluded at company level before deeper research, including DV Group/DV Trading, CTC, IMC, Belvedere, Goldman Sachs and the other submitted-list companies."
     },
     {
-      "company": "UBS and Bank of America Hong Kong Global Quantitative Strategies",
-      "reason": "The reviewed official role pages are expired or return a current 404."
-    },
-    {
-      "company": "Citi Markets Sales and Trading and Investment Banking",
-      "reason": "The specific postings no longer appear as active on Citi's current official feed or the reviewed direct URL returned 404."
-    },
-    {
-      "company": "Citi United States Risk Management",
-      "reason": "The roles explicitly require no current or future sponsorship and some are limited to bachelor's students."
-    },
-    {
-      "company": "National Life, nCino, Veeam, TIAA, Spectrum, ICF and The Nuclear Company",
-      "reason": "United States roles explicitly exclude visa sponsorship or require United States person status."
+      "company": "Existing job-pool roles",
+      "reason": "Excluded by exact URL and conservative company/title matching before shortlist selection."
     }
   ],
   "requested_replacement_count": 0,
-  "last_updated_at": "2026-10-25T08:56:39-04:00"
+  "last_updated_at": "2026-10-26T09:03:33-04:00"
 }

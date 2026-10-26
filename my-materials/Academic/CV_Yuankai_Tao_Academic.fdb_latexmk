@@ -1,8 +1,8 @@
 # Fdb version 4
-["pdflatex"] 1789392476.87427 "e:/VS Code Projects/JobHuntBot/my-materials/Academic/CV_Yuankai_Tao_Academic.tex" "CV_Yuankai_Tao_Academic.pdf" "CV_Yuankai_Tao_Academic" 1789392477.47233 0
+["pdflatex"] 1792969245.13613 "CV_Yuankai_Tao_Academic.tex" "CV_Yuankai_Tao_Academic.pdf" "CV_Yuankai_Tao_Academic" 1792969245.81975 0
   "../original_CV/resume.cls" 1788121814 4797 2f9fff0a289c0cb454436edafcbcbff3 ""
-  "C:/Users/Administrator/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1788729022 85215 d4d5b9faafd5f0f6bc270cc175dd43fe ""
-  "C:/Users/Administrator/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1779347979 13354185 fb734a9f429ea231b1630bb9996d8f78 ""
+  "C:/Users/Administrator/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1791928298 85215 d4d5b9faafd5f0f6bc270cc175dd43fe ""
+  "C:/Users/Administrator/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1791661951 13354186 bc6fbcb93005d2e515bf2cf84ccc1b52 ""
   "C:/Users/Administrator/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmbx10.tfm" 1136765053 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "C:/Users/Administrator/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmbx12.tfm" 1136765053 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "C:/Users/Administrator/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmmi10.tfm" 1136765053 1528 abec98dbc43e172678c11b3b9031252a ""
@@ -68,10 +68,9 @@
   "C:/Users/Administrator/AppData/Local/Programs/MiKTeX/tex/latex/tools/tabularx.sty" 1761901070 7243 a2c17f18e2c9b702b84fad03d5f9c78b ""
   "C:/Users/Administrator/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/Administrator/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
-  "CV_Yuankai_Tao_Academic.aux" 1789392477 162 87159b23cce7c2b923b11c85495bbd6d "pdflatex"
-  "CV_Yuankai_Tao_Academic.out" 1789392477 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "CV_Yuankai_Tao_Academic.tex" 1789392476 8678 00626188a414d08bbb4ac4a7bc971002 ""
-  "e:/VS Code Projects/JobHuntBot/my-materials/Academic/CV_Yuankai_Tao_Academic.tex" 1789392476 8678 00626188a414d08bbb4ac4a7bc971002 ""
+  "CV_Yuankai_Tao_Academic.aux" 1792969245 162 87159b23cce7c2b923b11c85495bbd6d "pdflatex"
+  "CV_Yuankai_Tao_Academic.out" 1792969245 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "CV_Yuankai_Tao_Academic.tex" 1792969104 8880 1950ee2930e51d3447d7e47eadf3080f ""
   (generated)
   "CV_Yuankai_Tao_Academic.aux"
   "CV_Yuankai_Tao_Academic.log"

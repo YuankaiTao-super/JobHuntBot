@@ -1,6 +1,6 @@
-PWD E:\VS Code Projects\JobHuntBot\my-materials\BA
+PWD e:\VS Code Projects\JobHuntBot\my-materials\BA
 INPUT C:\Users\Administrator\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT CV_Yuankai_Tao_BA.tex
+INPUT e:\VS Code Projects\JobHuntBot\my-materials\BA\CV_Yuankai_Tao_BA.tex
 OUTPUT CV_Yuankai_Tao_BA.log
 INPUT ..\original_CV\resume.cls
 INPUT ..\original_CV\resume.cls
