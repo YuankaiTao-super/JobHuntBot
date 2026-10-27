@@ -1,204 +1,22 @@
 {
-  "date": "2026-10-26",
+  "date": "2026-10-27",
   "timezone": "America/New_York",
-  "status": "confirmed_committed",
+  "status": "pending_user",
   "candidates": [
-    {
-      "number": 1,
-      "company": "Schonfeld",
-      "title": "2027 Index Rebalancing Quantitative Research Intern",
-      "provisional_role_family": "Quantitative Research / Systematic Trading Internship",
-      "level": "Student internship",
-      "location": "Hong Kong",
-      "remote_policy": "Not stated",
-      "official_url": "https://job-boards.greenhouse.io/schonfeld/jobs/8311597",
-      "posted_date": "Newly listed in late October 2026; verified open 2026-10-26",
-      "priority": "High",
-      "resume_route": "Quant",
-      "fit_summary": "Excellent fit for Python, probability, statistics, market-data research, signal validation, data pipelines and systematic investing.",
-      "eligibility_sponsorship_notes": "The role accepts students pursuing a quantitative degree and runs 3–6 months including June–August 2027. The posting asks about Hong Kong sponsorship but states no exclusion; confirm visa support.",
-      "recommended_next_action": "Keep as the strongest Hong Kong quantitative-research lead."
-    },
-    {
-      "number": 2,
-      "company": "FWD",
-      "title": "FWD Group Office Actuarial Internship - H1 2027",
-      "provisional_role_family": "Actuarial Analytics / Quantitative Risk Internship",
-      "level": "University student internship",
-      "location": "Hong Kong - Taikoo Shing",
-      "remote_policy": "Full-time or part-time; work arrangement not stated",
-      "official_url": "https://fwd.wd3.myworkdayjobs.com/zh-CN/FWDcareersite/job/FWD-Group-Office-Actuarial-Internship---January-to-June-2025--Hong-Kong-Based-Candidates-Only-_R-0021385",
-      "posted_date": "Posted approximately late September 2026; verified open 2026-10-26",
-      "priority": "High",
-      "resume_route": "Risk",
-      "fit_summary": "Strong fit for actuarial modeling, Python, statistical analysis, risk management, valuation, capital analysis, experience studies and balance-sheet optimization.",
-      "eligibility_sponsorship_notes": "Students in mathematics, statistics, economics, risk management and related disciplines are eligible. The internship runs January–June 2027 with full-time or part-time options; confirm Hong Kong work authorization.",
-      "recommended_next_action": "Prioritize if the H1 schedule and Hong Kong authorization are feasible."
-    },
-    {
-      "number": 3,
-      "company": "ING",
-      "title": "Intern, Financial Markets Hong Kong",
-      "provisional_role_family": "Financial Markets / Market Analytics Internship",
-      "level": "University internship",
-      "location": "Hong Kong",
-      "remote_policy": "Full-time; work arrangement not stated",
-      "official_url": "https://ing.wd3.myworkdayjobs.com/en-US/ICSGBLCOR/job/Hong-Kong/Intern--Financial-Markets-Hong-Kong_REQ-10123324-1",
-      "posted_date": "Posted approximately 2026-10-17; application deadline 2026-11-30",
-      "priority": "High",
-      "resume_route": "Quant",
-      "fit_summary": "Strong markets fit across FX, rates, credit, commodities and equities, with market-data analysis, client trend analysis and product research.",
-      "eligibility_sponsorship_notes": "The six-month January–June 2027 program asks for a pending degree plus strong English and Chinese. Sponsorship is not stated; confirm Hong Kong authorization and academic availability.",
-      "recommended_next_action": "Prioritize if a six-month H1 placement is feasible."
-    },
-    {
-      "number": 4,
-      "company": "ING",
-      "title": "Intern, Corporate Finance Hong Kong",
-      "provisional_role_family": "Corporate Finance / Financial Analytics Internship",
-      "level": "University internship",
-      "location": "Hong Kong",
-      "remote_policy": "Full-time; work arrangement not stated",
-      "official_url": "https://ing.wd3.myworkdayjobs.com/en-US/ICSGBLCOR/job/Hong-Kong/Intern--Corporate-Finance-Hong-Kong_REQ-10123140",
-      "posted_date": "Posted approximately 2026-10-17; application deadline 2026-11-30",
-      "priority": "Medium",
-      "resume_route": "BA",
-      "fit_summary": "Good broader-finance match for M&A research, valuation, company analysis, financial modeling and transaction support.",
-      "eligibility_sponsorship_notes": "The internship runs January–June 2027. Sponsorship and detailed graduation requirements are not stated; confirm Hong Kong authorization and six-month availability.",
-      "recommended_next_action": "Use as a finance complement after the more quantitative Hong Kong roles."
-    },
-    {
-      "number": 5,
-      "company": "Hitachi Rail",
-      "title": "Data Engineering Intern",
-      "provisional_role_family": "Data Engineering / Applied Analytics Internship",
-      "level": "Degree student internship",
-      "location": "Hong Kong",
-      "remote_policy": "On-site",
-      "official_url": "https://hitachi.wd1.myworkdayjobs.com/en-US/Hitachi/job/Hong-Kong-Hong-Kong-SAR/Data-Engineering-Intern_R0145808",
-      "posted_date": "Posted 2026-10-16",
-      "priority": "High",
-      "resume_route": "Data",
-      "fit_summary": "Strong fit for Python, pandas, NumPy, time series, clustering, optimization, SQL, Git, Docker, validation and production-ready data workflows.",
-      "eligibility_sponsorship_notes": "Relevant quantitative and data degrees are accepted. The role requires full-time Monday–Friday availability for at least six months starting March 2027; sponsorship is not stated.",
-      "recommended_next_action": "Prioritize if the March-start six-month schedule is compatible with coursework."
-    },
-    {
-      "number": 6,
-      "company": "AIA",
-      "title": "2027 1H Actuarial Internship Programme, AIA Group Office",
-      "provisional_role_family": "Actuarial Analytics / Risk Internship",
-      "level": "University student internship",
-      "location": "Hong Kong",
-      "remote_policy": "Full-time; work arrangement not stated",
-      "official_url": "https://aia.wd3.myworkdayjobs.com/external/job/hong-kong-hk-aia-group-office/xmlname-2026-2h-actuarial-internship-programme--aia-group-office_jr-61517",
-      "posted_date": "Posted approximately 2026-09-27; verified open 2026-10-26",
-      "priority": "High",
-      "resume_route": "Risk",
-      "fit_summary": "Strong quantitative-risk fit through actuarial modeling, trend analysis, projection models, experience studies, reporting and operational-performance monitoring.",
-      "eligibility_sponsorship_notes": "Mathematics, statistics, risk, finance and related quantitative students are eligible. Sponsorship and exact program dates are not stated; confirm Hong Kong authorization and schedule.",
-      "recommended_next_action": "Prioritize as the strongest non-trading Hong Kong risk option."
-    },
-    {
-      "number": 7,
-      "company": "Pattern",
-      "title": "Data Science Intern",
-      "provisional_role_family": "Data Science / Business Analytics Internship",
-      "level": "Summer internship",
-      "location": "Lehi, Utah",
-      "remote_policy": "Hybrid",
-      "official_url": "https://jobs.lever.co/pattern/ad978732-7171-473d-9400-0a6fc9e23cf7",
-      "posted_date": "Verified open 2026-10-26; official page does not expose a calendar posting date",
-      "priority": "High",
-      "resume_route": "Data",
-      "fit_summary": "Strong match for advanced data analysis, data wrangling, model building, pipelines, stakeholder scoping and translating analytics into business action.",
-      "eligibility_sponsorship_notes": "The full-time hybrid internship runs about 12 weeks in summer 2027. Degree and sponsorship constraints are not stated on the official posting; confirm CPT acceptance and future sponsorship.",
-      "recommended_next_action": "Prioritize as the strongest newly found United States data-science role."
-    },
-    {
-      "number": 8,
-      "company": "Assurant",
-      "title": "Summer 2027 - Underwriter Intern",
-      "provisional_role_family": "Underwriting Risk / Business Analytics Internship",
-      "level": "Undergraduate or master's internship",
-      "location": "United States; location per official requisition",
-      "remote_policy": "Not stated",
-      "official_url": "https://assurant.wd1.myworkdayjobs.com/en-US/Assurant_Careers/job/Summer-2027---Underwriter-Intern_R-115522",
-      "posted_date": "Posted approximately early October 2026; verified open 2026-10-26",
-      "priority": "Medium",
-      "resume_route": "Risk",
-      "fit_summary": "Good risk-oriented fit for portfolio analysis, underwriting, risk assessment, business analytics, operational improvement and quantitative reporting.",
-      "eligibility_sponsorship_notes": "Master's candidates are explicitly considered. The posting does not state sponsorship terms in the indexed description; confirm CPT acceptance and future sponsorship.",
-      "recommended_next_action": "Keep as a practical summer risk option after the more technical roles."
-    },
-    {
-      "number": 9,
-      "company": "Momentive",
-      "title": "Summer 2027 Global Business Operations Partner Intern",
-      "provisional_role_family": "Operations Research / Operational Analytics Internship",
-      "level": "Bachelor's or master's internship",
-      "location": "Waterford, New York or Friendly, West Virginia",
-      "remote_policy": "On-site",
-      "official_url": "https://momentive.wd1.myworkdayjobs.com/en-US/MC/job/Summer-2027-Global-Business-Operations-Partner-Intern_R9898",
-      "posted_date": "Posted approximately 2026-10-15",
-      "priority": "High",
-      "resume_route": "BA",
-      "fit_summary": "Direct Operations Research fit through statistical analysis, process optimization, operational excellence, Lean/Six Sigma, Power BI and Python-based improvement work.",
-      "eligibility_sponsorship_notes": "Bachelor's and master's students in quantitative fields are accepted and must remain enrolled for one semester after the internship, which matches a December 2027 graduation. Sponsorship is not stated; confirm CPT and future sponsorship.",
-      "recommended_next_action": "Prioritize if the New York or West Virginia site is acceptable."
-    },
-    {
-      "number": 10,
-      "company": "WisdomTree",
-      "title": "Research Intern - Summer 2027",
-      "provisional_role_family": "Quantitative Research / Systematic Investing Internship",
-      "level": "Quantitative summer internship",
-      "location": "New York, New York",
-      "remote_policy": "Hybrid",
-      "official_url": "https://jobs.lever.co/wisdomtree/220e4082-4102-4989-8dac-4d8a2172f04a",
-      "posted_date": "Newly verified open 2026-10-26; official page does not expose a calendar posting date",
-      "priority": "High",
-      "resume_route": "Quant",
-      "fit_summary": "Excellent fit for systematic investing, financial datasets, hypothesis testing, statistical research, quantitative modeling, Python, pandas and NumPy.",
-      "eligibility_sponsorship_notes": "The posting accepts quantitative academic backgrounds and states no degree-level, graduation-window or sponsorship exclusion. Confirm CPT acceptance and future sponsorship before applying.",
-      "recommended_next_action": "Prioritize as a strong New York quantitative-research lead."
-    }
+    {"number":1,"company":"FWD","title":"Actuarial Internship (Full-time for 2027 H1/H2)","provisional_role_family":"Actuarial Analytics / Quantitative Risk Internship","level":"University student internship","location":"Hong Kong - FWD Tower","remote_policy":"Full-time; work arrangement not stated","official_url":"https://fwd.wd3.myworkdayjobs.com/en-US/FWDcareersite/job/Hong-Kong---FWD-Tower/Actuarial-Internship--Full-time-for-2027-H1-H2-_JR-0025966","posted_date":"Posted 30+ days ago; verified open 2026-10-27","priority":"High","resume_route":"Risk","fit_summary":"Strong fit for quantitative risk, valuation, financial reporting, ALM, capital analysis, pricing reviews and experience studies, with VBA or other programming preferred.","eligibility_sponsorship_notes":"Open to students in finance, risk management, mathematics, statistics and related disciplines; full-time placements run Dec 2026-Jul 2027 or Jun 2027-Jan 2028. Confirm Hong Kong work authorization and academic availability.","recommended_next_action":"Prioritize if either full-time placement window is feasible."},
+    {"number":2,"company":"Manulife","title":"Actuarial Internship Program 2027 (6.5 months)","provisional_role_family":"Actuarial Analytics / Risk Internship","level":"University student internship","location":"Hong Kong - Manulife Tower / Manulife Financial Centre","remote_policy":"Full-time; work arrangement not stated","official_url":"https://manulife.wd3.myworkdayjobs.com/mfcjh_jobs/job/Manulife--Actuarial-Internship-Program-2027--65-months-_JR26081201","posted_date":"Posted approximately 2026-10-06; application deadline 2026-11-01","priority":"High","resume_route":"Risk","fit_summary":"Strong fit for pricing, valuation, business-performance analysis, retirement solutions, risk management, data validation and actuarial-model quality assurance.","eligibility_sponsorship_notes":"The 6.5-month program offers Jan-Jul 2027 and Jul 2027-Jan 2028 intakes. Sponsorship is not stated; confirm Hong Kong authorization and full-time availability.","recommended_next_action":"Review promptly before the November 1 deadline."},
+    {"number":3,"company":"Sun Life","title":"Actuarial Internship 2027","provisional_role_family":"Actuarial Analytics / Quantitative Risk Internship","level":"Year 2-4 quantitative student internship","location":"Hunghom, Kowloon, Hong Kong","remote_policy":"Full-time; work arrangement not stated","official_url":"https://sunlife.wd3.myworkdayjobs.com/en-US/Experienced/job/Actuarial-Internship-2027_JR00120885-1","posted_date":"Posted 30+ days ago; verified open 2026-10-27","priority":"High","resume_route":"Risk","fit_summary":"Strong quantitative-risk fit across product pricing, valuation, financial reporting, capital management, reinsurance and business planning.","eligibility_sponsorship_notes":"Accepts quantitative subjects including statistics, data science and risk management; six-month full-time terms are Jan-Jun or Jul-Dec 2027. Confirm Hong Kong authorization.","recommended_next_action":"Prioritize if a six-month 2027 term fits the academic schedule."},
+    {"number":4,"company":"Nex","title":"Summer 2027 | Content Operations Intern","provisional_role_family":"Operations Analytics / Financial Operations Internship","level":"Undergraduate or graduate internship","location":"Hong Kong","remote_policy":"Full-time; work arrangement not stated","official_url":"https://job-boards.greenhouse.io/nex/jobs/5447660008","posted_date":"Newly listed; verified open 2026-10-27","priority":"High","resume_route":"BA","fit_summary":"Good Operations Research-adjacent fit through budget and variance analysis, data cleaning, dashboards, operational-risk controls and process improvement.","eligibility_sponsorship_notes":"Runs June 1-August 31, 2027 and accepts undergraduate or graduate students in finance, economics, data analytics, risk or related fields. The form asks about sponsorship but states no exclusion.","recommended_next_action":"Prioritize as a newly posted summer operations-analytics role."},
+    {"number":5,"company":"Manulife","title":"Co-op Internship 2027: Tech Placement Program (6 months)","provisional_role_family":"Technology / Data Analytics Internship","level":"University co-op internship","location":"Hong Kong - Manulife Tower / Manulife Financial Centre","remote_policy":"Full-time; work arrangement not stated","official_url":"https://manulife.wd3.myworkdayjobs.com/MFCJH_Jobs/job/Hong-Kong-Manulife-Tower/Co-op-Internship-2027--Tech-Placement-Program--6-months-_JR26100136","posted_date":"Posted approximately 2026-10-24; application deadline 2026-11-01","priority":"High","resume_route":"Data","fit_summary":"Good fit for the candidate's Python, SQL, cloud, data-pipeline and analytics experience in a technology placement supporting business priorities.","eligibility_sponsorship_notes":"The H1 2027 intake runs January-June and values technology, analytics and digital-solution experience. Sponsorship is not stated; confirm Hong Kong authorization and full-time availability.","recommended_next_action":"Review promptly before the November 1 deadline."},
+    {"number":6,"company":"Barclays","title":"International Corporate Banking Summer Internship Programme 2027 Hong Kong","provisional_role_family":"Corporate Banking / Financial Analytics Internship","level":"Summer internship","location":"Hong Kong - Cheung Kong Center","remote_policy":"Full-time; work arrangement not stated","official_url":"https://barclays.wd3.myworkdayjobs.com/en-US/external_career_site_barclays/job/Hong-Kong-Cheung-Kong-Center/International-Corporate-Banking-Summer-Internship-Programme-2027-Hong-Kong_JR-0000117564","posted_date":"Posted 30+ days ago; application deadline 2026-11-01","priority":"Medium","resume_route":"BA","fit_summary":"Broader finance fit for client analysis, lending, trade finance, cash management, treasury coverage and data-backed relationship support.","eligibility_sponsorship_notes":"Official posting remains open through November 1. Sponsorship is not stated; confirm Hong Kong work authorization and program eligibility before applying.","recommended_next_action":"Use as a broader-finance complement and review before the deadline."},
+    {"number":7,"company":"Point72","title":"Quantitative Developer Intern","provisional_role_family":"Quantitative Development / Systematic Investing Internship","level":"Undergraduate or graduate summer internship","location":"New York, NY","remote_policy":"Not stated","official_url":"https://job-boards.greenhouse.io/point72/jobs/7609197002","posted_date":"Newly verified open 2026-10-27","priority":"High","resume_route":"Quant","fit_summary":"Excellent fit for Python, SQL, ETL pipelines, Docker, Unix, quantitative signals, machine learning and real-time trading analytics.","eligibility_sponsorship_notes":"Accepts students in quantitative disciplines and does not state a sponsorship exclusion; the form asks about current authorization and future sponsorship. Confirm CPT acceptance and sponsorship policy.","recommended_next_action":"Prioritize as the strongest United States quantitative lead."},
+    {"number":8,"company":"Immuta","title":"Product Research Internship - Summer 2027","provisional_role_family":"Applied Research / Data Science Internship","level":"Summer internship","location":"Columbus, OH","remote_policy":"Hybrid","official_url":"https://jobs.lever.co/immuta/18aabf0a-8b27-4b7d-8a96-6995a7f8847b","posted_date":"Newly listed; verified open 2026-10-27","priority":"High","resume_route":"Data","fit_summary":"Excellent fit for applied mathematics, statistics, machine learning, Python, SQL, algorithms, experimentation and research-to-product prototyping.","eligibility_sponsorship_notes":"The posting seeks a strong quantitative foundation and research or substantial project experience. Degree timing and sponsorship terms are not stated; confirm CPT acceptance and future sponsorship.","recommended_next_action":"Prioritize for the direct research and Python/SQL alignment."},
+    {"number":9,"company":"Sun Life","title":"Data Science Intern - Summer 2027 Intern","provisional_role_family":"Data Science / Risk Analytics Internship","level":"Undergraduate or graduate internship","location":"Wellesley Hills, MA","remote_policy":"On-site or hybrid expectation not fully stated","official_url":"https://sunlife.wd3.myworkdayjobs.com/en-US/Campus/job/Data-Science-Intern---Summer-2027-Intern_JR00127666-1","posted_date":"Posted approximately 2026-10-25; posting end date 2026-11-20","priority":"High","resume_route":"Data","fit_summary":"Strong fit for Python, SQL, statistical modeling, machine learning, databases, model governance, data visualization and reproducible analytics.","eligibility_sponsorship_notes":"Open to undergraduate or graduate students enrolled during June-August 2027 and requires legal U.S. work eligibility. It does not state a future-sponsorship exclusion; confirm CPT acceptance and future sponsorship.","recommended_next_action":"Prioritize as a fresh and highly aligned data-science role."},
+    {"number":10,"company":"UPS","title":"Americas Region Business Analytics Summer 2027 Intern","provisional_role_family":"Business Analytics / Operational Analytics Internship","level":"College or university internship","location":"Atlanta, GA","remote_policy":"On-site; relocation required","official_url":"https://hcmportal.wd5.myworkdayjobs.com/en-US/Search/job/Americas-Region-Business-Analytics-Summer-2027-Intern_R26030513","posted_date":"Posted 30+ days ago; verified open 2026-10-27","priority":"High","resume_route":"BA","fit_summary":"Strong local fit for Python, SQL, Power BI, Excel, business research, performance analysis and turning data into commercial recommendations.","eligibility_sponsorship_notes":"Requires current U.S. work authorization and full-time availability in Atlanta from late May to early August 2027. Future sponsorship is not addressed; confirm CPT acceptance and longer-term policy.","recommended_next_action":"Prioritize as an Atlanta-based analytics role with minimal relocation friction."}
   ],
   "rejected_candidates": [
-    {
-      "company": "Citi",
-      "reason": "All Citi roles removed at the user's request; treat Citi as excluded from this shortlist."
-    },
-    {
-      "company": "Bank of America, Applied Materials, Amplify and Simbe Robotics",
-      "reason": "The four United States roles from the original 2026-10-26 shortlist were replaced in full at the user's request."
-    },
-    {
-      "company": "Gemini",
-      "reason": "Removed at the user's request and replaced with a summer quantitative-research role."
-    },
-    {
-      "company": "Schonfeld — 2027 Quantitative Research Intern (Hong Kong)",
-      "reason": "Removed during confirmation because an existing job-pool row has the same company and title; conservative company/title deduplication applies even though the location and URL differ."
-    },
-    {
-      "company": "Jane Street, Millennium, Optiver and Robinhood",
-      "reason": "Excluded by the user's standing instructions."
-    },
-    {
-      "company": "Companies in submitted-lists and the application log",
-      "reason": "Excluded at company level before deeper research, including DV Group/DV Trading, IMC, HSBC, Qube Research & Technologies, Marshall Wace, Barclays and other previously submitted companies."
-    },
-    {
-      "company": "Roles with explicit no-sponsorship, PhD-only, deep-learning-focused or incompatible degree requirements",
-      "reason": "Excluded under the standing screening rules rather than used to fill the regional quota."
-    },
-    {
-      "company": "Existing job-pool roles",
-      "reason": "Excluded by exact URL and conservative company/title matching before shortlist selection."
-    }
-  ],
-  "requested_replacement_count": 10,
-  "last_updated_at": "2026-10-26T09:43:00-04:00",
-  "confirmed_at": "2026-10-26T20:27:55.344Z"
+    {"company":"Fidelity, Nissan, Stryker, Humana, Boeing and PwC","reason":"Excluded because the postings explicitly deny sponsorship now or in the future, conflict with the candidate's future-sponsorship need, or were already closed."},
+    {"company":"IMC, Simbe Robotics and other submitted-list companies","reason":"Excluded at company level because they appear in submitted-lists."},
+    {"company":"OCC and Ekimetrics","reason":"Excluded as exact existing job-pool duplicates."}
+  ]
 }
