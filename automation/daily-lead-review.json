@@ -1,7 +1,8 @@
 {
   "date": "2026-10-31",
   "timezone": "America/New_York",
-  "status": "pending_user",
+  "status": "confirmed_committed",
+  "confirmed_at": "2026-10-31T18:01:09-04:00",
   "candidates": [
     {
       "number": 1,
