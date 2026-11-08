@@ -1,10 +1,58 @@
 {
-  "date": "2026-11-07",
+  "date": "2026-11-08",
   "timezone": "America/New_York",
   "status": "pending_user",
   "candidates": [
     {
       "number": 1,
+      "company": "Nexperia",
+      "title": "Software Engineer Intern (Data Analysis)",
+      "provisional_role_family": "Data Engineering / Analytics Internship",
+      "level": "Bachelor's or higher internship / fresh-graduate contract",
+      "location": "Hong Kong",
+      "remote_policy": "One-year Hong Kong contract; workplace arrangement not stated",
+      "official_url": "https://nexperia.wd3.myworkdayjobs.com/en-US/ITEC/job/Hong-Kong/Software-Engineer-Intern--Data-Analysis-_R-20013033",
+      "posted_date": "Posted approximately 2026-11-05; verified open 2026-11-08",
+      "priority": "High",
+      "resume_route": "Data",
+      "fit_summary": "Strong fit for Python, SQL, structured and time-series data, data quality, transformation, dataset preparation and analytics engineering.",
+      "eligibility_sponsorship_notes": "Targets bachelor's-degree-or-higher candidates in computer science, data engineering, software engineering, AI or related fields, including fresh graduates. Confirm Hong Kong work authorization and one-year availability.",
+      "recommended_next_action": "Prioritize after confirming the one-year schedule is compatible with study plans."
+    },
+    {
+      "number": 2,
+      "company": "Moët Hennessy",
+      "title": "Business Analyst Intern (Commercial Insights)",
+      "provisional_role_family": "Commercial Analytics / Business Analysis Internship",
+      "level": "Current-student or recent-graduate internship",
+      "location": "Hong Kong",
+      "remote_policy": "Full-time six-month internship; workplace arrangement not stated",
+      "official_url": "https://www.lvmh.com/en/join-us/our-job-offers/MHAP01231",
+      "posted_date": "Published 2026-09-28; verified open 2026-11-08",
+      "priority": "High",
+      "resume_route": "BA",
+      "fit_summary": "Strong fit for commercial analytics, process mapping, requirements gathering, AI opportunity assessment, knowledge management and Excel-based decision support.",
+      "eligibility_sponsorship_notes": "Open to current students or recent graduates in a related discipline. No language or sponsorship exclusion is stated; confirm Hong Kong authorization and immediate six-month availability.",
+      "recommended_next_action": "Prioritize for the business-analytics track."
+    },
+    {
+      "number": 3,
+      "company": "ReCube",
+      "title": "Data and AI Engineer (Winter Intern)",
+      "provisional_role_family": "Data Engineering / Applied AI Internship",
+      "level": "University winter internship",
+      "location": "Hong Kong",
+      "remote_policy": "Winter internship; workplace arrangement not stated; deadline 2026-11-14",
+      "official_url": "https://cpdc.osa.cuhk.edu.hk/en/find-a-job/highlight-job-postings",
+      "posted_date": "Current university listing; verified open 2026-11-08",
+      "priority": "High",
+      "resume_route": "Data",
+      "fit_summary": "Relevant match for data engineering, applied AI, optimization, Python, ETL, databases and analytics prototyping.",
+      "eligibility_sponsorship_notes": "The current university board verifies the role and November 14 deadline. Confirm the employer's full degree, language, duration and Hong Kong work-authorization terms before applying.",
+      "recommended_next_action": "Review promptly because the listed deadline is within one week."
+    },
+    {
+      "number": 4,
       "company": "Hong Kong Productivity Council",
       "title": "Analyst (Intern), AI Development",
       "provisional_role_family": "Applied AI / Data Development Internship",
@@ -12,7 +60,7 @@
       "location": "Hong Kong",
       "remote_policy": "Six-month internship from January to June 2027; workplace arrangement not stated",
       "official_url": "https://careers.hkpc.org/job/Analyst-%28Intern%29%2C-AI-Development/1368558966/",
-      "posted_date": "Posted 2026-11-06; verified open 2026-11-07",
+      "posted_date": "Posted 2026-11-06; verified open 2026-11-08",
       "priority": "High",
       "resume_route": "Data",
       "fit_summary": "Strong match for Python, data projects, generative AI, software prototyping, testing and applied analytics.",
@@ -20,7 +68,7 @@
       "recommended_next_action": "Prioritize as a newly posted Hong Kong applied-AI internship."
     },
     {
-      "number": 2,
+      "number": 5,
       "company": "Hong Kong Productivity Council",
       "title": "Intern, Enterprise Resource Planning (ERP)",
       "provisional_role_family": "Business Analytics / Enterprise Systems Internship",
@@ -28,7 +76,7 @@
       "location": "Hong Kong",
       "remote_policy": "Six-month internship from January to June 2027; workplace arrangement not stated",
       "official_url": "https://careers.hkpc.org/job/Intern,-Enterprise-Resource-Planning-(ERP)/1368561366/",
-      "posted_date": "Posted 2026-11-06; verified open 2026-11-07",
+      "posted_date": "Posted 2026-11-06; verified open 2026-11-08",
       "priority": "High",
       "resume_route": "BA",
       "fit_summary": "Strong fit for business analytics, ERP enhancement, Business AI, requirements gathering, project coordination, Excel and Python.",
@@ -36,23 +84,7 @@
       "recommended_next_action": "Prioritize for the business-analytics and systems track."
     },
     {
-      "number": 3,
-      "company": "Hitachi Rail Hong Kong",
-      "title": "Data Engineering Intern",
-      "provisional_role_family": "Data Engineering / Machine Learning Internship",
-      "level": "Student internship",
-      "location": "Hong Kong",
-      "remote_policy": "On-site, full-time internship",
-      "official_url": "https://careers.hitachi.com/data-engineering-intern/job/R0145808",
-      "posted_date": "Posted 2026-10-16; verified open 2026-11-07",
-      "priority": "High",
-      "resume_route": "Data",
-      "fit_summary": "Strong fit for data preparation, time-series and event data, machine-learning prototypes and transit-system analytics.",
-      "eligibility_sponsorship_notes": "The official listing identifies this as an internship in Hong Kong. Confirm academic eligibility, language expectations and Hong Kong work authorization before applying.",
-      "recommended_next_action": "Prioritize after confirming the full technical stack and internship dates."
-    },
-    {
-      "number": 4,
+      "number": 6,
       "company": "Ricoh Hong Kong",
       "title": "Part-time Forward Deployed Engineer Intern",
       "provisional_role_family": "Applied AI / Analytics Consulting Internship",
@@ -60,44 +92,12 @@
       "location": "Kowloon Bay, Hong Kong",
       "remote_policy": "On-site part-time, at least two full working days per week",
       "official_url": "https://hkese.net/job/1723387?lang=en",
-      "posted_date": "Posted 2026-10-28; verified open 2026-11-07",
+      "posted_date": "Posted 2026-10-28; verified open 2026-11-08",
       "priority": "High",
       "resume_route": "Data",
       "fit_summary": "Strong fit for Python, SQL, dashboards, AI tools, automation, proof-of-concept development and stakeholder-facing problem solving.",
       "eligibility_sponsorship_notes": "Open to current university students in quantitative and technical disciplines. No language or sponsorship exclusion is stated; confirm Hong Kong authorization and two-day weekly availability.",
       "recommended_next_action": "Prioritize if a part-time on-site schedule is practical."
-    },
-    {
-      "number": 5,
-      "company": "adidas",
-      "title": "Intern Product Development & Sourcing (Materials Sourcing)",
-      "provisional_role_family": "Sourcing Analytics / Operations Internship",
-      "level": "Student internship",
-      "location": "Kwun Tong, Hong Kong",
-      "remote_policy": "Hong Kong internship; workplace arrangement not stated",
-      "official_url": "https://careers.adidas-group.com/jobs?keywords=material&offset=0",
-      "posted_date": "Posted 2026-10-06; verified open 2026-11-07",
-      "priority": "Medium",
-      "resume_route": "BA",
-      "fit_summary": "Relevant operations track opportunity involving materials sourcing, product-development workflows, supplier data and process improvement.",
-      "eligibility_sponsorship_notes": "The role remains listed on the official adidas internship board. Confirm detailed degree, language and Hong Kong authorization requirements on the requisition before applying.",
-      "recommended_next_action": "Review as an operations-focused alternative to pure data roles."
-    },
-    {
-      "number": 6,
-      "company": "Johnson Electric",
-      "title": "Intern - Data Engineer",
-      "provisional_role_family": "Data Engineering Internship",
-      "level": "Student internship",
-      "location": "Hong Kong",
-      "remote_policy": "Workplace arrangement not stated; application deadline 2026-11-27",
-      "official_url": "https://cpdc.osa.cuhk.edu.hk/en/find-a-job/highlight-job-postings",
-      "posted_date": "Current university listing; verified open 2026-11-07",
-      "priority": "High",
-      "resume_route": "Data",
-      "fit_summary": "Direct data-engineering match with likely relevance to Python, data pipelines, analytics systems and manufacturing data.",
-      "eligibility_sponsorship_notes": "Current Hong Kong university listing with a November 27 deadline. Confirm the detailed degree, language, duration and work-authorization terms before applying.",
-      "recommended_next_action": "Open the employer detail page only after user confirmation and verify the full requirements."
     },
     {
       "number": 7,
@@ -108,7 +108,7 @@
       "location": "United States - Remote",
       "remote_policy": "Remote, full-time summer 2027 internship",
       "official_url": "https://careers.amgen.com/en/job/washington-d-c/grad-intern-r-and-d-tsrs-data-sciences-operations-and-analytic-summer-2027/87/102866836608",
-      "posted_date": "Posted 2026-11-04; verified open 2026-11-07",
+      "posted_date": "Posted 2026-11-04; verified open 2026-11-08",
       "priority": "High",
       "resume_route": "Data",
       "fit_summary": "Strong graduate-level fit for data standardization, workflow design, analytics dashboards, web applications, FAIR data practices and Git.",
@@ -124,7 +124,7 @@
       "location": "Greenville, NC",
       "remote_policy": "On-site, full-time summer internship",
       "official_url": "https://hysteryale.wd1.myworkdayjobs.com/hyster-yalecareers/job/HY-US-Greenville-NC-Headquarters/Summer-2027-Business-Analytics-Intern_R8539",
-      "posted_date": "Posted approximately 2026-11-05; verified open 2026-11-07",
+      "posted_date": "Posted approximately 2026-11-05; verified open 2026-11-08",
       "priority": "High",
       "resume_route": "BA",
       "fit_summary": "Strong fit for process analytics, operational problem solving, research, cross-functional projects and executive-facing recommendations.",
@@ -140,7 +140,7 @@
       "location": "United States - Remote",
       "remote_policy": "Remote, full-time summer 2027 internship",
       "official_url": "https://builtin.com/job/data-science-intern-summer-2027/12109151",
-      "posted_date": "Posted 2026-11-06; verified open 2026-11-07; application closes 2026-12-07",
+      "posted_date": "Posted 2026-11-06; verified open 2026-11-08; application closes 2026-12-07",
       "priority": "High",
       "resume_route": "Data",
       "fit_summary": "Excellent fit for Python, R or SQL, statistical modeling, forecasting, optimization, machine learning, dashboards and commercial decision support.",
@@ -149,19 +149,19 @@
     },
     {
       "number": 10,
-      "company": "Momentive",
-      "title": "Summer 2027 Intern - Enterprise Reporting & Analytics - Data Science",
-      "provisional_role_family": "Enterprise Data Science / Analytics Internship",
-      "level": "Bachelor's or master's summer internship",
-      "location": "Niskayuna, NY",
-      "remote_policy": "On-site, full-time ten-to-twelve-week summer internship",
-      "official_url": "https://momentive.wd1.myworkdayjobs.com/MC/job/US-NY-Niskayuna/Summer-2027-Intern---Enterprise-Reporting---Analytics---Data-Science_R9807-1",
-      "posted_date": "Posted approximately 2026-10-20; verified open 2026-11-07",
+      "company": "SAP",
+      "title": "SAP iXp Intern - Data Analytics",
+      "provisional_role_family": "Data Analytics / Community Intelligence Internship",
+      "level": "Current-student or recent-graduate internship",
+      "location": "Newtown Square, PA",
+      "remote_policy": "Hybrid three days in office, 32 or more hours weekly for six to twelve months; anticipated start November 2026",
+      "official_url": "https://jobs.sap.com/en/jobs/744000159206645/sap-ixp-intern-data-analytics/",
+      "posted_date": "Published approximately 2026-11-03; verified open 2026-11-08",
       "priority": "High",
       "resume_route": "Data",
-      "fit_summary": "Strong fit for Python, SQL, Snowflake, Tableau, exploratory analysis, statistical testing, feature engineering and predictive modeling.",
-      "eligibility_sponsorship_notes": "Accepts bachelor's or master's students who remain enrolled for at least one semester after the internship. Sponsorship is not stated; confirm CPT and future sponsorship before applying.",
-      "recommended_next_action": "Prioritize as a New York-based graduate-eligible enterprise analytics role."
+      "fit_summary": "Strong fit for Python, SQL, Excel, Power BI, data modeling, clustering, anomaly detection, dashboards and stakeholder-facing analytics.",
+      "eligibility_sponsorship_notes": "Open to enrolled students or recent graduates in computer science, mathematics, statistics, analytics or related fields. Sponsorship is not stated; confirm CPT, future sponsorship and immediate six-to-twelve-month availability.",
+      "recommended_next_action": "Prioritize if the November start and long-duration hybrid schedule are feasible."
     }
   ],
   "rejected_candidates": [
@@ -174,20 +174,16 @@
       "reason": "Excluded at company level before deeper screening."
     },
     {
-      "company": "KPMG Financial Risk Management",
-      "reason": "Excluded because Cantonese is explicitly required and the candidate has no verified Cantonese proficiency."
+      "company": "PayPal, Spectrum, RTX, Atlassian and Highmark Health",
+      "reason": "Excluded because the current internship postings explicitly disallow current or future sponsorship."
     },
     {
-      "company": "Highmark Health and other roles with explicit no-sponsorship wording",
-      "reason": "Excluded because the candidate requires future United States sponsorship."
+      "company": "HKPC AIoT Data Analytics, Generative AI Lab and KPMG Financial Risk Management",
+      "reason": "Excluded because Chinese or Cantonese is explicitly required and the candidate has no verified proficiency."
     },
     {
-      "company": "Insurance actuarial roles and exact roles already present in the job pool",
-      "reason": "Excluded under the user's role preference and duplicate-control rules."
-    },
-    {
-      "company": "Genuine Parts Company and Primient",
-      "reason": "Excluded because the fresh analytics internships were limited to current undergraduate students."
+      "company": "Insurance actuarial roles, PhD-only roles and exact roles already present in the job pool",
+      "reason": "Excluded under the user's role preferences and duplicate-control rules."
     }
   ]
 }
