@@ -1,23 +1,23 @@
 {
-  "date": "2026-11-08",
+  "date": "2026-11-09",
   "timezone": "America/New_York",
   "status": "pending_user",
   "candidates": [
     {
       "number": 1,
-      "company": "Nexperia",
-      "title": "Software Engineer Intern (Data Analysis)",
-      "provisional_role_family": "Data Engineering / Analytics Internship",
-      "level": "Bachelor's or higher internship / fresh-graduate contract",
-      "location": "Hong Kong",
-      "remote_policy": "One-year Hong Kong contract; workplace arrangement not stated",
-      "official_url": "https://nexperia.wd3.myworkdayjobs.com/en-US/ITEC/job/Hong-Kong/Software-Engineer-Intern--Data-Analysis-_R-20013033",
-      "posted_date": "Posted approximately 2026-11-05; verified open 2026-11-08",
+      "company": "Sun Life",
+      "title": "Risk Management Intern (Jul - Dec 2027 Placement)",
+      "provisional_role_family": "Operational Risk / Controls Analytics Internship",
+      "level": "Year 2–4 undergraduate or master's internship",
+      "location": "Hunghom, Kowloon, Hong Kong",
+      "remote_policy": "On-site, full-time six-month placement from July to December 2027",
+      "official_url": "https://sunlife.wd3.myworkdayjobs.com/en-US/Experienced-Jobs/job/Hunghom-Kowloon-Hong-Kong/Risk-Management-Intern--Jul---Dec-2027-Placement-_JR00121344",
+      "posted_date": "Posted 2026-10-15; verified open 2026-11-09; closes 2026-11-29",
       "priority": "High",
-      "resume_route": "Data",
-      "fit_summary": "Strong fit for Python, SQL, structured and time-series data, data quality, transformation, dataset preparation and analytics engineering.",
-      "eligibility_sponsorship_notes": "Targets bachelor's-degree-or-higher candidates in computer science, data engineering, software engineering, AI or related fields, including fresh graduates. Confirm Hong Kong work authorization and one-year availability.",
-      "recommended_next_action": "Prioritize after confirming the one-year schedule is compatible with study plans."
+      "resume_route": "Risk",
+      "fit_summary": "Strong risk-track fit for operational-risk assessment, second-line control testing, GRC systems, Excel-based analytics and process controls.",
+      "eligibility_sponsorship_notes": "Accepts Year 2–4 students in risk management, business analytics or another quantitative major. This is not an actuarial role; confirm Hong Kong work authorization and full-time July–December availability.",
+      "recommended_next_action": "Prioritize as a current Hong Kong risk-management placement before the November 29 deadline."
     },
     {
       "number": 2,
@@ -53,35 +53,35 @@
     },
     {
       "number": 4,
-      "company": "Hong Kong Productivity Council",
-      "title": "Analyst (Intern), AI Development",
-      "provisional_role_family": "Applied AI / Data Development Internship",
-      "level": "Tertiary-student internship",
+      "company": "Amber Group",
+      "title": "Quant Strategy & AI Agent Intern",
+      "provisional_role_family": "Quantitative Strategy / AI Trading Internship",
+      "level": "Current quantitative-degree student internship",
       "location": "Hong Kong",
-      "remote_policy": "Six-month internship from January to June 2027; workplace arrangement not stated",
-      "official_url": "https://careers.hkpc.org/job/Analyst-%28Intern%29%2C-AI-Development/1368558966/",
-      "posted_date": "Posted 2026-11-06; verified open 2026-11-08",
+      "remote_policy": "Full-time internship; workplace arrangement and duration not stated",
+      "official_url": "https://hk.linkedin.com/jobs/view/quant-strategy-ai-agent-intern-at-amber-group-4486582650",
+      "posted_date": "Posted approximately 2026-11-06; verified open 2026-11-08",
       "priority": "High",
-      "resume_route": "Data",
-      "fit_summary": "Strong match for Python, data projects, generative AI, software prototyping, testing and applied analytics.",
-      "eligibility_sponsorship_notes": "Accepts students in data science, AI, engineering and related disciplines. No language or sponsorship exclusion is stated; confirm Hong Kong work authorization and six-month availability.",
-      "recommended_next_action": "Prioritize as a newly posted Hong Kong applied-AI internship."
+      "resume_route": "Quant",
+      "fit_summary": "Strong fit for systematic trading, alpha signals, factor models, backtesting, Sharpe and drawdown analysis, Python quant libraries, market-data APIs and deterministic risk controls.",
+      "eligibility_sponsorship_notes": "Accepts students in quantitative finance, financial engineering, computer science, applied mathematics, statistics and related STEM fields. No language or sponsorship exclusion is stated; confirm Hong Kong work authorization and schedule.",
+      "recommended_next_action": "Prioritize if digital-asset quantitative strategy is within scope."
     },
     {
       "number": 5,
-      "company": "Hong Kong Productivity Council",
-      "title": "Intern, Enterprise Resource Planning (ERP)",
-      "provisional_role_family": "Business Analytics / Enterprise Systems Internship",
-      "level": "Tertiary-student internship",
+      "company": "PrimeCredit Limited",
+      "title": "Intern – Credit Risk Management",
+      "provisional_role_family": "Credit Risk / MIS Analytics Internship",
+      "level": "Undergraduate-or-higher part-time internship",
       "location": "Hong Kong",
-      "remote_policy": "Six-month internship from January to June 2027; workplace arrangement not stated",
-      "official_url": "https://careers.hkpc.org/job/Intern,-Enterprise-Resource-Planning-(ERP)/1368561366/",
-      "posted_date": "Posted 2026-11-06; verified open 2026-11-08",
+      "remote_policy": "Part-time, at least two days per week; workplace arrangement not stated",
+      "official_url": "https://hk.linkedin.com/jobs/view/intern-%E2%80%93-credit-risk-management-at-primecredit-limited-4486061557",
+      "posted_date": "Posted approximately 2026-11-04; verified open 2026-11-08",
       "priority": "High",
-      "resume_route": "BA",
-      "fit_summary": "Strong fit for business analytics, ERP enhancement, Business AI, requirements gathering, project coordination, Excel and Python.",
-      "eligibility_sponsorship_notes": "Accepts tertiary students in information systems, computer science and equivalent fields. No language or sponsorship exclusion is stated; confirm Hong Kong work authorization and six-month availability.",
-      "recommended_next_action": "Prioritize for the business-analytics and systems track."
+      "resume_route": "Risk",
+      "fit_summary": "Good risk-track fit for credit-risk reporting, MIS automation, report validation, UAT, Excel VBA and optional SAS, SQL or R programming.",
+      "eligibility_sponsorship_notes": "Accepts undergraduate-or-higher candidates in business administration, finance, risk management, statistics or related disciplines and requires at least two days per week. No language or sponsorship exclusion is stated; confirm Hong Kong authorization.",
+      "recommended_next_action": "Review as a practical part-time credit-risk and automation role."
     },
     {
       "number": 6,
@@ -176,6 +176,10 @@
     {
       "company": "PayPal, Spectrum, RTX, Atlassian and Highmark Health",
       "reason": "Excluded because the current internship postings explicitly disallow current or future sponsorship."
+    },
+    {
+      "company": "Man Group Quant Research Analyst Intern",
+      "reason": "Excluded after official-source verification showed the role is based in Shanghai rather than Hong Kong."
     },
     {
       "company": "HKPC AIoT Data Analytics, Generative AI Lab and KPMG Financial Risk Management",
