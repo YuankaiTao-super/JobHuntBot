@@ -37,19 +37,19 @@
     },
     {
       "number": 3,
-      "company": "ExodusPoint",
-      "title": "Rates Internship – Hong Kong",
-      "provisional_role_family": "Rates Relative Value / Quantitative Trading Internship",
-      "level": "Current senior or recent-graduate winter internship",
+      "company": "Amazon Web Services",
+      "title": "Associate Solutions Architect Intern, Hong Kong",
+      "provisional_role_family": "Cloud Solutions Architecture / Data Technology Internship",
+      "level": "Master's-or-higher internship",
       "location": "Hong Kong",
-      "remote_policy": "On-site, full-time two-month winter internship",
-      "official_url": "https://job-boards.greenhouse.io/exoduspoint/jobs/8938482002",
-      "posted_date": "Posted approximately 2026-11-11; verified open 2026-11-12",
+      "remote_policy": "On-site, full-time four to five days per week for at least six months; starts in the first half of 2027",
+      "official_url": "https://www.amazon.jobs/en/jobs/10563358/associate-solutions-architect-intern-hong-kong",
+      "posted_date": "Posted 2026-09-29; verified open 2026-11-12",
       "priority": "High",
-      "resume_route": "Quant",
-      "fit_summary": "Strong fit for rates relative-value analysis, Python-based scanners, strategy backtesting, market monitoring and PnL reconciliation.",
-      "eligibility_sponsorship_notes": "The posting requires current seniors or recent graduates to work in person in Hong Kong for two months. Sponsorship is not stated; confirm Hong Kong work authorization and winter availability.",
-      "recommended_next_action": "Prioritize as a newly opened hands-on quantitative trading internship."
+      "resume_route": "Data",
+      "fit_summary": "Good secondary-track fit for cloud architecture, databases, AI tools, programming, technical prototyping and stakeholder-facing solution design.",
+      "eligibility_sponsorship_notes": "Requires a master's degree or above and graduation between November 2026 and June 2028. The posting explicitly requires strong English but does not require Chinese proficiency; confirm Hong Kong work authorization and six-month availability.",
+      "recommended_next_action": "Review as a technically strong Hong Kong alternative with broad cloud and data exposure."
     },
     {
       "number": 4,
@@ -133,6 +133,10 @@
     }
   ],
   "rejected_candidates": [
+    {
+      "company": "ExodusPoint",
+      "reason": "Rates Internship – Hong Kong removed from the 2026-11-12 shortlist at the user's request."
+    },
     {
       "company": "Jane Street, Millennium, Optiver, Robinhood, Citi, Manulife, Barclays, Point72, ICE and ByteDance",
       "reason": "Excluded under the user's standing company preferences."
