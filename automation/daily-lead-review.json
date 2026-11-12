@@ -37,19 +37,19 @@
     },
     {
       "number": 3,
-      "company": "Amazon Web Services",
-      "title": "Associate Solutions Architect Intern, Hong Kong",
-      "provisional_role_family": "Cloud Solutions Architecture / Data Technology Internship",
-      "level": "Master's-or-higher internship",
+      "company": "Third Bridge",
+      "title": "Intern, Client Service - 2027 Intake",
+      "provisional_role_family": "Investment Research / Client Service Internship",
+      "level": "Year 3–4 student or recent-graduate internship",
       "location": "Hong Kong",
-      "remote_policy": "On-site, full-time four to five days per week for at least six months; starts in the first half of 2027",
-      "official_url": "https://www.amazon.jobs/en/jobs/10563358/associate-solutions-architect-intern-hong-kong",
-      "posted_date": "Posted 2026-09-29; verified open 2026-11-12",
-      "priority": "High",
-      "resume_route": "Data",
-      "fit_summary": "Good secondary-track fit for cloud architecture, databases, AI tools, programming, technical prototyping and stakeholder-facing solution design.",
-      "eligibility_sponsorship_notes": "Requires a master's degree or above and graduation between November 2026 and June 2028. The posting explicitly requires strong English but does not require Chinese proficiency; confirm Hong Kong work authorization and six-month availability.",
-      "recommended_next_action": "Review as a technically strong Hong Kong alternative with broad cloud and data exposure."
+      "remote_policy": "On-site, full-time five days per week for at least three months from June 1 to September 1, 2027",
+      "official_url": "https://www.thirdbridge.com/en-us/vacancies/Intern%2C%20Client%20Service%20-%202027%20Intake.5001503101",
+      "posted_date": "First observed approximately 2026-10-28; verified open 2026-11-12",
+      "priority": "Medium",
+      "resume_route": "BA",
+      "fit_summary": "Non-AI business-research role focused on understanding investor and consulting briefs, identifying relevant industry experts, coordinating interviews and managing multiple client projects.",
+      "eligibility_sponsorship_notes": "Accepts Year 3–4 students or recent graduates who can work full-time for at least three months. No AI, machine-learning, programming or Chinese-language requirement is stated; client-facing or cold-call experience is listed as essential, and Hong Kong work authorization should be confirmed.",
+      "recommended_next_action": "Review as the non-AI Hong Kong replacement; emphasize investment-industry exposure, research, stakeholder communication and project coordination."
     },
     {
       "number": 4,
@@ -133,6 +133,10 @@
     }
   ],
   "rejected_candidates": [
+    {
+      "company": "Amazon Web Services",
+      "reason": "Associate Solutions Architect Intern removed from the 2026-11-12 shortlist because the user requested a replacement that does not require AI capability."
+    },
     {
       "company": "ExodusPoint",
       "reason": "Rates Internship – Hong Kong removed from the 2026-11-12 shortlist at the user's request."
