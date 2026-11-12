@@ -37,22 +37,6 @@
     },
     {
       "number": 3,
-      "company": "Third Bridge",
-      "title": "Intern, Client Service - 2027 Intake",
-      "provisional_role_family": "Investment Research / Client Service Internship",
-      "level": "Year 3–4 student or recent-graduate internship",
-      "location": "Hong Kong",
-      "remote_policy": "On-site, full-time five days per week for at least three months from June 1 to September 1, 2027",
-      "official_url": "https://www.thirdbridge.com/en-us/vacancies/Intern%2C%20Client%20Service%20-%202027%20Intake.5001503101",
-      "posted_date": "First observed approximately 2026-10-28; verified open 2026-11-12",
-      "priority": "Medium",
-      "resume_route": "BA",
-      "fit_summary": "Non-AI business-research role focused on understanding investor and consulting briefs, identifying relevant industry experts, coordinating interviews and managing multiple client projects.",
-      "eligibility_sponsorship_notes": "Accepts Year 3–4 students or recent graduates who can work full-time for at least three months. No AI, machine-learning, programming or Chinese-language requirement is stated; client-facing or cold-call experience is listed as essential, and Hong Kong work authorization should be confirmed.",
-      "recommended_next_action": "Review as the non-AI Hong Kong replacement; emphasize investment-industry exposure, research, stakeholder communication and project coordination."
-    },
-    {
-      "number": 4,
       "company": "Grand Alliance Asset Management Limited",
       "title": "Data & Analytics – Intern",
       "provisional_role_family": "Portfolio Data Analytics / Automation Internship",
@@ -68,7 +52,7 @@
       "recommended_next_action": "Prioritize as a same-day posting closely aligned with finance and data analytics."
     },
     {
-      "number": 5,
+      "number": 4,
       "company": "Amgen",
       "title": "Grad Intern – R&D TSRS Data Sciences Operations & Analytic (Summer 2027)",
       "provisional_role_family": "Data Science Operations / Analytics Internship",
@@ -84,7 +68,7 @@
       "recommended_next_action": "Prioritize as a fresh graduate-eligible remote analytics role."
     },
     {
-      "number": 6,
+      "number": 5,
       "company": "Hyster-Yale Materials Handling",
       "title": "Summer 2027 Business Analytics Intern",
       "provisional_role_family": "Business Analytics / Operations Internship",
@@ -100,7 +84,7 @@
       "recommended_next_action": "Prioritize as a freshly posted master's-eligible business analytics internship."
     },
     {
-      "number": 7,
+      "number": 6,
       "company": "The J.M. Smucker Co.",
       "title": "Data Science Intern, Summer 2027",
       "provisional_role_family": "Data Science / Commercial Analytics Internship",
@@ -116,7 +100,7 @@
       "recommended_next_action": "Prioritize as a newly posted graduate-only remote data-science role."
     },
     {
-      "number": 8,
+      "number": 7,
       "company": "SAP",
       "title": "SAP iXp Intern - Data Analytics",
       "provisional_role_family": "Data Analytics / Community Intelligence Internship",
@@ -133,6 +117,10 @@
     }
   ],
   "rejected_candidates": [
+    {
+      "company": "Third Bridge",
+      "reason": "Intern, Client Service - 2027 Intake removed from the 2026-11-12 shortlist at the user's request; no replacement requested."
+    },
     {
       "company": "Amazon Web Services",
       "reason": "Associate Solutions Architect Intern removed from the 2026-11-12 shortlist because the user requested a replacement that does not require AI capability."
