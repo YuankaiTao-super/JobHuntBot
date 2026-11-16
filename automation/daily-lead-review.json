@@ -1,10 +1,26 @@
 {
-  "date": "2026-11-15",
+  "date": "2026-11-16",
   "timezone": "America/New_York",
   "status": "pending_user",
   "candidates": [
     {
       "number": 1,
+      "company": "ExodusPoint Capital Management",
+      "title": "Quantitative Research Intern – Systematic FICC",
+      "provisional_role_family": "Quantitative Research / Systematic FICC Internship",
+      "level": "Internship; 3–6 month placement",
+      "location": "Hong Kong",
+      "remote_policy": "Hong Kong office; full-time preferred, part-time at least 4 days/week considered",
+      "official_url": "https://job-boards.greenhouse.io/exoduspoint/jobs/8943351002",
+      "posted_date": "Verified open 2026-11-16; detected within the last 45 days",
+      "priority": "High",
+      "resume_route": "Quant",
+      "fit_summary": "Excellent fit for systematic strategy research, backtesting, time-series analysis, factor research, transaction-cost studies, Python and SQL.",
+      "eligibility_sponsorship_notes": "Requires strong Python or similar coding plus mathematics and statistics; C++ is not required. Confirm Hong Kong work authorization.",
+      "recommended_next_action": "Prioritize as today’s strongest new Hong Kong quantitative-research lead."
+    },
+    {
+      "number": 2,
       "company": "Hill Group LTD",
       "title": "Quantitative Trading Intern",
       "provisional_role_family": "Quantitative Trading / Strategy Internship",
@@ -12,15 +28,15 @@
       "location": "Hong Kong",
       "remote_policy": "Workplace arrangement not stated",
       "official_url": "https://hk.linkedin.com/jobs/view/quantitative-trading-intern-at-hill-group-ltd-4486352235",
-      "posted_date": "Posted approximately 2026-11-08; verified open 2026-11-15",
+      "posted_date": "Posted approximately 2026-11-08; verified open 2026-11-16",
       "priority": "High",
       "resume_route": "Quant",
       "fit_summary": "Strong fit for quantitative trading, strategy execution, mathematics and finance, with English identified as the working language.",
       "eligibility_sponsorship_notes": "Mandarin, Cantonese and finance certifications are preferences rather than requirements. Confirm Hong Kong work authorization.",
-      "recommended_next_action": "Prioritize as the freshest new Hong Kong trading lead."
+      "recommended_next_action": "Prioritize as a fresh Hong Kong trading lead."
     },
     {
-      "number": 2,
+      "number": 3,
       "company": "KuCoin Exchange",
       "title": "Quantitative Research Intern",
       "provisional_role_family": "Quantitative Research / Systematic Strategy Internship",
@@ -28,43 +44,27 @@
       "location": "Hong Kong",
       "remote_policy": "Workplace arrangement not stated",
       "official_url": "https://hk.linkedin.com/jobs/view/quantitative-research-intern-at-kucoin-exchange-4488930339",
-      "posted_date": "Posted approximately 2026-11-13; verified open 2026-11-15",
+      "posted_date": "Posted approximately 2026-11-13; verified open 2026-11-16",
       "priority": "High",
       "resume_route": "Quant",
       "fit_summary": "Strong fit for high-frequency market-data research, factor construction, statistical modeling, signal validation and backtesting using Python.",
-      "eligibility_sponsorship_notes": "Python and a quantitative degree are central; deep-learning frameworks are only listed as advantages. Confirm Hong Kong work authorization.",
+      "eligibility_sponsorship_notes": "Python and a quantitative degree are central; deep-learning frameworks are advantages rather than requirements. Confirm Hong Kong work authorization.",
       "recommended_next_action": "Prioritize for the quantitative-research track."
-    },
-    {
-      "number": 3,
-      "company": "Engineers Gate",
-      "title": "Quantitative Research Intern",
-      "provisional_role_family": "Quantitative Research / Statistical Modeling Internship",
-      "level": "Bachelor''s, master''s or doctoral internship",
-      "location": "Hong Kong",
-      "remote_policy": "Workplace arrangement not stated",
-      "official_url": "https://job-boards.greenhouse.io/engineersgate/jobs/7946542",
-      "posted_date": "Verified open 2026-11-15; detected within the last 45 days",
-      "priority": "High",
-      "resume_route": "Quant",
-      "fit_summary": "Strong fit for statistical research, machine learning, quantitative finance, Python, SQL, databases and Linux.",
-      "eligibility_sponsorship_notes": "Accepts bachelor''s, master''s and doctoral candidates in quantitative fields; C++ is not required. Confirm Hong Kong work authorization.",
-      "recommended_next_action": "Prioritize as a direct systematic-research fit."
     },
     {
       "number": 4,
       "company": "Huatai International Financial Holdings Company Limited",
       "title": "Finance – Product Control – Intern",
       "provisional_role_family": "Product Control / Valuation Analytics Internship",
-      "level": "Bachelor''s-degree internship",
+      "level": "Bachelor’s-degree internship",
       "location": "Hong Kong",
       "remote_policy": "Full-time; workplace arrangement not stated",
       "official_url": "https://htsc.wd102.myworkdayjobs.com/en-US/Huatai_Careers/job/Finance---Product-Control---Intern_",
-      "posted_date": "Posted 2026-11-09; verified open 2026-11-15",
+      "posted_date": "Posted 2026-11-09; verified open 2026-11-16",
       "priority": "High",
       "resume_route": "Risk",
       "fit_summary": "Strong finance-risk fit for P&L reporting, derivatives valuation checks, P&L explain, market-data controls and trading-system reconciliations.",
-      "eligibility_sponsorship_notes": "Requests a finance, business or related bachelor''s degree; the candidate''s accounting degree and quantitative graduate study are relevant. Confirm Hong Kong work authorization.",
+      "eligibility_sponsorship_notes": "Requests a finance, business or related bachelor’s degree; the candidate’s accounting degree and quantitative graduate study are relevant. Confirm Hong Kong work authorization.",
       "recommended_next_action": "Prioritize for product-control and market-risk-adjacent experience."
     },
     {
@@ -76,7 +76,7 @@
       "location": "Central, Hong Kong",
       "remote_policy": "Part-time with a flexible internship period",
       "official_url": "https://hk.linkedin.com/jobs/view/data-analytics-%E2%80%93-intern-at-grand-alliance-asset-management-limited-4488687014",
-      "posted_date": "Posted 2026-11-12; verified open 2026-11-15",
+      "posted_date": "Posted 2026-11-12; verified open 2026-11-16",
       "priority": "High",
       "resume_route": "Data",
       "fit_summary": "Strong fit for portfolio-data analysis, report automation, market research, database maintenance, Python, pandas, NumPy and Excel VBA.",
@@ -90,9 +90,9 @@
       "provisional_role_family": "Investment Research / Fund Analytics Internship",
       "level": "Undergraduate or graduate part-time internship",
       "location": "Hong Kong",
-      "remote_policy": "Part-time, 2-3 days per week in the Hong Kong office",
+      "remote_policy": "Part-time, 2–3 days per week in the Hong Kong office",
       "official_url": "https://morningstar.wd5.myworkdayjobs.com/en-US/Americas/job/Manager-Research--Intern_REQ-056886",
-      "posted_date": "Posted 2026-10-30; verified open 2026-11-15; closes 2026-11-30",
+      "posted_date": "Posted 2026-10-30; verified open 2026-11-16; closes 2026-11-30",
       "priority": "High",
       "resume_route": "Quant",
       "fit_summary": "Strong finance-research fit for fund due diligence, analytical work, investment research writing and client deliverables.",
@@ -101,30 +101,46 @@
     },
     {
       "number": 7,
-      "company": "Airbnb",
-      "title": "Advanced Analytics Intern",
-      "provisional_role_family": "Advanced Analytics / Forecasting Internship",
-      "level": "Master''s summer internship",
-      "location": "United States",
-      "remote_policy": "Remote eligible within registered U.S. states",
-      "official_url": "https://careers.airbnb.com/positions/8380007/",
-      "posted_date": "Posted approximately 2026-11-12; verified open 2026-11-15",
+      "company": "Galaxy Digital",
+      "title": "2027 Risk Intern – NYC",
+      "provisional_role_family": "Market Risk / Quantitative Risk Analytics Internship",
+      "level": "Undergraduate or master’s summer internship",
+      "location": "New York, NY",
+      "remote_policy": "On-site, 5 days per week",
+      "official_url": "https://job-boards.greenhouse.io/galaxydigitalservices/jobs/6250062004",
+      "posted_date": "Verified open 2026-11-16; detected within the last 45 days",
       "priority": "High",
-      "resume_route": "Data",
-      "fit_summary": "Excellent fit for SQL, Python or R, statistical analysis, forecasting, time series, A/B testing and finance-facing business communication.",
-      "eligibility_sponsorship_notes": "Requires a quantitative master''s student with at least one semester remaining after the internship. The posting explicitly accepts CPT/OPT with the two-year STEM extension.",
-      "recommended_next_action": "Prioritize as today''s clearest U.S. eligibility and analytics match."
+      "resume_route": "Risk",
+      "fit_summary": "Excellent fit for market-risk analytics, scenario analysis, quantitative modeling, risk metrics, Python and SQL in digital-asset markets.",
+      "eligibility_sponsorship_notes": "Graduation window of December 2027–June 2028 matches the candidate. The application asks about future sponsorship but the posting does not state an exclusion; confirm CPT and sponsorship policy.",
+      "recommended_next_action": "Prioritize as the strongest new U.S. risk lead."
     },
     {
       "number": 8,
+      "company": "Airbnb",
+      "title": "Advanced Analytics Intern",
+      "provisional_role_family": "Advanced Analytics / Forecasting Internship",
+      "level": "Master’s summer internship",
+      "location": "United States",
+      "remote_policy": "Remote eligible within registered U.S. states",
+      "official_url": "https://careers.airbnb.com/positions/8380007/",
+      "posted_date": "Posted approximately 2026-11-12; verified open 2026-11-16",
+      "priority": "High",
+      "resume_route": "Data",
+      "fit_summary": "Excellent fit for SQL, Python or R, statistical analysis, forecasting, time series, A/B testing and finance-facing business communication.",
+      "eligibility_sponsorship_notes": "Requires a quantitative master’s student with at least one semester remaining after the internship. The posting explicitly accepts CPT/OPT with the two-year STEM extension.",
+      "recommended_next_action": "Prioritize as today’s clearest U.S. eligibility and analytics match."
+    },
+    {
+      "number": 9,
       "company": "U.S. Bank",
       "title": "2027 Quantitative Modeling Summer Intern",
       "provisional_role_family": "Quantitative Modeling / Model Risk Internship",
-      "level": "Master''s or doctoral summer internship",
+      "level": "Master’s or doctoral summer internship",
       "location": "Charlotte, NC",
       "remote_policy": "Workplace arrangement not stated",
       "official_url": "https://www.linkedin.com/jobs/view/2027-quantitative-modeling-summer-intern-at-u-s-bank-4464666364",
-      "posted_date": "Posted within the last 45 days; verified open 2026-11-15",
+      "posted_date": "Posted within the last 45 days; verified open 2026-11-16",
       "priority": "High",
       "resume_route": "Risk",
       "fit_summary": "Excellent fit for model research, validation, regression, time-series analysis, statistical methods and financial risk modeling.",
@@ -132,58 +148,42 @@
       "recommended_next_action": "Prioritize for the quantitative-risk and model-validation track."
     },
     {
-      "number": 9,
-      "company": "Vizient",
-      "title": "2027 Summer Internship – Research Analytics & Insights (Graduate/Doctorate Level)",
-      "provisional_role_family": "Research Analytics / Statistical Analysis Internship",
-      "level": "Graduate or doctoral summer internship",
-      "location": "Chicago, IL",
-      "remote_policy": "Hybrid, June 1-August 6, 2027",
-      "official_url": "https://app.joinhandshake.com/public/jobs/11893655",
-      "posted_date": "Posted 2026-11-06; verified open 2026-11-15",
+      "number": 10,
+      "company": "Itron",
+      "title": "Intern – People Analytics (Summer 2027)",
+      "provisional_role_family": "People Analytics / Business Intelligence Internship",
+      "level": "Bachelor’s or graduate summer internship",
+      "location": "Liberty Lake, WA",
+      "remote_policy": "Hybrid, 2 days per week on-site",
+      "official_url": "https://itron.wd5.myworkdayjobs.com/en-US/Itron/job/Intern---People-Analytics--Summer-2027-_JR103033-1",
+      "posted_date": "Posted approximately 2026-11-12; verified open 2026-11-16",
       "priority": "High",
       "resume_route": "Data",
-      "fit_summary": "Strong graduate-level fit for data cleaning, descriptive analysis, research support, SQL, Python or R, Excel and Power BI or Tableau.",
-      "eligibility_sponsorship_notes": "Requires U.S. work authorization; no explicit future-sponsorship prohibition was found in the verified listing. Confirm CPT acceptance.",
-      "recommended_next_action": "Prioritize as a Chicago graduate analytics role, subject to CPT verification."
-    },
-    {
-      "number": 10,
-      "company": "Hyster-Yale Materials Handling",
-      "title": "Summer 2027 Business Analytics Intern",
-      "provisional_role_family": "Business Analytics / Process Improvement Internship",
-      "level": "Bachelor''s or master''s summer internship",
-      "location": "Greenville, NC",
-      "remote_policy": "Full-time; workplace arrangement not stated",
-      "official_url": "https://hysteryale.wd1.myworkdayjobs.com/hyster-yalecareers/job/HY-US-Greenville-NC-Headquarters/Summer-2027-Business-Analytics-Intern_R8539",
-      "posted_date": "Posted approximately 2026-11-12; verified open 2026-11-15",
-      "priority": "High",
-      "resume_route": "BA",
-      "fit_summary": "Good fit for business analytics, process improvement, structured project work and cross-functional recommendations.",
-      "eligibility_sponsorship_notes": "Accepts bachelor''s or master''s students. No explicit sponsorship rule was observed; confirm CPT acceptance and future sponsorship.",
-      "recommended_next_action": "Keep as a fresh business-analytics option after work-authorization verification."
+      "fit_summary": "Good fit for data validation, workforce analytics, dashboards, Excel, SQL, Python or R, Power BI or Tableau and stakeholder communication.",
+      "eligibility_sponsorship_notes": "Explicitly accepts graduate students. No sponsorship restriction was found in the verified listing; confirm CPT acceptance and future sponsorship before applying.",
+      "recommended_next_action": "Keep as a fresh analytics option after work-authorization verification."
     }
   ],
   "rejected_candidates": [
     {
-      "company": "AlixPartners – Risk Advisory Intern",
-      "reason": "Excluded because good command of both English and Chinese is required and the candidate has no verified Chinese-language proficiency."
+      "company": "Barclays – Quantitative Analytics Associate Off Cycle Internship",
+      "reason": "Excluded under the standing Barclays company exclusion."
     },
     {
-      "company": "Sun Life – Risk Management Intern",
-      "reason": "Excluded because the role specifies Year 2-4 students and does not clearly include graduate students."
+      "company": "JPMorgan Chase – Quantitative Trading & Research Off-Cycle Internship",
+      "reason": "Excluded because JPMorgan Chase appears in the submitted-company list."
     },
     {
-      "company": "T-Mobile – Summer 2027 Data Product Internship",
-      "reason": "Excluded because the posting requires authorization to work in the United States now and in the future."
+      "company": "Schonfeld – Quantitative Research Intern",
+      "reason": "Excluded because Schonfeld appears in the manual submission record."
     },
     {
-      "company": "CAA ICON – Data Analytics Intern",
-      "reason": "Excluded because candidates who now or in the future require visa sponsorship are ineligible."
+      "company": "Manulife – Global Information Risk Management Co-op",
+      "reason": "Excluded under the standing Manulife company exclusion."
     },
     {
-      "company": "Talos – Quantitative Analyst Intern",
-      "reason": "Excluded because it targets the graduating class of 2029 rather than the candidate''s December 2027 graduation."
+      "company": "Centene – Analytics Summer 2027 Intern",
+      "reason": "Excluded because the posting explicitly rejects CPT, OPT and future sponsorship."
     },
     {
       "company": "Companies in submitted-lists, manual submission records, standing company exclusions, insurance actuarial roles and exact job-pool duplicates",
