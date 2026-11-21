@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-20",
+  "date": "2026-11-21",
   "timezone": "America/New_York",
   "status": "pending_user",
   "candidates": [
@@ -12,7 +12,7 @@
       "location": "Hong Kong",
       "remote_policy": "Hong Kong based; workplace arrangement not stated",
       "official_url": "https://cpdc.osa.cuhk.edu.hk/sites/cu_joblink/files/highlight_jobs_postings/files/Placement%20Student%202026-2027%20%28BS-LR%29_Re-ad.pdf",
-      "posted_date": "Posted 2026-11-11; application deadline 2026-11-28",
+      "posted_date": "Posted 2026-11-11; application deadline 2026-11-28; verified open 2026-11-21",
       "priority": "High",
       "resume_route": "Risk",
       "fit_summary": "Strong fit for liquidity-risk analysis, quantitative reporting, banking regulation and data-driven risk monitoring.",
@@ -28,7 +28,7 @@
       "location": "Hong Kong",
       "remote_policy": "Hong Kong office; workplace arrangement not stated",
       "official_url": "https://fwd.wd3.myworkdayjobs.com/FWDcareersite/job/Hong-Kong---Millennium-City/Co-op-Intern--Risk-Management_JR-0028233-1",
-      "posted_date": "Posted approximately 2026-11-17; verified open 2026-11-20",
+      "posted_date": "Posted approximately 2026-11-17; verified open 2026-11-21",
       "priority": "High",
       "resume_route": "Risk",
       "fit_summary": "Strong fit for investment-limit monitoring, Bloomberg controls, data consolidation, validation and reporting automation.",
@@ -44,7 +44,7 @@
       "location": "Hong Kong",
       "remote_policy": "Hong Kong based; workplace arrangement not stated",
       "official_url": "https://htisec.wd3.myworkdayjobs.com/en-US/hti_careers/job/Young-Talent-Program-2027--Summer-Internship-_R26000368",
-      "posted_date": "Posted 2026-11-01; application deadline 2026-12-25",
+      "posted_date": "Posted 2026-11-01; application deadline 2026-12-25; verified open 2026-11-21",
       "priority": "High",
       "resume_route": "Quant",
       "fit_summary": "Good fit for research, financial products and trading, fixed income, treasury or risk-oriented placement tracks.",
@@ -53,22 +53,6 @@
     },
     {
       "number": 4,
-      "company": "Natixis Corporate & Investment Banking",
-      "title": "Intern, Finance (Jan 2027 - Jul 2027)",
-      "provisional_role_family": "Banking Finance / Management Reporting Internship",
-      "level": "Six-month full-time internship",
-      "location": "Hong Kong",
-      "remote_policy": "Hong Kong based; workplace arrangement not stated",
-      "official_url": "https://hk.linkedin.com/jobs/view/intern-finance-jan-2027-jul-2027-at-natixis-corporate-investment-banking-4478181993",
-      "posted_date": "Posted approximately 2026-10-20; verified open 2026-11-20",
-      "priority": "Medium",
-      "resume_route": "Risk",
-      "fit_summary": "Relevant exposure to CIB finance, reporting, controls and financial-data workflows in a global-markets environment.",
-      "eligibility_sponsorship_notes": "The role is a January-to-July full-time placement. Confirm detailed degree requirements, Hong Kong work authorization and academic availability before applying.",
-      "recommended_next_action": "Keep as a finance-control complement to the more quantitative risk roles."
-    },
-    {
-      "number": 5,
       "company": "Huatai International Financial Holdings",
       "title": "Debt Capital Markets - Intern",
       "provisional_role_family": "Debt Capital Markets / Fixed Income Analytics Internship",
@@ -76,7 +60,7 @@
       "location": "Hong Kong",
       "remote_policy": "Hong Kong based; workplace arrangement not stated",
       "official_url": "https://htsc.wd102.myworkdayjobs.com/en-US/Huatai_Careers/job/Debt-Capital-Markets---Intern_-1",
-      "posted_date": "Posted approximately 2026-10-21; verified open 2026-11-20",
+      "posted_date": "Posted approximately 2026-10-21; verified open 2026-11-21",
       "priority": "Medium",
       "resume_route": "Quant",
       "fit_summary": "Good fit for fixed-income market research, debt issuance analysis, cross-border capital-markets data and transaction support.",
@@ -84,23 +68,7 @@
       "recommended_next_action": "Consider for fixed-income and capital-markets exposure."
     },
     {
-      "number": 6,
-      "company": "Marriott International",
-      "title": "Marriott HK Regional Office Internship (6 months) - 11 Teams Available",
-      "provisional_role_family": "Finance / Business Analytics Internship",
-      "level": "Six-month full-time paid internship",
-      "location": "Hong Kong",
-      "remote_policy": "Hong Kong regional office",
-      "official_url": "https://hk.linkedin.com/jobs/view/marriott-hk-regional-office-internship-6-months-11-teams-available-at-marriott-international-4476279258",
-      "posted_date": "Posted approximately 2026-11-18; verified open 2026-11-20",
-      "priority": "Medium",
-      "resume_route": "Data",
-      "fit_summary": "Best-fit team options include finance, planning and analytics-oriented work involving reporting, cross-functional analysis and decision support.",
-      "eligibility_sponsorship_notes": "Requires full-time availability for six months from December 2026 or January 2027. Confirm that a finance or analytics team is selectable and verify Hong Kong work authorization.",
-      "recommended_next_action": "Proceed only if the finance, planning or analytics team can be selected."
-    },
-    {
-      "number": 7,
+      "number": 5,
       "company": "State Street",
       "title": "Enterprise Risk Management - Quantitative Risk Internship - 2027 Summer Internship",
       "provisional_role_family": "Quantitative Credit Risk Modeling Internship",
@@ -108,7 +76,7 @@
       "location": "Clifton, NJ or Boston, MA",
       "remote_policy": "Location based; workplace arrangement not stated",
       "official_url": "https://statestreet.wd1.myworkdayjobs.com/Global/job/Clifton-New-Jersey/State-Street-Enterprise-Risk-Management---Quantitative-Risk-Internship---2027-Summer-Internship_R-801341",
-      "posted_date": "Posted 2026-11-20; application deadline approximately 2026-11-24",
+      "posted_date": "Posted 2026-11-20; application deadline approximately 2026-11-24; verified open 2026-11-21",
       "priority": "High",
       "resume_route": "Risk",
       "fit_summary": "Excellent fit for PD, LGD and expected-loss models, CCAR and CECL analytics, macroeconomic variables, Python, R and SQL.",
@@ -116,7 +84,7 @@
       "recommended_next_action": "Prioritize immediately because the indexed deadline is near."
     },
     {
-      "number": 8,
+      "number": 6,
       "company": "State Street",
       "title": "Model Risk Management - Quantitative Analyst - 2027 Summer Internship",
       "provisional_role_family": "Model Risk Governance / Validation Internship",
@@ -124,7 +92,7 @@
       "location": "Boston, MA",
       "remote_policy": "On-site",
       "official_url": "https://careers.statestreet.com/global/en/job/STSTGLOBALR801343EXTERNALENGLOBAL/State-Street-Model-Risk-Management-Quantitative-Analyst-2027-Summer-Internship",
-      "posted_date": "Posted 2026-11-20; verified open 2026-11-20",
+      "posted_date": "Posted 2026-11-20; verified open 2026-11-21",
       "priority": "High",
       "resume_route": "Risk",
       "fit_summary": "Strong fit for model inventory, governance controls, regulatory assessments, risk reporting, process improvement and analytical documentation.",
@@ -132,7 +100,7 @@
       "recommended_next_action": "Prioritize for model-risk governance and regulatory exposure."
     },
     {
-      "number": 9,
+      "number": 7,
       "company": "Federal Home Loan Bank of Dallas",
       "title": "Market Risk Intern",
       "provisional_role_family": "Market Risk / Financial Risk Analytics Internship",
@@ -140,7 +108,7 @@
       "location": "Irving, TX",
       "remote_policy": "In person",
       "official_url": "https://fhlb.wd1.myworkdayjobs.com/en-US/FHLB_Careers/job/Market-Risk-Intern_REQ-449",
-      "posted_date": "Posted approximately 2026-11-02; verified open 2026-11-20",
+      "posted_date": "Posted approximately 2026-11-02; verified open 2026-11-21",
       "priority": "High",
       "resume_route": "Risk",
       "fit_summary": "Excellent fit for market-risk measurement, scenario reporting, VBA, SQL, Power BI and automated exposure monitoring.",
@@ -148,7 +116,7 @@
       "recommended_next_action": "Prioritize for direct market-risk analytics experience."
     },
     {
-      "number": 10,
+      "number": 8,
       "company": "Federal Home Loan Bank of Dallas",
       "title": "2027 Summer Capital Markets Intern",
       "provisional_role_family": "Capital Markets / Trading Analytics Internship",
@@ -156,18 +124,54 @@
       "location": "Irving, TX",
       "remote_policy": "In person",
       "official_url": "https://fhlb.wd1.myworkdayjobs.com/fhlb_careers/job/Capital-Markets-Intern_REQ-446",
-      "posted_date": "Posted approximately 2026-10-26; verified open 2026-11-20",
+      "posted_date": "Posted approximately 2026-10-26; verified open 2026-11-21",
       "priority": "High",
       "resume_route": "Quant",
       "fit_summary": "Strong fit for pricing, funding strategy, hedging, portfolio analysis and understanding how risk supports trading and investment activity.",
       "eligibility_sponsorship_notes": "The employer posting is open and does not state a sponsorship exclusion in the indexed description. Confirm CPT acceptance and future sponsorship policy.",
       "recommended_next_action": "Prioritize as a trading and fixed-income complement to the market-risk role."
+    },
+    {
+      "number": 9,
+      "company": "Bank of America",
+      "title": "Global Quantitative Research Summer Associate Program - 2027",
+      "provisional_role_family": "Cross-Asset Quantitative Research Internship",
+      "level": "Graduate summer associate internship",
+      "location": "New York, NY",
+      "remote_policy": "New York based; workplace arrangement not stated",
+      "official_url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/xf-38005c91bab3/candidate/so/pm/1/pl/1/opp/14896-Global-Quantitative-Research-Summer-Associate-Program-2027/en-GB",
+      "posted_date": "Verified open 2026-11-21; indexed within the last 45 days",
+      "priority": "High",
+      "resume_route": "Quant",
+      "fit_summary": "Excellent fit for cross-asset quantitative research, risk premia, portfolio construction, forecasting, derivatives modeling, Python and empirical strategy testing.",
+      "eligibility_sponsorship_notes": "Requires a master's or PhD graduating November 2027 through June 2028 in quantitative finance or a closely related technical field. No explicit sponsorship exclusion appears in the posting; confirm CPT and future sponsorship policy. The employer limits candidates to three U.S./Canada program applications per recruitment season.",
+      "recommended_next_action": "Prioritize as the strongest pure Quantitative Research addition."
+    },
+    {
+      "number": 10,
+      "company": "Federal Home Loan Bank of Indianapolis",
+      "title": "Market Risk Intern",
+      "provisional_role_family": "Market Risk / Valuation Analytics Internship",
+      "level": "Ten-week paid summer internship",
+      "location": "Indianapolis, IN",
+      "remote_policy": "Hybrid; three office days and two remote days per week",
+      "official_url": "https://fhlbi.wd1.myworkdayjobs.com/FHLBI_Careers/job/Indianapolis/Market-Risk-Intern_R634",
+      "posted_date": "Posted approximately 2026-11-02; verified open 2026-11-21",
+      "priority": "High",
+      "resume_route": "Risk",
+      "fit_summary": "Excellent fit for financial-instrument valuation, market rates, risk metrics, Python, Power BI and enterprise market-risk reporting.",
+      "eligibility_sponsorship_notes": "Accepts undergraduate and graduate students in mathematics, data analytics, finance, economics and other quantitative fields. No explicit sponsorship exclusion appears in the posting; confirm CPT acceptance and future sponsorship policy.",
+      "recommended_next_action": "Prioritize for hands-on valuation and market-risk analytics."
     }
   ],
   "rejected_candidates": [
     {
+      "company": "Natixis Corporate & Investment Banking and Marriott International",
+      "reason": "Removed from the staged shortlist when the regional quota changed because they were the two weakest Hong Kong matches for the new quantitative-first focus."
+    },
+    {
       "company": "Gaw Capital",
-      "reason": "Excluded because both newly surfaced roles are already present in the job pool."
+      "reason": "Excluded because both surfaced roles are already present in the job pool."
     },
     {
       "company": "BNP Paribas",
@@ -178,15 +182,11 @@
       "reason": "Excluded at company level before ranking."
     },
     {
-      "company": "Macquarie",
-      "reason": "Excluded because the 2027 US Risk Management internship is closed."
+      "company": "Roles with explicit permanent-work-authorization or no-future-sponsorship requirements",
+      "reason": "Excluded under the current work-authorization rules."
     },
     {
-      "company": "Insurance actuarial roles and roles with explicit permanent-work-authorization or no-future-sponsorship requirements",
-      "reason": "Excluded under the current role and work-authorization rules."
-    },
-    {
-      "company": "Yesterday's staged candidates and exact job-pool or application-log duplicates",
+      "company": "Exact job-pool or application-log duplicates",
       "reason": "Excluded before ranking to keep the shortlist new."
     }
   ]
