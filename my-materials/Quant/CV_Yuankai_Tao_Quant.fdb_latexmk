@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber CV_Yuankai_Tao_Quant"] 1792968475.71979 "CV_Yuankai_Tao_Quant.bcf" "CV_Yuankai_Tao_Quant.bbl" "CV_Yuankai_Tao_Quant" 1793477319.85623 0
-  "CV_Yuankai_Tao_Quant.bcf" 1793477319 107397 eac68fe4208c075a452fcd075ab1fc2b "pdflatex"
+["biber CV_Yuankai_Tao_Quant"] 1792968475.71979 "CV_Yuankai_Tao_Quant.bcf" "CV_Yuankai_Tao_Quant.bbl" "CV_Yuankai_Tao_Quant" 1795333191.97486 0
+  "CV_Yuankai_Tao_Quant.bcf" 1795333191 107397 eac68fe4208c075a452fcd075ab1fc2b "pdflatex"
   (generated)
   "CV_Yuankai_Tao_Quant.bbl"
   "CV_Yuankai_Tao_Quant.blg"
   (rewritten before read)
-["pdflatex"] 1793477318.1696 "e:/VS Code Projects/JobHuntBot/my-materials/Quant/CV_Yuankai_Tao_Quant.tex" "CV_Yuankai_Tao_Quant.pdf" "CV_Yuankai_Tao_Quant" 1793477319.85691 0
-  "C:/Users/Administrator/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1791928298 85215 d4d5b9faafd5f0f6bc270cc175dd43fe ""
+["pdflatex"] 1795333190.72248 "e:/VS Code Projects/JobHuntBot/my-materials/Quant/CV_Yuankai_Tao_Quant.tex" "CV_Yuankai_Tao_Quant.pdf" "CV_Yuankai_Tao_Quant" 1795333191.9755 0
+  "C:/Users/Administrator/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1794880151 85215 d4d5b9faafd5f0f6bc270cc175dd43fe ""
   "C:/Users/Administrator/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1095.pk" 1788121945 12668 45e7dd4a224009866abedb7e5dd3cde2 ""
   "C:/Users/Administrator/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1791661951 13354186 bc6fbcb93005d2e515bf2cf84ccc1b52 ""
   "C:/Users/Administrator/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/tcrm1095.tfm" 993062508 1460 8005ce585ff351dff78998923504da5e ""
@@ -97,12 +97,12 @@
   "C:/Users/Administrator/AppData/Local/Programs/MiKTeX/tex/latex/tools/tabularx.sty" 1761901070 7243 a2c17f18e2c9b702b84fad03d5f9c78b ""
   "C:/Users/Administrator/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/Administrator/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
-  "CV_Yuankai_Tao_Quant.aux" 1793477319 279 9a49c2c3f98a2937d15cf5edcbc53a31 "pdflatex"
+  "CV_Yuankai_Tao_Quant.aux" 1795333191 279 9a49c2c3f98a2937d15cf5edcbc53a31 "pdflatex"
   "CV_Yuankai_Tao_Quant.bbl" 1792968483 486 76d65a242ec496c9b4361af646ff12cb "biber CV_Yuankai_Tao_Quant"
-  "CV_Yuankai_Tao_Quant.out" 1793477319 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "CV_Yuankai_Tao_Quant.run.xml" 1793477319 2514 3c4cc4c4053f9978f9bf5dc7f652e34e "pdflatex"
-  "CV_Yuankai_Tao_Quant.tex" 1793477316 10213 ff8d839cba17f2562f49edf9f1d8b96f ""
-  "e:/VS Code Projects/JobHuntBot/my-materials/Quant/CV_Yuankai_Tao_Quant.tex" 1793477316 10213 ff8d839cba17f2562f49edf9f1d8b96f ""
+  "CV_Yuankai_Tao_Quant.out" 1795333191 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "CV_Yuankai_Tao_Quant.run.xml" 1795333191 2514 3c4cc4c4053f9978f9bf5dc7f652e34e "pdflatex"
+  "CV_Yuankai_Tao_Quant.tex" 1795333190 10378 ac8403dbbeba35b8bac8430410b4eafc ""
+  "e:/VS Code Projects/JobHuntBot/my-materials/Quant/CV_Yuankai_Tao_Quant.tex" 1795333190 10378 ac8403dbbeba35b8bac8430410b4eafc ""
   "resume.cls" 1788121814 4797 2f9fff0a289c0cb454436edafcbcbff3 ""
   (generated)
   "CV_Yuankai_Tao_Quant.aux"

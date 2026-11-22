@@ -97,11 +97,11 @@
 ## Confirmed Search Scope
 
 - Employment type: internship only.
-- Daily location quota: exactly 10 shortlisted internships — 6 based in Hong Kong and 4 based in the United States.
+- Daily location quota: exactly 10 shortlisted internships — 6 based in the United States and 4 based in Hong Kong.
 - Hong Kong bucket: the role must be physically based in Hong Kong or explicitly hire remote interns located in Hong Kong.
-- United States bucket: nationwide; no remote/hybrid/onsite preference.
+- United States bucket: nationwide; no remote/hybrid/onsite preference. Prioritize Quantitative Research and Quantitative Risk roles; use closely related quantitative modeling, model risk, market risk, or trading analytics roles only when stronger primary matches are unavailable.
 - Keep the two location buckets separate during search, replacement, review, and dashboard writes. Do not use extra roles from one region to fill a shortage in the other unless the user explicitly approves it.
-- If fewer than 6 valid Hong Kong roles or 4 valid United States roles can be verified, return the valid roles found and report the regional shortfall; never pad either bucket with weak, closed, duplicate, excluded-company, or fabricated roles.
+- If fewer than 6 valid United States roles or 4 valid Hong Kong roles can be verified, return the valid roles found and report the regional shortfall; never pad either bucket with weak, closed, duplicate, excluded-company, or fabricated roles.
 - Sponsorship compatibility: screen each posting against the current work-authorization and sponsorship facts in `answer_bank.md`; skip explicit conflicts and hand off ambiguous eligibility language.
 - Industries: no exclusions currently.
 - Sources: LinkedIn, Handshake, Indeed, and official company career sites.
