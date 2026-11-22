@@ -1,7 +1,7 @@
 {
   "date": "2026-11-22",
   "timezone": "America/New_York",
-  "status": "pending_user",
+  "status": "confirmed_committed",
   "candidates": [
     {
       "number": 1,
@@ -163,5 +163,6 @@
       "eligibility_sponsorship_notes": "Full-time bachelor's-or-higher student and US work authorization required; CPT may qualify, but future sponsorship is unstated and needs confirmation.",
       "recommended_next_action": "Review as a model-risk fallback if governance work is acceptable."
     }
-  ]
+  ],
+  "confirmed_at_utc": "2026-11-22T23:05:20+00:00"
 }
