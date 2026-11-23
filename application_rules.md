@@ -35,7 +35,7 @@
 - Roles requiring credentials, licenses, languages, clearance, or domain experience not supported by the source materials.
 - Roles explicitly stating that candidates needing future sponsorship are ineligible.
 - Any posting that conflicts with confirmed work authorization, sponsorship, the current Hong Kong/United States location quota, or internship-only rules.
-- Mandatory video, extensive writing sample, or new account creation in the first Volume trial.
+- Mandatory video, extensive writing sample in the first Volume trial.
 
 ## Submitted-Company Exclusion
 

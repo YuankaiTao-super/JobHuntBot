@@ -10,7 +10,7 @@ Use this reference for browser-based job applications, LinkedIn Easy Apply, Simp
 - Keep only tabs that need user handoff.
 - Record every outcome in the dashboard.
 - Stop rather than bypass verification or guess high-impact answers.
-- Do not create separate "test" and "normal" behavior modes. Use one default behavior: automate clear low-risk fields, ask focused questions for missing high-impact facts, and always stop before final submit.
+- Do not create separate "test" and "normal" behavior modes. Use one default behavior: automate clear low-risk fields, ask focused questions for missing high-impact facts.
 - Prefer `Apply Manually` over `Autofill with Resume`. The resume is an attachment, not a form-data source.
 
 ## Form Answer Defaults
