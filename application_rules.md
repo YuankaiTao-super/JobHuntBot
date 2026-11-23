@@ -5,11 +5,6 @@
 - Selected mode: **Volume** (provisional default).
 - Promote an unusually high-fit or high-value posting to Precision after user review.
 
-## First Trial Boundary
-
-- Selected boundary: **Lead finding only**.
-- Find, screen, classify, and update the dashboard. 
-
 ## Prioritize
 
 - Primary role families: Quantitative Trading / Research; Risk Analytics / Quantitative Risk.
@@ -32,6 +27,7 @@
 - Any role from a company listed in a workbook or CSV under `submitted-lists/`. The user has already applied to those companies through other channels, so this is a company-level exclusion even when the newly found title, location, requisition, or source is different.
 - Senior, staff, principal, manager, or roles requiring clearly unsupported years of full-time experience.
 - Deep Learning-focused roles, including postings whose title or core function is Deep Learning.
+- AI Engineering-focused roles that lists AI infra skills as a required or minimum qualification.
 - Any role that lists C++ as a required or minimum qualification. A merely optional/preferred mention must be reviewed rather than automatically treated as required.
 - Any role that lists Java as a required or minimum qualification.
 - Roles that explicitly require current PhD-student status.
@@ -56,7 +52,6 @@
 - CAPTCHA, Cloudflare, login, 2FA, anti-bot, payment, or permission prompts appear.
 - A resume upload cannot be verified or a new portfolio/reference/writing sample is required.
 - A custom answer would add a new claim or unsupported metric.
-- Always stop before final submission and show the company, role, resume, selected experiences, and high-impact answers.
 
 ## Never Guess
 
@@ -85,9 +80,8 @@
 
 ## Resume Tailoring Policy
 
-- Treat `original_CV` as an immutable reference: never modify, overwrite, rename, or delete anything inside `my-materials/original_CV/`.
+- Treat `Qunat` and `original_CV` as immutable references: never modify, overwrite, rename, or delete anything inside `my-materials/Quant/` or `my-materials/original_CV/`.
 - Treat Quant, Risk, Data, and BA files as reusable base resumes. Never edit a base file in place for a job-specific application.
-- Create job-specific copies only under `my-materials/tailored/<company>/<role>/`.
 - Select the base resume from `resume_routing.md` before tailoring.
 - For High-fit roles, align ordering, phrasing, and ATS keywords with the actual JD and remove low-relevance content when space is limited.
 - Add a skill or keyword only when it is supported by the candidate profile, experience bank, an existing resume/project, or explicit user confirmation.
