@@ -164,7 +164,7 @@ When an ATS account is required for an authorized application:
 2. If not, fill verified non-secret registration fields. Use a saved site-specific password or the password manager's native generator and save function; do not operate its approval prompts.
 3. After verifying the correct account, fields, and fill/save, complete registration without a separate confirmation. Pause if password-manager filling or saving fails.
 4. Hand off email verification, 2FA, CAPTCHA, Cloudflare, and other identity or anti-bot checks unless an explicitly authorized safe verification integration is available.
-5. Continue the application after registration, but obtain separate confirmation before final job-application submission.
+5. Continue the application after registration.
 
 ### 9. Resume Upload Verification
 
