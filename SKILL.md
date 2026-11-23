@@ -94,7 +94,7 @@ Read `references/application-playbook.md` before operating browser-based applica
 
 Default to `Apply Manually` or the equivalent non-parsing path. Use the selected PDF only as the recruiter-facing attachment and populate ATS fields from `candidate_profile.json`, `resume_routing.md`, `experience_bank.md` (for relevant-experience/self-evaluation fields, using the combo picked in step 5), and `answer_bank.md`. Never treat PDF parsing as authoritative. If an ATS forces parsing, reconcile every parsed field against these structured sources before continuing: overwrite incorrect values, remove contact details or URLs from descriptions, keep projects out of work experience, and stop on conflicting source facts. Stop and ask the user (don't guess) for anything protected by the `Never Guess` section of `application_rules.md` or anything requiring a subjective call.
 
-Stop or hand off for CAPTCHA, Cloudflare, anti-bot checks, login or 2FA, unclear legal/identity questions, missing files, payment prompts, permission prompts, or anything that would require bypassing a site control.
+Stop or hand off for CAPTCHA, Cloudflare, anti-bot checks, login that cannot use the configured account and password-manager autofill under `application_rules.md`, 2FA, unclear legal/identity questions, missing files, payment prompts, permission prompts, or anything that would require bypassing a site control.
 
 ### 8. Preview, User Confirms, Submit
 

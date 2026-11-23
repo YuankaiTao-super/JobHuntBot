@@ -156,18 +156,15 @@ CAPTCHA, hCaptcha, reCAPTCHA, Cloudflare, and anti-bot checks must be treated as
 
 ### 8. Login Sessions and Account Choice
 
-If a login page appears, stop and record `Login required` or `Session expired`.
+For an ATS login, use only the configured account and the password manager's native autofill for the matching site. If the account or autofill cannot be verified, pause and record the blocker. Never inspect, copy, log, or request a password.
 
-Do not attempt automatic login unless the user explicitly instructs it and the flow is safe. If multiple LinkedIn or email accounts exist, use the account specified in the candidate profile or rules.
+When an ATS account is required for an authorized application:
 
-When the user has enabled ATS account creation for a focused application:
-
-1. Try the configured email first and determine whether an account already exists.
-2. If it does not, open the registration form and fill only verified, non-secret profile fields.
-3. Pause while the user enters the password and confirmation password directly in the browser. Never store, log, screenshot, generate, or ask the user to send the password through chat.
-4. Obtain action-time confirmation immediately before clicking the final `Create Account` or equivalent registration control.
-5. Treat email verification, 2FA, CAPTCHA, Cloudflare, and other identity or anti-bot checks as handoff points unless an explicitly authorized safe verification integration is available.
-6. After account creation succeeds, continue the application, but still stop separately before the final job-application submission.
+1. Check whether the configured email already has an account. If so, use the matching saved credential through password-manager autofill.
+2. If not, fill verified non-secret registration fields. Use a saved site-specific password or the password manager's native generator and save function; do not operate its approval prompts.
+3. After verifying the correct account, fields, and fill/save, complete registration without a separate confirmation. Pause if password-manager filling or saving fails.
+4. Hand off email verification, 2FA, CAPTCHA, Cloudflare, and other identity or anti-bot checks unless an explicitly authorized safe verification integration is available.
+5. Continue the application after registration, but obtain separate confirmation before final job-application submission.
 
 ### 9. Resume Upload Verification
 

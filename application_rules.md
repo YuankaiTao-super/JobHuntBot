@@ -80,13 +80,12 @@
 
 ## Resume Tailoring Policy
 
-- Treat `Qunat` and `original_CV` as immutable references: never modify, overwrite, rename, or delete anything inside `my-materials/Quant/` or `my-materials/original_CV/`.
+- Treat `Quant` and `original_CV` as immutable references: never modify, overwrite, rename, or delete anything inside `my-materials/Quant/` or `my-materials/original_CV/`.
 - Treat Quant, Risk, Data, and BA files as reusable base resumes. Never edit a base file in place for a job-specific application.
 - Select the base resume from `resume_routing.md` before tailoring.
 - For High-fit roles, align ordering, phrasing, and ATS keywords with the actual JD and remove low-relevance content when space is limited.
 - Add a skill or keyword only when it is supported by the candidate profile, experience bank, an existing resume/project, or explicit user confirmation.
 - Never add unsupported experience, proficiency, metrics, tools, credentials, or domain claims.
-- Show the user the base version, selected experiences, and material changes before using the tailored resume in an application.
 
 ## Confirmed Search Scope
 
@@ -104,12 +103,10 @@
 
 - Use only the configured account identifiers in `candidate_profile.json`.
 - If a different account appears, stop and ask.
-- When an ATS requires an account, first try the configured email and determine whether an account already exists without guessing credentials.
-- If no account exists, open the ATS account-creation flow and fill verified non-secret fields automatically.
-- Never read, expose, copy into project files, log, screenshot, or request the user's password.
-- When account creation requires a password, use password manager's native strong-password generator and save function. The automation agent must not inspect or extract the generated password or operate password-manager approval prompts.
-- If generation, filling, or saving is unavailable or fails, pause for the user to resolve it; do not generate or retain a fallback password in the project.
-- Stop immediately before the final `Create Account` / registration action and obtain action-time confirmation. Account creation is not consent to submit the job application; final application submission requires a separate confirmation.
+- For an ATS login or registration, use the email configured in `candidate_profile.json` and let the password manager fill the saved credential for that exact site and account. Never guess or enter a password from project files.
+- If no account exists, fill verified non-secret registration fields automatically. Use the password manager's saved password if available; otherwise use its native strong-password generator and save function.
+- Never read, expose, copy into project files, log, screenshot, or request the user's password. Do not inspect or extract password-manager values or operate its approval prompts.
+- Once the correct account, required fields, and password-manager fill/save are verified, complete `Create Account` without a separate stop. If autofill, generation, or saving fails, pause for the user; do not create or retain a fallback password in the project.
 - Hand off email verification codes, 2FA, CAPTCHA, Cloudflare, and other identity or anti-bot checks unless an explicitly authorized safe verification integration is available.
 
 ## Answer Ownership and Routing

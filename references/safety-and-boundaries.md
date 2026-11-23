@@ -45,7 +45,7 @@ Allowed with user authorization:
 Stop or hand off for:
 
 - CAPTCHA, hCaptcha, reCAPTCHA, Cloudflare, or anti-bot checks.
-- Login, password, 2FA, or unknown account switching.
+- Login or password steps that cannot use the configured account and password-manager autofill under `application_rules.md`; 2FA or unknown account switching.
 - Payment, subscription, or purchase prompts.
 - Camera, microphone, location, or extension permission prompts.
 - Missing resume, portfolio, video, writing sample, or reference materials.
