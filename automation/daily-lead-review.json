@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-23",
+  "date": "2026-11-24",
   "timezone": "America/New_York",
   "status": "pending_user",
   "candidates": [
@@ -12,7 +12,7 @@
       "location": "Hong Kong",
       "remote_policy": "Hong Kong based; workplace arrangement not stated",
       "official_url": "https://cpdc.osa.cuhk.edu.hk/sites/cu_joblink/files/highlight_jobs_postings/files/Placement%20Student%202026-2027%20%28BS-LR%29_Re-ad.pdf",
-      "posted_date": "Posted 2026-11-11; application deadline 2026-11-28; verified open 2026-11-23",
+      "posted_date": "Posted 2026-11-11; application deadline 2026-11-28; verified open 2026-11-24",
       "priority": "High",
       "resume_route": "Risk",
       "fit_summary": "Strong fit for liquidity-risk analysis, quantitative reporting, banking regulation and data-driven risk monitoring.",
@@ -28,7 +28,7 @@
       "location": "Hong Kong",
       "remote_policy": "Hong Kong based; workplace arrangement not stated",
       "official_url": "https://htisec.wd3.myworkdayjobs.com/en-US/hti_careers/job/Young-Talent-Program-2027--Summer-Internship-_R26000368",
-      "posted_date": "Posted 2026-11-01; application deadline 2026-12-25; verified open 2026-11-23",
+      "posted_date": "Posted 2026-11-01; application deadline 2026-12-25; verified open 2026-11-24",
       "priority": "High",
       "resume_route": "Quant",
       "fit_summary": "Good fit for research, financial products and trading, fixed income, treasury or risk-oriented placement tracks.",
@@ -43,7 +43,7 @@
       "location": "Hong Kong",
       "remote_policy": "Hong Kong based",
       "official_url": "https://www.t17.capital/careers/quant-developer-intern-2027",
-      "posted_date": "Posted 2026-11-14; verified open 2026-11-23",
+      "posted_date": "Posted 2026-11-14; verified open 2026-11-24",
       "priority": "High",
       "resume_route": "Quant",
       "fit_summary": "Python data pipelines, reproducible backtests and numerical validation fit the candidate’s large-scale research and financial-modeling experience.",
@@ -52,20 +52,20 @@
       "number": 3
     },
     {
-      "number": 4,
-      "company": "State Street",
-      "title": "Model Risk Management - Quantitative Analyst - 2027 Summer Internship",
-      "provisional_role_family": "Model Risk Governance / Validation Internship",
-      "level": "Full-time summer internship",
-      "location": "Boston, MA",
-      "remote_policy": "On-site",
-      "official_url": "https://careers.statestreet.com/global/en/job/STSTGLOBALR801343EXTERNALENGLOBAL/State-Street-Model-Risk-Management-Quantitative-Analyst-2027-Summer-Internship",
-      "posted_date": "Posted 2026-11-20; verified open 2026-11-23",
-      "priority": "High",
-      "resume_route": "Risk",
-      "fit_summary": "Strong fit for model inventory, governance controls, regulatory assessments, risk reporting, process improvement and analytical documentation.",
-      "eligibility_sponsorship_notes": "Accepts bachelor's or master's students in quantitative and analytical disciplines and does not state a sponsorship exclusion. Confirm CPT acceptance and future sponsorship policy.",
-      "recommended_next_action": "Prioritize for model-risk governance and regulatory exposure."
+      "company": "Grand Alliance Asset Management Limited",
+      "title": "Data Analytics & Automation Intern",
+      "provisional_role_family": "Investment Data Analytics / Automation Internship",
+      "level": "Flexible internship",
+      "location": "Hong Kong, Central",
+      "remote_policy": "On-site in Hong Kong",
+      "official_url": "https://hk.linkedin.com/jobs/view/data-analytics-automation-intern-at-grand-alliance-asset-management-limited-4490251768",
+      "posted_date": "Employer LinkedIn posting first seen approximately 2026-11-17; live 2026-11-24",
+      "priority": "Medium",
+      "resume_route": "Data",
+      "fit_summary": "Python, VBA, databases and investment reporting align with verified financial-data and automation experience.",
+      "eligibility_sponsorship_notes": "Flexible internship period; confirm May 2027 availability and Hong Kong work authorization. Employer-authored LinkedIn listing; no separate careers page found.",
+      "recommended_next_action": "Confirm internship timing and Hong Kong availability.",
+      "number": 4
     },
     {
       "company": "State Street",
@@ -75,7 +75,7 @@
       "location": "Boston, MA",
       "remote_policy": "Boston based; arrangement not stated",
       "official_url": "https://statestreet.wd1.myworkdayjobs.com/Global/job/Boston-Massachusetts/State-Street-s-Model-Risk-Management---Quantitative-Analyst---2027-Summer-Internship_R-801342",
-      "posted_date": "Posted 2026-11-20; verified on official careers listing 2026-11-23; deadline 2026-12-01",
+      "posted_date": "Posted 2026-11-20; verified on official careers listing 2026-11-24; deadline 2026-12-01",
       "priority": "High",
       "resume_route": "Risk",
       "fit_summary": "Model validation across asset allocation, liquidity, market risk and stress testing aligns with quantitative risk coursework and financial-modeling projects.",
@@ -84,7 +84,23 @@
       "number": 5
     },
     {
-      "number": 6,
+      "company": "Santander US",
+      "title": "2027 Market Risk Summer Intern",
+      "provisional_role_family": "Quantitative Market Risk Internship",
+      "level": "Summer 2027 internship",
+      "location": "New York, NY",
+      "remote_policy": "Location based; arrangement not stated",
+      "official_url": "https://santander.wd3.myworkdayjobs.com/SantanderCareers/job/Madison-Ave-Corp/XMLNAME-2027-Market-Risk-Summer-Intern_Req1636216",
+      "posted_date": "Posted 2026-11-20; official employer listing live 2026-11-24; deadline approximately 2026-11-30",
+      "priority": "High",
+      "resume_route": "Risk",
+      "fit_summary": "Market-risk models, valuation, performance testing and hedging align closely with quantitative-risk projects and Python.",
+      "eligibility_sponsorship_notes": "Posting says graduate students graduating Dec 2027–Jun 2028 but also has a contradictory undergraduate qualification bullet; confirm eligibility. Requires authorization without employer sponsorship to commence; CPT may satisfy current internship, future sponsorship not addressed. Confirm with recruiter.",
+      "recommended_next_action": "Clarify graduate eligibility and CPT before any application.",
+      "number": 6
+    },
+    {
+      "number": 7,
       "company": "Federal Home Loan Bank of Dallas",
       "title": "Market Risk Intern",
       "provisional_role_family": "Market Risk / Financial Risk Analytics Internship",
@@ -92,28 +108,12 @@
       "location": "Irving, TX",
       "remote_policy": "In person",
       "official_url": "https://fhlb.wd1.myworkdayjobs.com/en-US/FHLB_Careers/job/Market-Risk-Intern_REQ-449",
-      "posted_date": "Posted approximately early November 2026; verified open 2026-11-23",
+      "posted_date": "Posted approximately early November 2026; verified open 2026-11-24",
       "priority": "High",
       "resume_route": "Risk",
       "fit_summary": "Excellent fit for market-risk measurement, scenario reporting, VBA, SQL, Power BI and automated exposure monitoring.",
       "eligibility_sponsorship_notes": "Open to full-time college or university students; no sponsorship exclusion is stated in the indexed employer posting. Confirm CPT acceptance and future sponsorship policy.",
       "recommended_next_action": "Prioritize for direct market-risk analytics experience."
-    },
-    {
-      "number": 7,
-      "company": "Federal Home Loan Bank of Dallas",
-      "title": "2027 Summer Capital Markets Intern",
-      "provisional_role_family": "Capital Markets / Trading Analytics Internship",
-      "level": "Full-time summer internship",
-      "location": "Irving, TX",
-      "remote_policy": "In person",
-      "official_url": "https://fhlb.wd1.myworkdayjobs.com/fhlb_careers/job/Capital-Markets-Intern_REQ-446",
-      "posted_date": "Posted approximately 2026-10-29; verified open 2026-11-23",
-      "priority": "High",
-      "resume_route": "Quant",
-      "fit_summary": "Strong fit for pricing, funding strategy, hedging, portfolio analysis and understanding how risk supports trading and investment activity.",
-      "eligibility_sponsorship_notes": "The employer posting is open and does not state a sponsorship exclusion in the indexed description. Confirm CPT acceptance and future sponsorship policy.",
-      "recommended_next_action": "Prioritize as a trading and fixed-income complement to the market-risk role."
     },
     {
       "number": 8,
@@ -124,37 +124,48 @@
       "location": "Indianapolis, IN",
       "remote_policy": "Hybrid; three office days and two remote days per week",
       "official_url": "https://fhlbi.wd1.myworkdayjobs.com/FHLBI_Careers/job/Indianapolis/Market-Risk-Intern_R634",
-      "posted_date": "Posted approximately early November 2026; verified open 2026-11-23",
+      "posted_date": "Posted approximately early November 2026; verified open 2026-11-24",
       "priority": "High",
       "resume_route": "Risk",
       "fit_summary": "Excellent fit for financial-instrument valuation, market rates, risk metrics, Python, Power BI and enterprise market-risk reporting.",
       "eligibility_sponsorship_notes": "Accepts undergraduate and graduate students in mathematics, data analytics, finance, economics and other quantitative fields. No explicit sponsorship exclusion appears in the posting; confirm CPT acceptance and future sponsorship policy.",
       "recommended_next_action": "Prioritize for hands-on valuation and market-risk analytics."
+    },
+    {
+      "number": 9,
+      "company": "Federal Home Loan Bank of Dallas",
+      "title": "2027 Summer Capital Markets Intern",
+      "provisional_role_family": "Capital Markets / Trading Analytics Internship",
+      "level": "Full-time summer internship",
+      "location": "Irving, TX",
+      "remote_policy": "In person",
+      "official_url": "https://fhlb.wd1.myworkdayjobs.com/fhlb_careers/job/Capital-Markets-Intern_REQ-446",
+      "posted_date": "Posted approximately 2026-10-29; verified open 2026-11-24",
+      "priority": "High",
+      "resume_route": "Quant",
+      "fit_summary": "Strong fit for pricing, funding strategy, hedging, portfolio analysis and understanding how risk supports trading and investment activity.",
+      "eligibility_sponsorship_notes": "The employer posting is open and does not state a sponsorship exclusion in the indexed description. Confirm CPT acceptance and future sponsorship policy.",
+      "recommended_next_action": "Prioritize as a trading and fixed-income complement to the market-risk role."
+    },
+    {
+      "company": "State Street",
+      "title": "State Street Investment Management - Fixed Income Technology - 2027 Summer Internship",
+      "provisional_role_family": "Fixed Income Data Engineering / Trading Analytics Internship",
+      "level": "Summer 2027 internship",
+      "location": "Boston, MA",
+      "remote_policy": "Boston based; arrangement not stated",
+      "official_url": "https://statestreet.wd1.myworkdayjobs.com/Global/job/Boston-Massachusetts/State-Street-Investment-Management---Fixed-Income-Technology---2027-Summer-Internship_R-801337-1",
+      "posted_date": "Posted approximately 2026-11-20; official employer listing live 2026-11-24; deadline 2026-11-25",
+      "priority": "Medium",
+      "resume_route": "Data",
+      "fit_summary": "Fixed-income data workflows and automation align with financial-data pipelines, Python, cloud and bond-pricing work.",
+      "eligibility_sponsorship_notes": "Accepts bachelor or master students. AI coding tools listed, but AI infrastructure is not the role focus; Java is preferred rather than required. Confirm CPT and future sponsorship.",
+      "recommended_next_action": "Review quickly due near deadline; assess technology emphasis.",
+      "number": 10
     }
   ],
-  "quota_status": {
-    "hong_kong": 3,
-    "united_states": 5,
-    "target_hong_kong": 4,
-    "target_united_states": 6,
-    "reason": "Fresh, open and nonduplicate roles meeting employer, cohort and skills exclusions were insufficient. No roles were added solely to fill quota."
-  },
-  "rejected_candidates": [
-    {
-      "company": "FWD Group",
-      "reason": "Required Cantonese is not verified in candidate profile."
-    },
-    {
-      "company": "State Street (R-801341)",
-      "reason": "Official posting targets undergraduate students; candidate is a master’s student."
-    },
-    {
-      "company": "Balyasny Asset Management",
-      "reason": "Summer quantitative researcher role already in job pool."
-    },
-    {
-      "company": "Bank of America",
-      "reason": "Official Quantitative Research program is closed."
-    }
-  ]
+  "carry_forward_from": "2026-11-23",
+  "carry_forward_count": 7,
+  "new_candidate_count": 3,
+  "review_notes": "Seven still-uncommitted leads from 2026-11-23 were rechecked. State Street R-801343 was removed because the employer now says it is filled. The HKMA January–June placement and Santander cohort/work authorization require user review."
 }
